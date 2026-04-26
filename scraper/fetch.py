@@ -1183,7 +1183,9 @@ def extract_property_search_result(html: str, fallback_owner: str = "") -> Parce
 async def property_result_text(page: Page) -> str:
     try:
         if await page.locator("#resultContainer").count():
-            return clean(await page.locator("#resultContainer").inner_text(timeout=3000))
+            text = clean(await page.locator("#resultContainer").inner_text(timeout=3000))
+            if text:
+                return text
     except Exception:
         pass
     try:
@@ -1296,30 +1298,25 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
         if debug:
             LOGGER.info("Property lookup typed value for %s: %s", owner_query, typed_value)
         before = await property_result_text(page)
-        submitted = await page.evaluate(
+        button_box = await page.evaluate(
             """() => {
                 const isVisible = el => {
                     const rect = el.getBoundingClientRect();
                     const style = window.getComputedStyle(el);
                     return rect.width > 0 && rect.height > 0 && style.visibility !== 'hidden' && style.display !== 'none';
                 };
-                const buttons = [...document.querySelectorAll('#btnSearchJS, button[type="submit"], button')];
+                const buttons = [...document.querySelectorAll('#btnSearchJS, button[type="submit"], button, input[type="submit"]')];
                 const button = buttons.find(btn => isVisible(btn) && /search/i.test(btn.innerText || btn.textContent || btn.value || '')) || buttons.find(isVisible);
-                if (button) {
-                    button.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, view: window }));
-                    return true;
-                }
-                const form = document.querySelector('form');
-                if (form && form.requestSubmit) {
-                    form.requestSubmit();
-                    return true;
-                }
-                return false;
+                if (!button) return null;
+                button.scrollIntoView({ block: 'center', inline: 'center' });
+                const rect = button.getBoundingClientRect();
+                return { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
             }"""
         )
-        if not submitted:
+        if not button_box:
             LOGGER.info("Property lookup could not submit search for %s.", owner_query)
             return None
+        await page.mouse.click(button_box["x"], button_box["y"])
         try:
             await page.wait_for_function(
                 """before => {
@@ -1331,13 +1328,7 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
             )
         except Exception:
             try:
-                await page.evaluate(
-                    """() => {
-                        const buttons = [...document.querySelectorAll('#btnSearchJS, button[type="submit"], button')];
-                        const button = buttons.find(btn => /search/i.test(btn.innerText || btn.textContent || btn.value || ''));
-                        if (button) button.click();
-                    }"""
-                )
+                await page.keyboard.press("Enter")
             except Exception:
                 pass
             await page.wait_for_timeout(3000)
@@ -1355,7 +1346,8 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
         result_links = page.locator(
             "#resultContainer button:has-text('Details'), "
             "#resultContainer a:has-text('Details'), "
-            "#resultContainer a[href], #resultContainer [role='button']"
+            "button:has-text('Details'), "
+            "a:has-text('Details')"
         ).filter(has_not_text=re.compile("download|print|clear", re.I))
         if await result_links.count():
             await result_links.first.click(timeout=5000)
