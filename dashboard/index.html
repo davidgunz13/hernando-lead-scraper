@@ -75,6 +75,16 @@
         color: var(--ink);
       }
 
+      .stat.good strong,
+      .status.ready {
+        color: #0f766e;
+      }
+
+      .stat.warn strong,
+      .status.review {
+        color: #b45309;
+      }
+
       a.button {
         display: inline-flex;
         align-items: center;
@@ -86,6 +96,13 @@
         text-decoration: none;
         font-weight: 650;
         font-size: 14px;
+      }
+
+      .button-subtext {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 12px;
+        text-align: right;
       }
 
       .table-wrap {
@@ -127,6 +144,14 @@
         color: var(--accent);
       }
 
+      .status {
+        font-weight: 700;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
       .empty {
         padding: 28px;
         color: var(--muted);
@@ -146,13 +171,19 @@
         <div class="stats">
           <div class="stat"><strong id="total">0</strong> total</div>
           <div class="stat"><strong id="with-address">0</strong> with address</div>
+          <div class="stat good"><strong id="ready">0</strong> ready to upload</div>
+          <div class="stat warn"><strong id="review">0</strong> needs review</div>
         </div>
-        <a class="button" href="datasift_export.csv">Download CSV</a>
+        <div>
+          <a class="button" href="datasift_export.csv">Download CRM CSV</a>
+          <div class="button-subtext">DataSift upload format</div>
+        </div>
       </div>
       <div id="content" class="empty">Loading...</div>
     </main>
     <script>
       const columns = [
+        ["upload_status", "Status"],
         ["score", "Score"],
         ["doc_type", "Document Type"],
         ["filed", "Filed"],
@@ -166,16 +197,29 @@
       ];
 
       const text = (value) => Array.isArray(value) ? value.join("; ") : (value || "");
+      const readyToUpload = (record) => Boolean(record.prop_address && record.mail_address);
+      const statusText = (record) => readyToUpload(record) ? "Ready" : "Review";
+      const addressLine = (record, prefix) => {
+        const street = record[`${prefix}_address`] || "";
+        const city = record[`${prefix}_city`] || "";
+        const state = record[`${prefix}_state`] || "";
+        const zip = record[`${prefix}_zip`] || "";
+        return [street, [city, state, zip].filter(Boolean).join(" ")].filter(Boolean).join(", ");
+      };
 
       fetch("records.json", { cache: "no-store" })
         .then((response) => response.json())
         .then((data) => {
+          const records = data.records || [];
+          const ready = records.filter(readyToUpload).length;
+          const review = records.length - ready;
           document.getElementById("meta").textContent =
             `Fetched ${data.fetched_at || "not yet"} | ${data.date_range?.start || ""} to ${data.date_range?.end || ""}`;
           document.getElementById("total").textContent = data.total || 0;
           document.getElementById("with-address").textContent = data.with_address || 0;
+          document.getElementById("ready").textContent = ready;
+          document.getElementById("review").textContent = review;
 
-          const records = data.records || [];
           if (!records.length) {
             document.getElementById("content").className = "empty";
             document.getElementById("content").textContent = "No matching leads are currently in records.json.";
@@ -201,6 +245,13 @@
               if (key === "score") {
                 td.className = "score";
                 td.textContent = record.score || 0;
+              } else if (key === "upload_status") {
+                td.className = `status ${readyToUpload(record) ? "ready" : "review"}`;
+                td.textContent = statusText(record);
+              } else if (key === "prop_address") {
+                td.textContent = addressLine(record, "prop");
+              } else if (key === "mail_address") {
+                td.textContent = addressLine(record, "mail");
               } else if (key === "clerk_url" && record.clerk_url) {
                 const link = document.createElement("a");
                 link.href = record.clerk_url;
@@ -208,6 +259,9 @@
                 link.target = "_blank";
                 link.rel = "noopener";
                 td.appendChild(link);
+              } else if (key === "clerk_url") {
+                td.className = "muted";
+                td.textContent = "Missing";
               } else {
                 td.textContent = text(record[key]);
               }
