@@ -1057,7 +1057,7 @@ def build_parcel_index() -> ParcelIndex:
 
 
 def lookup_property_individually(session: requests.Session, owner: str = "", legal: str = "", key: str = "") -> ParcelRecord | None:
-    owner_query = primary_party_name(owner)
+    owner_query = property_appraiser_owner_query(owner)
     legal_query = clean(legal)
     if len(legal_query) > 80:
         legal_query = legal_query[:80]
@@ -1189,17 +1189,17 @@ async def accept_property_disclaimer(page: Page) -> None:
 
 
 async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", debug: bool = False) -> ParcelRecord | None:
-    owner_query = primary_party_name(owner)
+    owner_query = property_appraiser_owner_query(owner)
     if not owner_query:
         return None
     try:
-        await page.goto(PA_HOME, wait_until="domcontentloaded", timeout=30000)
+        await page.goto(PA_HOME, wait_until="networkidle", timeout=30000)
         await accept_property_disclaimer(page)
         owner_input = page.locator("#txtOwnerName")
         await owner_input.wait_for(state="visible", timeout=15000)
         await owner_input.fill(owner_query, timeout=10000)
         before = await property_result_text(page)
-        await page.locator("#btnSearchJS").click(timeout=10000)
+        await owner_input.press("Enter", timeout=5000)
         try:
             await page.wait_for_function(
                 """before => {
@@ -1210,8 +1210,11 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
                 timeout=12000,
             )
         except Exception:
-            await owner_input.press("Enter", timeout=5000)
-            await page.wait_for_timeout(4000)
+            try:
+                await page.locator("#btnSearchJS").dispatch_event("click", timeout=5000)
+            except Exception:
+                pass
+            await page.wait_for_timeout(5000)
         try:
             await page.wait_for_load_state("networkidle", timeout=10000)
         except Exception:
@@ -1259,15 +1262,18 @@ async def enrich_leads_with_property_data_browser(leads: list[LeadRecord]) -> No
                 "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
             )
         )
-        page = await context.new_page()
         debug_misses = 0
         for idx, lead in enumerate(to_lookup, start=1):
-            query = normalize_owner(primary_party_name(lead.owner))
+            query = normalize_owner(property_appraiser_owner_query(lead.owner))
             if not query:
                 continue
             try:
                 if query not in cache:
-                    cache[query] = await lookup_property_with_browser(page, lead.owner, lead.legal, debug=debug_misses < 5)
+                    page = await context.new_page()
+                    try:
+                        cache[query] = await lookup_property_with_browser(page, lead.owner, lead.legal, debug=debug_misses < 5)
+                    finally:
+                        await page.close()
                     if cache[query] is None and debug_misses < 5:
                         debug_misses += 1
                 apply_parcel_to_lead(lead, cache[query])
@@ -1359,6 +1365,18 @@ def primary_party_name(name: str) -> str:
         if not filler.search(party):
             return party
     return parties[0]
+
+
+def property_appraiser_owner_query(name: str) -> str:
+    name = normalize_owner(primary_party_name(name))
+    if is_corporate_owner(name):
+        return name
+    suffixes = {"JR", "JR.", "SR", "SR.", "II", "III", "IV", "V", "PR", "TR", "TRSTE", "TRUSTEE", "EST"}
+    parts = [part.strip(" .") for part in name.replace(",", " ").split() if part.strip(" .")]
+    parts = [part for part in parts if part.upper() not in suffixes and len(part) > 1]
+    if len(parts) >= 2:
+        return f"{parts[0]} {parts[1]}"
+    return " ".join(parts)
 
 
 def split_name(name: str) -> tuple[str, str]:
