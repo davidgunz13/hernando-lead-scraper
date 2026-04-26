@@ -1124,17 +1124,32 @@ def enrich_leads_with_property_data(leads: list[LeadRecord]) -> None:
             LOGGER.warning("Property enrichment failed for %s: %s", lead.doc_num or lead.owner, exc)
 
 
+def primary_party_name(name: str) -> str:
+    parties = [clean(part) for part in re.split(r"\s*;\s*|\s+\|\s+", clean(name)) if clean(part)]
+    if not parties:
+        return clean(name)
+    filler = re.compile(r"\b(UNKNOWN|TENANT|SPOUSE|PERSONS|OCCUPANT|WHOM IT MAY CONCERN)\b", re.I)
+    for party in parties:
+        if not filler.search(party):
+            return party
+    return parties[0]
+
+
 def split_name(name: str) -> tuple[str, str]:
-    name = normalize_owner(name)
+    name = normalize_owner(primary_party_name(name))
     if "," in name:
         last, first = [part.strip().title() for part in name.split(",", 1)]
         return first, last
+    if is_corporate_owner(name):
+        return "", name.title()
     parts = name.title().split()
     if not parts:
         return "", ""
     if len(parts) == 1:
         return "", parts[0]
-    return parts[0], parts[-1]
+    last = parts[0]
+    first = " ".join(parts[1:])
+    return first, last
 
 
 def datasift_rows(leads: Iterable[LeadRecord]) -> list[dict[str, str]]:
