@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hernando Motivated Seller Leads</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #152033;
+        --muted: #5b6678;
+        --line: #d9dee7;
+        --panel: #ffffff;
+        --page: #f4f6f9;
+        --accent: #0f766e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      header {
+        padding: 28px 24px 18px;
+        background: var(--panel);
+        border-bottom: 1px solid var(--line);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 720;
+      }
+
+      .meta {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      main {
+        padding: 22px 24px 36px;
+      }
+
+      .toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+
+      .stats {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .stat {
+        padding: 9px 12px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .stat strong {
+        color: var(--ink);
+      }
+
+      a.button {
+        display: inline-flex;
+        align-items: center;
+        min-height: 38px;
+        padding: 0 12px;
+        border-radius: 6px;
+        background: var(--accent);
+        color: white;
+        text-decoration: none;
+        font-weight: 650;
+        font-size: 14px;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 1180px;
+      }
+
+      th,
+      td {
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+        font-size: 13px;
+      }
+
+      th {
+        background: #eef2f6;
+        font-size: 12px;
+        color: #334155;
+        text-transform: uppercase;
+        letter-spacing: .02em;
+      }
+
+      tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .score {
+        font-weight: 760;
+        color: var(--accent);
+      }
+
+      .empty {
+        padding: 28px;
+        color: var(--muted);
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hernando Motivated Seller Leads</h1>
+      <div class="meta" id="meta">Loading records...</div>
+    </header>
+    <main>
+      <div class="toolbar">
+        <div class="stats">
+          <div class="stat"><strong id="total">0</strong> total</div>
+          <div class="stat"><strong id="with-address">0</strong> with address</div>
+        </div>
+        <a class="button" href="datasift_export.csv">Download CSV</a>
+      </div>
+      <div id="content" class="empty">Loading...</div>
+    </main>
+    <script>
+      const columns = [
+        ["score", "Score"],
+        ["doc_type", "Document Type"],
+        ["filed", "Filed"],
+        ["doc_num", "Document #"],
+        ["owner", "Owner"],
+        ["amount", "Amount"],
+        ["prop_address", "Property Address"],
+        ["mail_address", "Mailing Address"],
+        ["flags", "Flags"],
+        ["clerk_url", "Public Record"]
+      ];
+
+      const text = (value) => Array.isArray(value) ? value.join("; ") : (value || "");
+
+      fetch("records.json", { cache: "no-store" })
+        .then((response) => response.json())
+        .then((data) => {
+          document.getElementById("meta").textContent =
+            `Fetched ${data.fetched_at || "not yet"} | ${data.date_range?.start || ""} to ${data.date_range?.end || ""}`;
+          document.getElementById("total").textContent = data.total || 0;
+          document.getElementById("with-address").textContent = data.with_address || 0;
+
+          const records = data.records || [];
+          if (!records.length) {
+            document.getElementById("content").className = "empty";
+            document.getElementById("content").textContent = "No matching leads are currently in records.json.";
+            return;
+          }
+
+          const table = document.createElement("table");
+          const thead = document.createElement("thead");
+          const headerRow = document.createElement("tr");
+          columns.forEach(([, label]) => {
+            const th = document.createElement("th");
+            th.textContent = label;
+            headerRow.appendChild(th);
+          });
+          thead.appendChild(headerRow);
+          table.appendChild(thead);
+
+          const tbody = document.createElement("tbody");
+          records.forEach((record) => {
+            const tr = document.createElement("tr");
+            columns.forEach(([key]) => {
+              const td = document.createElement("td");
+              if (key === "score") {
+                td.className = "score";
+                td.textContent = record.score || 0;
+              } else if (key === "clerk_url" && record.clerk_url) {
+                const link = document.createElement("a");
+                link.href = record.clerk_url;
+                link.textContent = "Open";
+                link.target = "_blank";
+                link.rel = "noopener";
+                td.appendChild(link);
+              } else {
+                td.textContent = text(record[key]);
+              }
+              tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+          });
+          table.appendChild(tbody);
+
+          const wrap = document.createElement("div");
+          wrap.className = "table-wrap";
+          wrap.appendChild(table);
+          document.getElementById("content").replaceWith(wrap);
+        })
+        .catch(() => {
+          document.getElementById("meta").textContent = "Could not load records.json.";
+          document.getElementById("content").textContent = "The dashboard deployed, but records.json could not be loaded.";
+        });
+    </script>
+  </body>
+</html>

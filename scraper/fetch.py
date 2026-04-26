@@ -434,6 +434,23 @@ def table_rows_from_html(html: str) -> list[dict[str, str]]:
         headers = [clean(cell.get_text(" ")) for cell in header_cells]
         if len(headers) < 2:
             continue
+        header_text = " ".join(headers).lower()
+        result_header_tokens = (
+            "document",
+            "instrument",
+            "book",
+            "page",
+            "record",
+            "filed",
+            "legal",
+            "grantor",
+            "grantee",
+            "defendant",
+            "decedent",
+            "party",
+        )
+        if not any(token in header_text for token in result_header_tokens):
+            continue
         for tr in table.select("tbody tr") or table.select("tr")[1:]:
             cells = tr.find_all(["td", "th"])
             if len(cells) < 2:
@@ -488,6 +505,33 @@ def lead_from_row(row: dict[str, str], doc_type: str) -> LeadRecord:
         if "LIS" in doc_type.upper()
         else value_for(row, "decedent")
     )
+
+
+def has_real_record_signal(lead: LeadRecord) -> bool:
+    """Reject profile/contact form rows that can appear in Landmark markup."""
+    owner = normalize_owner(lead.owner)
+    bogus_owners = {
+        "FIRST NAME",
+        "EMAIL",
+        "ADDRESS",
+        "CITY",
+        "ZIP",
+        "PHONE",
+        "FAX",
+        "USER NAME",
+        "PASSWORD",
+    }
+    if owner in bogus_owners:
+        return False
+    if lead.doc_num and re.search(r"\d", lead.doc_num):
+        return True
+    if lead.filed and parse_date(lead.filed):
+        return True
+    if lead.clerk_url and re.search(r"(document|instrument|record|details|image|view)", lead.clerk_url, re.I):
+        return True
+    if lead.legal and len(lead.legal) >= 20:
+        return True
+    return False
     owner = owner or value_for(row, "grantor", "party", "name", "owner")
     return LeadRecord(
         doc_num=value_for(row, "document", "instrument", "doc #", "doc no") or value_for(row, "number"),
@@ -560,9 +604,11 @@ async def fetch_clerk_records(start_date: date, end_date: date) -> list[LeadReco
                 for row in rows:
                     try:
                         lead = lead_from_row(row, doc_type)
-                        if not (lead.doc_num or lead.owner or lead.legal):
+                        if not has_real_record_signal(lead):
                             continue
                         lead = await enrich_from_detail_page(page, lead)
+                        if not has_real_record_signal(lead):
+                            continue
                         leads.append(lead)
                     except Exception as exc:  # noqa: BLE001
                         LOGGER.warning("Skipping bad Clerk row for %s: %s", doc_type, exc)
