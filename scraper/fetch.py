@@ -1642,8 +1642,6 @@ def split_name(name: str) -> tuple[str, str]:
 def datasift_rows(leads: Iterable[LeadRecord]) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for lead in leads:
-        if not is_ready_to_upload(lead):
-            continue
         first, last = split_name(lead.owner)
         rows.append(
             {
