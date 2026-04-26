@@ -50,6 +50,7 @@ CLERK_DOC_TYPE_IDS = {
     "LIS PENDENS": "987,988,989,1153,1154,1155",
     "PROBATE": "1044,1045,1107,1175",
 }
+PROPERTY_DBF_URL = os.getenv("HERNANDO_PARCEL_DBF_URL", "")
 
 PROBATE_USERNAME = os.getenv("HERNANDO_CLERK_USERNAME", "")
 PROBATE_PASSWORD = os.getenv("HERNANDO_CLERK_PASSWORD", "")
@@ -597,6 +598,44 @@ def clean_clerk_cell(value: Any) -> str:
     return clean(text)
 
 
+def legal_segments(legal: str) -> list[str]:
+    return [clean(segment) for segment in re.split(r"\s*;\s*|\r?\n", clean(legal)) if clean(segment)]
+
+
+def is_placeholder_legal(segment: str) -> bool:
+    normalized = re.sub(r"\s+", " ", clean(segment).upper())
+    normalized = re.sub(r"\bS\d+\b", "S", normalized)
+    normalized = re.sub(r"\bT\d{1,2}S\b", "T", normalized)
+    normalized = re.sub(r"\bR\d{1,2}E\b", "R", normalized)
+    return normalized in {
+        "L BLK UN SUB S T R",
+        "L BLK UN SUB S T R S T R",
+    }
+
+
+def has_substantive_legal(legal: str) -> bool:
+    for segment in legal_segments(legal):
+        if is_placeholder_legal(segment):
+            continue
+        upper = segment.upper()
+        has_lot = bool(re.search(r"\b(L|LOT)\s*\d+[A-Z]?\b", upper))
+        has_block_or_unit = bool(re.search(r"\b(BLK|BLOCK|UN|UNIT)\s*\d+[A-Z]?\b", upper))
+        has_named_subdivision = bool(re.search(r"\bSUB\s*[A-Z][A-Z0-9 ]{2,}", upper))
+        has_section_only = bool(re.search(r"\bS\d+\s+T\d{1,2}S\s+R\d{1,2}E\b", upper)) and not (
+            has_lot or has_block_or_unit or has_named_subdivision
+        )
+        if (has_lot or has_block_or_unit) and not has_section_only:
+            return True
+        if has_named_subdivision and re.search(r"\d", upper) and not has_section_only:
+            return True
+    return False
+
+
+def substantive_legal_only(legal: str) -> str:
+    segments = [segment for segment in legal_segments(legal) if not is_placeholder_legal(segment)]
+    return "; ".join(segments) if segments else clean(legal)
+
+
 def lead_from_row(row: dict[str, str], doc_type: str) -> LeadRecord:
     cat, cat_label = category_for_doc_type(doc_type)
     owner = (
@@ -626,7 +665,7 @@ def lead_from_datatables_row(row: dict[str, Any], doc_type: str) -> LeadRecord:
     direct_name = clean_clerk_cell(row.get("5", ""))
     reverse_name = clean_clerk_cell(row.get("6", ""))
     owner = reverse_name if cat == "LP" else direct_name or reverse_name
-    legal = clean_clerk_cell(row.get("14", ""))
+    legal = substantive_legal_only(clean_clerk_cell(row.get("14", "")))
     filed = clean_clerk_cell(row.get("7", ""))
     doc_label = clean_clerk_cell(row.get("8", "")) or doc_type
     return LeadRecord(
@@ -742,6 +781,9 @@ async def fetch_clerk_records(start_date: date, end_date: date) -> list[LeadReco
                         if not has_real_record_signal(lead):
                             continue
                         lead = await enrich_from_detail_page(page, lead)
+                        lead.legal = substantive_legal_only(lead.legal)
+                        if lead.cat == "PR" and not has_substantive_legal(lead.legal):
+                            continue
                         if not has_real_record_signal(lead):
                             continue
                         leads.append(lead)
@@ -800,6 +842,8 @@ def fetch_clerk_records_direct(start_date: date, end_date: date) -> list[LeadRec
                 try:
                     lead = lead_from_datatables_row(item, doc_type)
                     filed_date = parse_date(lead.filed)
+                    if lead.cat == "PR" and not has_substantive_legal(lead.legal):
+                        continue
                     if filed_date and start_date <= filed_date <= end_date and has_real_record_signal(lead):
                         leads.append(lead)
                 except Exception as exc:  # noqa: BLE001
@@ -901,7 +945,8 @@ def find_bulk_dbf_url(session: requests.Session) -> tuple[str, dict[str, str] | 
     soup = BeautifulSoup(response.text, "lxml")
     for link in soup.find_all("a", href=True):
         label = clean(link.get_text(" ") + " " + link["href"]).lower()
-        if any(token in label for token in ("dbf", "tax roll", "taxroll", "parcel", "download", "bulk")):
+        href = clean(link["href"]).lower()
+        if any(token in label for token in ("dbf", ".zip", "tax roll", "taxroll", "bulk download")) or href.endswith((".dbf", ".zip")):
             return urljoin(PA_ROOT, link["href"]), None
     for form in soup.find_all("form"):
         form_text = clean(form.get_text(" ")).lower()
@@ -933,9 +978,12 @@ def find_bulk_dbf_url(session: requests.Session) -> tuple[str, dict[str, str] | 
 
 def download_bulk_parcels(session: requests.Session) -> bytes | None:
     try:
-        url, post_data = find_bulk_dbf_url(session)
+        url = PROPERTY_DBF_URL
+        post_data = None
         if not url:
-            LOGGER.warning("No bulk parcel DBF download link was discovered.")
+            url, post_data = find_bulk_dbf_url(session)
+        if not url:
+            LOGGER.info("No public parcel DBF/ZIP download link was discovered; using individual parcel lookups only.")
             return None
         LOGGER.info("Downloading parcel data from %s.", url)
         if post_data is None:
@@ -1008,10 +1056,25 @@ def build_parcel_index() -> ParcelIndex:
 
 
 def lookup_property_individually(session: requests.Session, owner: str = "", legal: str = "", key: str = "") -> ParcelRecord | None:
-    queries = [key, legal, owner]
-    for query in [clean(q) for q in queries if clean(q)]:
+    owner_query = primary_party_name(owner)
+    legal_query = clean(legal)
+    if len(legal_query) > 80:
+        legal_query = legal_query[:80]
+    query_specs = [
+        ("parcelKey", key),
+        ("txtParcelKey", key),
+        ("ownerName", owner_query),
+        ("txtOwnerName", owner_query),
+        ("search", owner_query),
+        ("search", legal_query),
+    ]
+    seen: set[tuple[str, str]] = set()
+    for param_name, query in [(name, clean(q)) for name, q in query_specs if clean(q)]:
+        if (param_name, query) in seen:
+            continue
+        seen.add((param_name, query))
         try:
-            params = {"search": query}
+            params = {param_name: query}
             response = retry_sync(
                 f"property lookup {query[:30]}",
                 lambda params=params: session.get(PA_HOME, params=params, timeout=HTTP_TIMEOUT),
