@@ -1522,6 +1522,20 @@ def apply_parcel_to_lead(lead: LeadRecord, parcel: ParcelRecord | None) -> None:
     lead.legal = lead.legal or parcel.legal
 
 
+def has_real_street_address(address: str) -> bool:
+    value = clean(address)
+    if not value:
+        return False
+    match = re.match(r"^(\d+)\b", value)
+    if not match:
+        return False
+    return int(match.group(1)) > 0
+
+
+def is_ready_to_upload(lead: LeadRecord) -> bool:
+    return has_real_street_address(lead.prop_address) and has_real_street_address(lead.mail_address)
+
+
 def score_lead(lead: LeadRecord, today: date) -> None:
     flags: list[str] = []
     if lead.cat == "LP":
@@ -1628,6 +1642,8 @@ def split_name(name: str) -> tuple[str, str]:
 def datasift_rows(leads: Iterable[LeadRecord]) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for lead in leads:
+        if not is_ready_to_upload(lead):
+            continue
         first, last = split_name(lead.owner)
         rows.append(
             {
@@ -1670,6 +1686,8 @@ def write_json_outputs(leads: list[LeadRecord], start_date: date, end_date: date
         },
         "total": len(leads),
         "with_address": sum(1 for lead in leads if lead.prop_address or lead.mail_address),
+        "ready_to_upload": sum(1 for lead in leads if is_ready_to_upload(lead)),
+        "needs_review": sum(1 for lead in leads if not is_ready_to_upload(lead)),
         "records": [lead.public_dict() for lead in leads],
     }
     for path in OUTPUT_JSON_PATHS:

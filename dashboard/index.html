@@ -197,13 +197,18 @@
       ];
 
       const text = (value) => Array.isArray(value) ? value.join("; ") : (value || "");
-      const readyToUpload = (record) => Boolean(record.prop_address && record.mail_address);
+      const realStreetAddress = (value) => {
+        const match = String(value || "").trim().match(/^(\d+)\b/);
+        return Boolean(match && Number(match[1]) > 0);
+      };
+      const readyToUpload = (record) => realStreetAddress(record.prop_address) && realStreetAddress(record.mail_address);
       const statusText = (record) => readyToUpload(record) ? "Ready" : "Review";
       const addressLine = (record, prefix) => {
         const street = record[`${prefix}_address`] || "";
         const city = record[`${prefix}_city`] || "";
         const state = record[`${prefix}_state`] || "";
         const zip = record[`${prefix}_zip`] || "";
+        if (!realStreetAddress(street)) return "";
         return [street, [city, state, zip].filter(Boolean).join(" ")].filter(Boolean).join(", ");
       };
 
@@ -211,8 +216,8 @@
         .then((response) => response.json())
         .then((data) => {
           const records = data.records || [];
-          const ready = records.filter(readyToUpload).length;
-          const review = records.length - ready;
+          const ready = data.ready_to_upload ?? records.filter(readyToUpload).length;
+          const review = data.needs_review ?? (records.length - ready);
           document.getElementById("meta").textContent =
             `Fetched ${data.fetched_at || "not yet"} | ${data.date_range?.start || ""} to ${data.date_range?.end || ""}`;
           document.getElementById("total").textContent = data.total || 0;
