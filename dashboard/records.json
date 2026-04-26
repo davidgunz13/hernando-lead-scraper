@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-26T19:47:17.608870+00:00",
+  "fetched_at": "2026-04-26T20:09:58.738745+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
@@ -10,7 +10,7 @@
     "lookback_days": 30
   },
   "total": 81,
-  "with_address": 0,
+  "with_address": 38,
   "records": [
     {
       "doc_num": "2026021041",
@@ -22,20 +22,20 @@
       "grantee": "SEVEN HILLS HOMEOWNERS ASSOCIATION INC",
       "amount": "",
       "legal": "L26 Blk Un SubRESERVE AT SEVEN HILLS PH 2 S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "285 WOODSTREAM WAY",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "10037 US HIGHWAY 19",
+      "mail_city": "PORT RICHEY",
+      "mail_state": "FL",
+      "mail_zip": "34668-3742",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471353",
       "flags": [
         "Foreclosure",
         "LLC / corp owner"
       ],
-      "score": 50
+      "score": 55
     },
     {
       "doc_num": "2026021349",
@@ -71,20 +71,20 @@
       "grantee": "REGIONS BANK; REGIONS MORTGAGE",
       "amount": "",
       "legal": "L223 Blk Un2 SubBARRINGTON AT STERLING HILL S T R; L223 Blk Un2 SubBARRINGTON AT STERLING HILL TR H AND J S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "4163 AUTUMN AMBER DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "4163 AUTUMN AMBER DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-6597",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3472246",
       "flags": [
         "Foreclosure",
         "LLC / corp owner"
       ],
-      "score": 50
+      "score": 55
     },
     {
       "doc_num": "2026021974",
@@ -96,19 +96,19 @@
       "grantee": "ROCKET MORTGAGE LLC",
       "amount": "",
       "legal": "L25 Blk99 Un2 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "475 COPPERFIELD RD",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "475 COPPERFIELD RD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-5704",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3472737",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021975",
@@ -120,20 +120,20 @@
       "grantee": "FLAGSTAR BANK NA",
       "amount": "",
       "legal": "L9 Blk824 Un13 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "1138 BENTLEY AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "1138 BENTLEY AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3472738",
       "flags": [
         "Foreclosure",
         "LLC / corp owner"
       ],
-      "score": 50
+      "score": 55
     },
     {
       "doc_num": "2026021976",
@@ -145,19 +145,19 @@
       "grantee": "NEWREZ LLC",
       "amount": "",
       "legal": "L1 Blk1125 Un17 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "11106 SEDGEFIELD AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "11106 SEDGEFIELD AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-3240",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3472739",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026022017",
@@ -194,20 +194,20 @@
       "grantee": "ROCKET MORTGAGE LLC",
       "amount": "",
       "legal": "L22 Blk4 Un1 SubGULF COAST RETREATS S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "5065 OAK LEAF LN",
+      "prop_city": "HERNANDO BEACH",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34607",
+      "mail_address": "5065 OAK LEAF LN",
+      "mail_city": "HERNANDO BEACH",
+      "mail_state": "FL",
+      "mail_zip": "34607-2948",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3472767",
       "flags": [
         "Foreclosure",
         "LLC / corp owner"
       ],
-      "score": 50
+      "score": 55
     },
     {
       "doc_num": "2026022019",
@@ -244,19 +244,19 @@
       "grantee": "PRISTINE PLACE HOMEOWNERS ASSOCIATION INC",
       "amount": "",
       "legal": "L29 Blk Un SubPRISTINE PLACE PH TWO S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "14038 ANDREW SCOTT RD",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "14038 ANDREW SCOTT RD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-0853",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3472769",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026022956",
@@ -292,19 +292,19 @@
       "grantee": "DEERFIELD HOMEOWNERSASSOCIATION INC",
       "amount": "",
       "legal": "L3 Blk Un1 SubDEERFIELD EST PH 3 AND 4 REPL PH 2 REPLAT OF QUAIL MEADOWS PH 1 S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "15449 BURBANK DR",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34604",
+      "mail_address": "15449 BURBANK DR",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34604-0704",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474193",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023399",
@@ -340,19 +340,19 @@
       "grantee": "SILVERTHORNHERNANDO HOMEOWNERS ASSOCIATION INC",
       "amount": "",
       "legal": "L68B Blk Un SubSILVERTHORN PH 4 STERLING RUN S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "15015 SILVERSMITH CIR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "15015 SILVERSMITH CIR",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34609-0390",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474329",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023414",
@@ -364,20 +364,20 @@
       "grantee": "REGIONS BANK ; REGIONS MORTGAGE",
       "amount": "",
       "legal": "L33,34 Blk Un SubWEEK WACHEE S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "1281 BISHOP RD",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "1281 BISHOP RD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-6402",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474330",
       "flags": [
         "Foreclosure",
         "LLC / corp owner"
       ],
-      "score": 50
+      "score": 55
     },
     {
       "doc_num": "2026023436",
@@ -389,20 +389,20 @@
       "grantee": "DEERFIELD HOMEOWNERSASSOCIATION INC",
       "amount": "",
       "legal": "L22 Blk7 Un SubQUAIL MEADOWS PH I S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "15441 SONORA DR",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34604",
+      "mail_address": "15441 SONORA DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34604-0644",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474361",
       "flags": [
         "Foreclosure",
         "LLC / corp owner"
       ],
-      "score": 50
+      "score": 55
     },
     {
       "doc_num": "2026023478",
@@ -439,20 +439,20 @@
       "grantee": "NEWREZ LLC; SHELLPOINT MORTGAGE SERVICING",
       "amount": "",
       "legal": "L53 Blk Un SubDEERFIELD ESTATES PH 5 S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "3707 CELEBRATION DR",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34604",
+      "mail_address": "3707 CELEBRATION DR",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34604",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474475",
       "flags": [
         "Foreclosure",
         "LLC / corp owner"
       ],
-      "score": 50
+      "score": 55
     },
     {
       "doc_num": "2026023480",
@@ -464,20 +464,20 @@
       "grantee": "UNION HOME MORTGAGE CORPORATION",
       "amount": "",
       "legal": "L16 Blk519 Un7 SubROYAL HIGHLANDS S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "12471 PIPIT AVE",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34614",
+      "mail_address": "12471 PIPIT AVE",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34614-1966",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474476",
       "flags": [
         "Foreclosure",
         "LLC / corp owner"
       ],
-      "score": 50
+      "score": 55
     },
     {
       "doc_num": "2026023694",
@@ -1391,19 +1391,19 @@
       "grantee": "TRIESTE SALVATORE A",
       "amount": "",
       "legal": "L4 Blk445 Un8 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "0 BISHOP RD",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "8908 97TH AVE",
+      "mail_city": "OZONE PARK",
+      "mail_state": "NY",
+      "mail_zip": "11416-1414",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471015",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026020852",
@@ -1415,19 +1415,19 @@
       "grantee": "JOHNSON BEVERLY",
       "amount": "",
       "legal": "L54 Blk Un SubSUNHILL S34 T22S R18E",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "12127 FAIRWAY AVE",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "2227 N BAXTER RD",
+      "mail_city": "DAVISON",
+      "mail_state": "MI",
+      "mail_zip": "48423-8104",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471036",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026020855",
@@ -1439,19 +1439,19 @@
       "grantee": "HARRIS BEVERLY",
       "amount": "",
       "legal": "L54 Blk Un SubSUNHILL S34 T22S R18E",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "12127 FAIRWAY AVE",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "2227 N BAXTER RD",
+      "mail_city": "DAVISON",
+      "mail_state": "MI",
+      "mail_zip": "48423-8104",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471039",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026020857",
@@ -1463,19 +1463,19 @@
       "grantee": "SMITH JOHNNY L; SMITH JOHNY L",
       "amount": "",
       "legal": "L24,25 Blk Un SubSUNSHINE TERRACE S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "6055 FREEPORT DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "6055 FREEPORT DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-1026",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471041",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021014",
@@ -1487,19 +1487,19 @@
       "grantee": "KIRSCHNER LEISA MAGEE",
       "amount": "",
       "legal": "L9 Blk201 Un4 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "8050 TIMBERLAKE AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "8050 TIMBERLAKE AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-5237",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471307",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021015",
@@ -1511,19 +1511,19 @@
       "grantee": "KIRSCHNER LEISA MAGEE",
       "amount": "",
       "legal": "L9 Blk201 Un4 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "8050 TIMBERLAKE AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "8050 TIMBERLAKE AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-5237",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471308",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021068",
@@ -1535,19 +1535,19 @@
       "grantee": "MORGAN LANGDON M; MORGAN BONITA M; ST THERESA CATHOLIC CHURCH; COLONA ROBERT; NICHOLS LINDA; COLONA MICHAEL J",
       "amount": "",
       "legal": "L7 Blk Un1 SubTIMBER PINES TR 22 S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "6347 DARIEN WAY",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "6347 DARIEN WAY",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-3327",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471362",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021077",
@@ -1559,19 +1559,19 @@
       "grantee": "SCHORRAK RUTH CULVER",
       "amount": "",
       "legal": "L6 Blk926 Un14 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "3190 LEMA DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "3190 LEMA DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-2845",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471371",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021078",
@@ -1583,19 +1583,19 @@
       "grantee": "LIEDER MARIE",
       "amount": "",
       "legal": "L5 Blk135 Un9 SubROYAL HIGHLANDS S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "7355 NIGHTWALKER RD",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "7355 NIGHTWALKER RD",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34613",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471372",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021080",
@@ -1607,19 +1607,19 @@
       "grantee": "CANFIELD ROBERT BRIAN; KELLEY RENEA M",
       "amount": "",
       "legal": "L30 Blk360 Un7 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "9207 SPRING HILL DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "9207 SPRING HILL DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-6351",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471374",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021081",
@@ -1631,19 +1631,19 @@
       "grantee": "CANFIELD ROBERT BRIAN; KELLEY RENEA M",
       "amount": "",
       "legal": "L30 Blk360 Un7 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "9207 SPRING HILL DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "9207 SPRING HILL DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-6351",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471375",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021087",
@@ -1655,19 +1655,19 @@
       "grantee": "EISENLOHR NANCY R",
       "amount": "",
       "legal": "L13 Blk146 Un9 SubROYAL HIGHLANDS S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "7250 MADRID RD",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "PO BOX 198",
+      "mail_city": "AVON",
+      "mail_state": "CT",
+      "mail_zip": "06001",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471399",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021089",
@@ -1679,19 +1679,19 @@
       "grantee": "BUDREVIC MICHELLE A; BRUNNER MICHAEL A JR",
       "amount": "",
       "legal": "L6 Blk592 Un9 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "12823 LINDEN DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "12823 LINDEN DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-3434",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471401",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026021091",
@@ -1703,19 +1703,19 @@
       "grantee": "SPECHT COLLEEN C TRSTE; STEPHEN B LEE LIVING TRUST",
       "amount": "",
       "legal": "L16,17 Blk581 Un9 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "11314 PORTSMOUTH ST",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "11314 PORTSMOUTH ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-3540",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471403",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023232",
@@ -1727,19 +1727,19 @@
       "grantee": "SLATON ELISHA ; CHRISTIAN TINA D",
       "amount": "",
       "legal": "L4,5 BlkI Un SubTANGERINE ESTATES S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "16155 PUTNAM ST",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34604",
+      "mail_address": "16155 PUTNAM ST",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34604-0754",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474203",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023303",
@@ -1751,19 +1751,19 @@
       "grantee": "CLARK KRISTIN; CLARK FIONA; CLARK QUINLAN",
       "amount": "",
       "legal": "L14 Blk454 Un8 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "2023 BELMAR AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "2023 BELMAR AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-5823",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474250",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023305",
@@ -1775,19 +1775,19 @@
       "grantee": "CLARK KRISTIN",
       "amount": "",
       "legal": "L14 Blk454 Un8 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "2023 BELMAR AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "2023 BELMAR AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-5823",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474252",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023307",
@@ -1799,19 +1799,19 @@
       "grantee": "DELELLIS MATTHEW; DELELLIS ANTHONY",
       "amount": "",
       "legal": "L13 Blk74 Un4 SubBROOKRIDGE COMMUNITY S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "9178 ADMIRAL ST",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "9178 ADMIRAL ST",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34613-4959",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474254",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023338",
@@ -1823,19 +1823,19 @@
       "grantee": "MIRKHANI BARBARA; NEFF WILLIAM B; SPEARS DEBORAH",
       "amount": "",
       "legal": "L10,11,12,13 BlkA Un SubPOTTERFIELDS HERNANDO BABY FARMS S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "21446 BEASLEY RD",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34601",
+      "mail_address": "14900 NC 209 HWY",
+      "mail_city": "HOT SPRINGS",
+      "mail_state": "NC",
+      "mail_zip": "28743-7185",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474274",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023339",
@@ -1847,19 +1847,19 @@
       "grantee": "DIRENZO THOMAS P; CAPPIELLO DOROTHY E",
       "amount": "",
       "legal": "L303 Blk Un6 SubSEVEN HILLS S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "10430 VENTURA DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "10430 VENTURA DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-7410",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474275",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023340",
@@ -1871,19 +1871,19 @@
       "grantee": "NUNEZ HENRY J; NUNEZ HARVES; NUNEZ EILEEN",
       "amount": "",
       "legal": "L432 Blk Un8 B SubREGENCY OAKS S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "7360 GATES CIR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "7360 GATES CIR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-6209",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474276",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023343",
@@ -1895,19 +1895,19 @@
       "grantee": "BOTTON SUSAN; BOTTON DARREN; YOUNG NATASHA; BOTTON NATASHA",
       "amount": "",
       "legal": "L11 Blk1588 Un23 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "9476 LARAMIE LN",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
+      "prop_zip": "34608",
+      "mail_address": "49 STOURCROFT DR",
+      "mail_city": "CHRISTCHURCH DORSET",
+      "mail_state": "FL",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474279",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023345",
@@ -1919,19 +1919,19 @@
       "grantee": "HORNE WILLARD",
       "amount": "",
       "legal": "L5 Blk306 Un5 SubROYAL HIGHLANDS S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "11385 HEXAM RD",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "PO BOX 10704",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34603-0704",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474281",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023346",
@@ -1943,19 +1943,19 @@
       "grantee": "GARDNER PATRICIA",
       "amount": "",
       "legal": "L15 Blk Un SubRIDGE MANOR WEST UNREC S32 T22S R21E",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "31035 WILLOW BANK AVE",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34602",
+      "mail_address": "31035 WILLOW BANK AVE",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34602-7506",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474282",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026023347",
@@ -1967,19 +1967,19 @@
       "grantee": "GARDNER PATRICIA",
       "amount": "",
       "legal": "L15 Blk Un SubRIDGE MANOR WEST UNREC S32 T22S R21E",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "31035 WILLOW BANK AVE",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34602",
+      "mail_address": "31035 WILLOW BANK AVE",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34602-7506",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3474283",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     }
   ]
 }
