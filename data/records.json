@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-26T05:18:13.784812+00:00",
+  "fetched_at": "2026-04-26T05:26:31.500278+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
@@ -9,7 +9,104 @@
     "end": "2026-04-26",
     "lookback_days": 30
   },
-  "total": 0,
+  "total": 4,
   "with_address": 0,
-  "records": []
+  "records": [
+    {
+      "doc_num": "",
+      "doc_type": "LIS PENDENS",
+      "filed": "7/13/2012 10:27 am",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "javascript:void",
+      "flags": [
+        "Foreclosure"
+      ],
+      "score": 40
+    },
+    {
+      "doc_num": "",
+      "doc_type": "LIS PENDENS",
+      "filed": "7/15/2012 4:38 pm",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "javascript:void",
+      "flags": [
+        "Foreclosure"
+      ],
+      "score": 40
+    },
+    {
+      "doc_num": "",
+      "doc_type": "PROBATE",
+      "filed": "7/13/2012 10:27 am",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "javascript:void",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
+    },
+    {
+      "doc_num": "",
+      "doc_type": "PROBATE",
+      "filed": "7/15/2012 4:38 pm",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "javascript:void",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
+    }
+  ]
 }
