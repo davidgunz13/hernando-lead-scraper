@@ -1,0 +1,15 @@
+{
+  "fetched_at": null,
+  "source": {
+    "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
+    "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
+  },
+  "date_range": {
+    "start": null,
+    "end": null,
+    "lookback_days": 30
+  },
+  "total": 0,
+  "with_address": 0,
+  "records": []
+}

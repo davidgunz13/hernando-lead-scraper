@@ -1,0 +1,58 @@
+name: Scrape Hernando Leads
+
+on:
+  schedule:
+    - cron: "3 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml dbfread playwright
+
+      - name: Install Playwright browser
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        env:
+          LOOKBACK_DAYS: "30"
+          HERNANDO_CLERK_USERNAME: ${{ secrets.HERNANDO_CLERK_USERNAME }}
+          HERNANDO_CLERK_PASSWORD: ${{ secrets.HERNANDO_CLERK_PASSWORD }}
+        run: python scraper/fetch.py
+
+      - name: Commit updated records
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Hernando motivated seller records"
+          file_pattern: "dashboard/records.json data/records.json dashboard/datasift_export.csv data/datasift_export.csv"
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+      - name: Deploy dashboard to GitHub Pages
+        uses: actions/deploy-pages@v4
