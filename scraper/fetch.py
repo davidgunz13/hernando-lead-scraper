@@ -1117,6 +1117,116 @@ def extract_property_details(html: str) -> ParcelRecord | None:
     )
 
 
+def extract_property_search_result(html: str, fallback_owner: str = "") -> ParcelRecord | None:
+    soup = BeautifulSoup(html, "lxml")
+    container = soup.select_one("#resultContainer") or soup
+    for tr in container.select("tr"):
+        cells = [clean(cell.get_text(" ")) for cell in tr.find_all(["td", "th"])]
+        cells = [cell for cell in cells if cell]
+        if len(cells) >= 3 and re.search(r"\d", cells[0]):
+            return ParcelRecord(
+                key=cells[0],
+                owner=cells[1],
+                prop_address=cells[2],
+                prop_state="FL",
+            )
+    text = clean(container.get_text(" "))
+    patterns = (
+        r"Key\s*#?\s*(?P<key>\d{3,})\s+Owner\s*(?P<owner>.+?)\s+Address\s*(?P<address>\d{1,6}\s+.+?)(?:\s+Key\s*#|\s*$)",
+        r"(?P<key>\d{3,})\s+(?P<owner>[A-Z0-9 &.,'-]{4,})\s+(?P<address>\d{1,6}\s+[A-Z0-9 .,'#/-]+)",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text, re.I)
+        if match:
+            return ParcelRecord(
+                key=clean(match.groupdict().get("key", "")),
+                owner=clean(match.groupdict().get("owner", fallback_owner)),
+                prop_address=clean(match.groupdict().get("address", "")),
+                prop_state="FL",
+            )
+    return extract_property_details(html)
+
+
+async def accept_property_disclaimer(page: Page) -> None:
+    for selector in (
+        "button:has-text('Accept')",
+        "button:has-text('I Agree')",
+        "text=/I\\s+agree/i",
+        "text=/Accept/i",
+    ):
+        try:
+            locator = page.locator(selector).first
+            if await locator.count():
+                await locator.click(timeout=2500)
+                await page.wait_for_timeout(750)
+                return
+        except Exception:
+            continue
+
+
+async def lookup_property_with_browser(page: Page, owner: str, legal: str = "") -> ParcelRecord | None:
+    owner_query = primary_party_name(owner)
+    if not owner_query:
+        return None
+    try:
+        await page.goto(PA_HOME, wait_until="domcontentloaded", timeout=30000)
+        await accept_property_disclaimer(page)
+        await page.locator("#txtOwnerName").fill(owner_query, timeout=10000)
+        await page.locator("#btnSearchJS").click(timeout=10000)
+        await page.wait_for_timeout(2500)
+        await page.wait_for_load_state("networkidle", timeout=10000)
+    except Exception as exc:  # noqa: BLE001
+        LOGGER.debug("Property browser search failed for %s: %s", owner_query, exc)
+        return None
+
+    parcel = extract_property_search_result(await page.content(), owner_query)
+    try:
+        result_links = page.locator("#resultContainer a, #resultContainer button").filter(has_not_text=re.compile("download|print|clear", re.I))
+        if await result_links.count():
+            await result_links.first.click(timeout=5000)
+            await page.wait_for_timeout(2000)
+            try:
+                await page.wait_for_load_state("networkidle", timeout=10000)
+            except Exception:
+                pass
+            details = extract_property_details(await page.content())
+            if details:
+                return details
+    except Exception as exc:  # noqa: BLE001
+        LOGGER.debug("Property detail click failed for %s: %s", owner_query, exc)
+    return parcel
+
+
+async def enrich_leads_with_property_data_browser(leads: list[LeadRecord]) -> None:
+    to_lookup = [lead for lead in leads if not (lead.prop_address or lead.mail_address)]
+    if not to_lookup:
+        return
+    cache: dict[str, ParcelRecord | None] = {}
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(headless=True)
+        context = await browser.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+            )
+        )
+        page = await context.new_page()
+        for idx, lead in enumerate(to_lookup, start=1):
+            query = normalize_owner(primary_party_name(lead.owner))
+            if not query:
+                continue
+            try:
+                if query not in cache:
+                    cache[query] = await lookup_property_with_browser(page, lead.owner, lead.legal)
+                apply_parcel_to_lead(lead, cache[query])
+                if idx % 10 == 0:
+                    LOGGER.info("Property Appraiser browser lookups: %s/%s processed.", idx, len(to_lookup))
+            except Exception as exc:  # noqa: BLE001
+                LOGGER.warning("Property Appraiser browser lookup failed for %s: %s", lead.owner, exc)
+        await context.close()
+        await browser.close()
+
+
 def apply_parcel_to_lead(lead: LeadRecord, parcel: ParcelRecord | None) -> None:
     if not parcel:
         return
@@ -1319,6 +1429,7 @@ async def main() -> None:
         LOGGER.exception("Clerk fetch failed; writing empty output instead of crashing: %s", exc)
         leads = []
     enrich_leads_with_property_data(leads)
+    await enrich_leads_with_property_data_browser(leads)
     for lead in leads:
         score_lead(lead, today)
     apply_combo_bonus(leads)
