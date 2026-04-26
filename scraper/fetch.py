@@ -1214,31 +1214,46 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
     if not owner_query:
         return None
     try:
-        await page.goto(PA_HOME, wait_until="networkidle", timeout=30000)
+        await page.goto(PA_HOME, wait_until="domcontentloaded", timeout=30000)
         await accept_property_disclaimer(page)
-        owner_input = page.locator("#txtOwnerName")
-        await owner_input.wait_for(state="visible", timeout=15000)
         await page.wait_for_timeout(2000)
-        await owner_input.click(timeout=5000)
-        await owner_input.press("Control+A", timeout=5000)
-        await owner_input.type(owner_query, delay=40, timeout=10000)
+        input_count = await page.locator("#txtOwnerName, input[placeholder='Owner Name']").count()
+        if input_count == 0:
+            LOGGER.info("Property lookup could not find Owner Name input for %s. Body: %s", owner_query, (await property_result_text(page))[:500])
+            return None
         before = await property_result_text(page)
-        await page.evaluate(
-            """() => {
-                const input = document.querySelector('#txtOwnerName');
-                if (input) {
-                    input.dispatchEvent(new Event('input', { bubbles: true }));
-                    input.dispatchEvent(new Event('change', { bubbles: true }));
+        submitted = await page.evaluate(
+            """query => {
+                const isVisible = el => {
+                    const rect = el.getBoundingClientRect();
+                    const style = window.getComputedStyle(el);
+                    return rect.width > 0 && rect.height > 0 && style.visibility !== 'hidden' && style.display !== 'none';
+                };
+                const inputs = [...document.querySelectorAll('#txtOwnerName, input[placeholder="Owner Name"]')];
+                const input = inputs.find(isVisible) || inputs[inputs.length - 1];
+                if (!input) return false;
+                const setter = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set;
+                setter.call(input, query);
+                input.dispatchEvent(new InputEvent('input', { bubbles: true, inputType: 'insertText', data: query }));
+                input.dispatchEvent(new Event('change', { bubbles: true }));
+                const buttons = [...document.querySelectorAll('#btnSearchJS, button[type="submit"], button')];
+                const button = buttons.find(btn => isVisible(btn) && /search/i.test(btn.innerText || btn.textContent || btn.value || '')) || buttons.find(isVisible);
+                if (button) {
+                    button.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, view: window }));
+                    return true;
                 }
                 const form = document.querySelector('form');
                 if (form && form.requestSubmit) {
                     form.requestSubmit();
-                } else {
-                    const button = document.querySelector('#btnSearchJS');
-                    if (button) button.click();
+                    return true;
                 }
-            }"""
+                return false;
+            }""",
+            owner_query,
         )
+        if not submitted:
+            LOGGER.info("Property lookup could not submit search for %s.", owner_query)
+            return None
         try:
             await page.wait_for_function(
                 """before => {
@@ -1250,7 +1265,13 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
             )
         except Exception:
             try:
-                await page.locator("#btnSearchJS").click(timeout=5000, force=True)
+                await page.evaluate(
+                    """() => {
+                        const buttons = [...document.querySelectorAll('#btnSearchJS, button[type="submit"], button')];
+                        const button = buttons.find(btn => /search/i.test(btn.innerText || btn.textContent || btn.value || ''));
+                        if (button) button.click();
+                    }"""
+                )
             except Exception:
                 pass
             await page.wait_for_timeout(3000)
