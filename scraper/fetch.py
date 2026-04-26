@@ -1260,9 +1260,8 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
                 body_text[:220],
             )
             return None
-        before = await property_result_text(page)
-        submitted = await page.evaluate(
-            """query => {
+        focused = await page.evaluate(
+            """() => {
                 const isVisible = el => {
                     const rect = el.getBoundingClientRect();
                     const style = window.getComputedStyle(el);
@@ -1271,10 +1270,39 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
                 const inputs = [...document.querySelectorAll('#txtOwnerName, input[placeholder="Owner Name"]')];
                 const input = inputs.find(isVisible) || inputs[inputs.length - 1];
                 if (!input) return false;
-                const setter = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set;
-                setter.call(input, query);
-                input.dispatchEvent(new InputEvent('input', { bubbles: true, inputType: 'insertText', data: query }));
-                input.dispatchEvent(new Event('change', { bubbles: true }));
+                input.focus();
+                input.select();
+                return true;
+            }"""
+        )
+        if not focused:
+            LOGGER.info("Property lookup could not focus Owner Name input for %s.", owner_query)
+            return None
+        await page.keyboard.press("Control+A")
+        await page.keyboard.press("Backspace")
+        await page.keyboard.type(owner_query, delay=45)
+        await page.keyboard.press("Tab")
+        typed_value = await page.evaluate(
+            """() => {
+                const visible = el => {
+                    const rect = el.getBoundingClientRect();
+                    const style = getComputedStyle(el);
+                    return rect.width > 0 && rect.height > 0 && style.display !== 'none' && style.visibility !== 'hidden';
+                };
+                const input = [...document.querySelectorAll('#txtOwnerName, input[placeholder="Owner Name"]')].find(visible);
+                return input ? input.value : '';
+            }"""
+        )
+        if debug:
+            LOGGER.info("Property lookup typed value for %s: %s", owner_query, typed_value)
+        before = await property_result_text(page)
+        submitted = await page.evaluate(
+            """() => {
+                const isVisible = el => {
+                    const rect = el.getBoundingClientRect();
+                    const style = window.getComputedStyle(el);
+                    return rect.width > 0 && rect.height > 0 && style.visibility !== 'hidden' && style.display !== 'none';
+                };
                 const buttons = [...document.querySelectorAll('#btnSearchJS, button[type="submit"], button')];
                 const button = buttons.find(btn => isVisible(btn) && /search/i.test(btn.innerText || btn.textContent || btn.value || '')) || buttons.find(isVisible);
                 if (button) {
@@ -1287,8 +1315,7 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
                     return true;
                 }
                 return false;
-            }""",
-            owner_query,
+            }"""
         )
         if not submitted:
             LOGGER.info("Property lookup could not submit search for %s.", owner_query)
