@@ -39,6 +39,7 @@ CLERK_HOME = "https://or.hernandoclerk.com/LandmarkWeb/Home/Index"
 CLERK_ROOT = "https://or.hernandoclerk.com"
 PA_HOME = "https://propsearch.hernandocountypa-florida.us/home"
 PA_ROOT = "https://propsearch.hernandocountypa-florida.us"
+PA_ARCGIS_PARCELS_URL = "https://services2.arcgis.com/x5zvhhxfUuRDntRe/arcgis/rest/services/Parcels/FeatureServer/0/query"
 
 LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "30"))
 DOCUMENT_TYPES = ("LIS PENDENS", "PROBATE")
@@ -51,6 +52,7 @@ CLERK_DOC_TYPE_IDS = {
     "PROBATE": "1044,1045,1107,1175",
 }
 PROPERTY_DBF_URL = os.getenv("HERNANDO_PARCEL_DBF_URL", "")
+ENABLE_BROWSER_PA_LOOKUP = os.getenv("HERNANDO_ENABLE_BROWSER_PA_LOOKUP", "").lower() in {"1", "true", "yes"}
 
 PROBATE_USERNAME = os.getenv("HERNANDO_CLERK_USERNAME", "")
 PROBATE_PASSWORD = os.getenv("HERNANDO_CLERK_PASSWORD", "")
@@ -1037,6 +1039,102 @@ def parcel_from_dbf_row(row: dict[str, Any]) -> ParcelRecord:
     )
 
 
+def arcgis_sql(value: str) -> str:
+    return clean(value).upper().replace("'", "''")
+
+
+def parcel_from_arcgis_attrs(attrs: dict[str, Any]) -> ParcelRecord:
+    legal = " ".join(
+        part
+        for part in (
+            clean(attrs.get("LEGAL1")),
+            clean(attrs.get("LEGAL2")),
+            clean(attrs.get("LEGAL3")),
+            clean(attrs.get("LEGAL4")),
+        )
+        if part
+    )
+    return ParcelRecord(
+        owner=clean(attrs.get("OWNER_NAME")),
+        legal=legal,
+        key=clean(attrs.get("PARCEL_KEY") or attrs.get("CHAKEY") or attrs.get("PARCEL_NUMBER")),
+        prop_address=clean(attrs.get("SITUS_ADDRESS")),
+        prop_city=clean(attrs.get("SITUS_CITY")),
+        prop_state="FL",
+        prop_zip=clean(attrs.get("SITUS_ZIP5")),
+        mail_address=clean(attrs.get("MAIL_ADDR1")),
+        mail_city=clean(attrs.get("MAIL_CITY")),
+        mail_state=clean(attrs.get("MAIL_STATE")) or "FL",
+        mail_zip=clean(attrs.get("MAIL_POSTALCODE")),
+    )
+
+
+def legal_match_score(lead_legal: str, parcel_legal: str) -> int:
+    lead_norm = normalize_key(lead_legal)
+    parcel_norm = normalize_key(parcel_legal)
+    if lead_norm and parcel_norm and (lead_norm in parcel_norm or parcel_norm in lead_norm):
+        return 100
+    lead_tokens = {token for token in re.findall(r"[A-Z0-9]{3,}", clean(lead_legal).upper()) if token not in {"THE", "AND", "UNIT"}}
+    parcel_tokens = {token for token in re.findall(r"[A-Z0-9]{3,}", clean(parcel_legal).upper()) if token not in {"THE", "AND", "UNIT"}}
+    return len(lead_tokens & parcel_tokens)
+
+
+def choose_best_arcgis_parcel(parcels: list[ParcelRecord], owner_query: str, legal: str = "") -> ParcelRecord | None:
+    if not parcels:
+        return None
+    owner_norm = normalize_owner(owner_query)
+
+    def score(parcel: ParcelRecord) -> tuple[int, int, int]:
+        parcel_owner = normalize_owner(parcel.owner)
+        owner_score = 2 if parcel_owner.startswith(owner_norm) else int(owner_norm in parcel_owner)
+        address_score = int(bool(parcel.prop_address or parcel.mail_address))
+        return (legal_match_score(legal, parcel.legal), owner_score, address_score)
+
+    return max(parcels, key=score)
+
+
+def lookup_property_arcgis(session: requests.Session, owner: str = "", legal: str = "", key: str = "") -> ParcelRecord | None:
+    owner_query = property_appraiser_owner_query(owner)
+    where_parts: list[str] = []
+    if key and normalize_key(key).isdigit():
+        where_parts.append(f"PARCEL_KEY = {int(normalize_key(key))}")
+    if owner_query:
+        owner_sql = arcgis_sql(owner_query)
+        where_parts.append(f"UPPER(OWNER_NAME) LIKE '{owner_sql}%'")
+        where_parts.append(f"UPPER(OWNER_NAME2) LIKE '{owner_sql}%'")
+    if not where_parts:
+        return None
+    params = {
+        "f": "json",
+        "where": " OR ".join(where_parts),
+        "outFields": (
+            "PARCEL_KEY,CHAKEY,PARCEL_NUMBER,OWNER_NAME,OWNER_NAME2,SITUS_ADDRESS,SITUS_CITY,"
+            "SITUS_ZIP5,MAIL_ADDR1,MAIL_ADDR2,MAIL_CITY,MAIL_STATE,MAIL_POSTALCODE,"
+            "LEGAL1,LEGAL2,LEGAL3,LEGAL4"
+        ),
+        "returnGeometry": "false",
+        "resultRecordCount": "10",
+    }
+    response = retry_sync(
+        f"arcgis parcel lookup {owner_query or key}",
+        lambda: session.get(PA_ARCGIS_PARCELS_URL, params=params, timeout=HTTP_TIMEOUT),
+    )
+    response.raise_for_status()
+    payload = response.json()
+    if payload.get("error"):
+        LOGGER.debug("ArcGIS parcel lookup error for %s: %s", owner_query or key, payload["error"])
+        return None
+    parcels = [
+        parcel_from_arcgis_attrs(feature.get("attributes", {}))
+        for feature in payload.get("features", [])
+        if feature.get("attributes")
+    ]
+    parcel = choose_best_arcgis_parcel(parcels, owner_query, legal)
+    if parcel:
+        LOGGER.info("ArcGIS parcel match for %s: %s, %s.", owner_query or key, parcel.owner, parcel.prop_address or parcel.mail_address)
+    return parcel
+
+
 def build_parcel_index() -> ParcelIndex:
     index = ParcelIndex()
     session = requests_session()
@@ -1057,6 +1155,12 @@ def build_parcel_index() -> ParcelIndex:
 
 
 def lookup_property_individually(session: requests.Session, owner: str = "", legal: str = "", key: str = "") -> ParcelRecord | None:
+    try:
+        parcel = lookup_property_arcgis(session, owner=owner, legal=legal, key=key)
+        if parcel:
+            return parcel
+    except Exception as exc:  # noqa: BLE001
+        LOGGER.debug("ArcGIS property lookup failed for %s: %s", owner or key, exc)
     owner_query = property_appraiser_owner_query(owner)
     legal_query = clean(legal)
     if len(legal_query) > 80:
@@ -1624,7 +1728,8 @@ async def main() -> None:
         LOGGER.exception("Clerk fetch failed; writing empty output instead of crashing: %s", exc)
         leads = []
     enrich_leads_with_property_data(leads)
-    await enrich_leads_with_property_data_browser(leads)
+    if ENABLE_BROWSER_PA_LOOKUP:
+        await enrich_leads_with_property_data_browser(leads)
     for lead in leads:
         score_lead(lead, today)
     apply_combo_bonus(leads)
