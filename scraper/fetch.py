@@ -1095,17 +1095,36 @@ def extract_property_details(html: str) -> ParcelRecord | None:
     if not re.search(r"(owner|mailing|site|property)", text, re.I):
         return None
     details = extract_by_labels(html)
-    owner = value_for(details, "owner")
-    prop_address = value_for(details, "site address", "property address", "situs")
+    owner = value_for(details, "owner name", "owner")
+    prop_address = value_for(details, "situs address", "site address", "property address")
     mail_address = value_for(details, "mailing address", "mail address")
-    legal = value_for(details, "legal")
-    key = value_for(details, "key", "parcel")
+    legal = value_for(details, "legal description", "legal")
+    key = value_for(details, "parcel key")
+    parcel_number = value_for(details, "parcel number")
+    if not owner:
+        match = re.search(r"Owner Name:\s*(.+?)(?:\s+Parcel Number:|\n|$)", text, re.I)
+        owner = clean(match.group(1)) if match else ""
+    if not mail_address:
+        match = re.search(r"Mailing Address:\s*(.+?)(?:\s+Property & Assessment Values|\s+Building:|\n\s*\n|$)", text, re.I | re.S)
+        mail_address = clean(match.group(1)) if match else ""
+    if not prop_address:
+        match = re.search(r"Situs Address:\s*(.+?)(?:\s+Sec/Tnshp/Rng:|\n|$)", text, re.I)
+        prop_address = clean(match.group(1)) if match else ""
+    if not legal:
+        match = re.search(r"Legal Description:\s*(.+?)(?:\s+Levy Code:|\s+Subdivision:|\n|$)", text, re.I)
+        legal = clean(match.group(1)) if match else ""
+    if not key:
+        match = re.search(r"Parcel Key:\s*(\d+)", text, re.I)
+        key = clean(match.group(1)) if match else ""
+    if not parcel_number:
+        match = re.search(r"Parcel Number:\s*([A-Z0-9 \-]+)", text, re.I)
+        parcel_number = clean(match.group(1)) if match else ""
     if not (owner or prop_address or mail_address or legal):
         return None
     return ParcelRecord(
         owner=owner,
         legal=legal,
-        key=key,
+        key=key or parcel_number,
         prop_address=prop_address,
         prop_city=value_for(details, "site city", "property city"),
         prop_state="FL",
@@ -1120,6 +1139,18 @@ def extract_property_details(html: str) -> ParcelRecord | None:
 def extract_property_search_result(html: str, fallback_owner: str = "") -> ParcelRecord | None:
     soup = BeautifulSoup(html, "lxml")
     container = soup.select_one("#resultContainer") or soup
+    for tr in container.select("tr"):
+        header_cells = [clean(cell.get_text(" ")) for cell in tr.find_all("th")]
+        data_cells = [clean(cell.get_text(" ")) for cell in tr.find_all("td")]
+        if header_cells:
+            continue
+        if len(data_cells) >= 3 and re.fullmatch(r"\d{5,}", data_cells[0]):
+            return ParcelRecord(
+                key=data_cells[0],
+                owner=data_cells[1] or fallback_owner,
+                prop_address=data_cells[2],
+                prop_state="FL",
+            )
     for card in container.select(".card, .list-group-item, .result, [class*='result'], [class*='parcel']"):
         card_text = clean(card.get_text(" "))
         if not re.search(r"\d{1,6}\s+[A-Z0-9]", card_text, re.I):
@@ -1130,16 +1161,6 @@ def extract_property_search_result(html: str, fallback_owner: str = "") -> Parce
         key = value_for(details, "key", "parcel")
         if address or key:
             return ParcelRecord(key=key, owner=owner, prop_address=address, prop_state="FL")
-    for tr in container.select("tr"):
-        cells = [clean(cell.get_text(" ")) for cell in tr.find_all(["td", "th"])]
-        cells = [cell for cell in cells if cell]
-        if len(cells) >= 3 and re.search(r"\d", cells[0]):
-            return ParcelRecord(
-                key=cells[0],
-                owner=cells[1],
-                prop_address=cells[2],
-                prop_state="FL",
-            )
     text = clean(container.get_text(" "))
     patterns = (
         r"Key\s*#?\s*(?P<key>\d{3,})\s+Owner\s*(?P<owner>.+?)\s+Address\s*(?P<address>\d{1,6}\s+.+?)(?:\s+Key\s*#|\s*$)",
@@ -1245,8 +1266,9 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
     parcel = extract_property_search_result(content, owner_query)
     try:
         result_links = page.locator(
-            "#resultContainer a[href], #resultContainer button, "
-            "#resultContainer [role='button'], #resultContainer tr"
+            "#resultContainer button:has-text('Details'), "
+            "#resultContainer a:has-text('Details'), "
+            "#resultContainer a[href], #resultContainer [role='button']"
         ).filter(has_not_text=re.compile("download|print|clear", re.I))
         if await result_links.count():
             await result_links.first.click(timeout=5000)
@@ -1392,6 +1414,12 @@ def property_appraiser_owner_query(name: str) -> str:
     suffixes = {"JR", "JR.", "SR", "SR.", "II", "III", "IV", "V", "PR", "TR", "TRSTE", "TRUSTEE", "EST"}
     parts = [part.strip(" .") for part in name.replace(",", " ").split() if part.strip(" .")]
     parts = [part for part in parts if part.upper() not in suffixes and len(part) > 1]
+    if len(parts) >= 3 and len(parts[1]) == 1:
+        return f"{parts[-1]} {parts[0]}"
+    if len(parts) >= 3 and len(parts[1]) > 1 and not re.search(r"\b(PR|ESTATE|TRUST)\b", name, re.I):
+        # Clerk usually already emits LAST FIRST MIDDLE. If a source sends FIRST MIDDLE LAST,
+        # PA will need LAST FIRST, but preserving the first two tokens works for Clerk rows.
+        return f"{parts[0]} {parts[1]}"
     if len(parts) >= 2:
         return f"{parts[0]} {parts[1]}"
     return " ".join(parts)
