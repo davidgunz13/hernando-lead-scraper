@@ -1196,17 +1196,46 @@ async def accept_property_disclaimer(page: Page) -> None:
     for selector in (
         "button:has-text('Accept')",
         "button:has-text('I Agree')",
+        "button:has-text('Agree')",
+        "button:has-text('Continue')",
+        "button:has-text('Proceed')",
+        "input[type='submit']",
+        ".btn-primary",
         "text=/I\\s+agree/i",
         "text=/Accept/i",
     ):
         try:
             locator = page.locator(selector).first
             if await locator.count():
-                await locator.click(timeout=2500)
+                await locator.click(timeout=5000, force=True)
                 await page.wait_for_timeout(750)
-                return
+                if await page.locator("#txtOwnerName, input[placeholder='Owner Name']").count():
+                    return
         except Exception:
             continue
+    try:
+        clicked = await page.evaluate(
+            """() => {
+                const text = document.body.innerText || '';
+                if (!/DATA DISCLAIMER AGREEMENT/i.test(text)) return true;
+                const visible = el => {
+                    const rect = el.getBoundingClientRect();
+                    const style = getComputedStyle(el);
+                    return rect.width > 0 && rect.height > 0 && style.display !== 'none' && style.visibility !== 'hidden';
+                };
+                const candidates = [...document.querySelectorAll('button, input[type=submit], a.btn, .btn')].filter(visible);
+                const preferred = candidates.find(el => /accept|agree|continue|proceed|search/i.test(el.innerText || el.value || el.textContent || '')) || candidates[0];
+                if (preferred) {
+                    preferred.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, view: window }));
+                    return true;
+                }
+                return false;
+            }"""
+        )
+        if clicked:
+            await page.wait_for_timeout(1200)
+    except Exception:
+        pass
 
 
 async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", debug: bool = False) -> ParcelRecord | None:
@@ -1216,10 +1245,20 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
     try:
         await page.goto(PA_HOME, wait_until="domcontentloaded", timeout=30000)
         await accept_property_disclaimer(page)
+        try:
+            await page.wait_for_selector("#txtOwnerName, input[placeholder='Owner Name']", timeout=10000)
+        except Exception:
+            await accept_property_disclaimer(page)
         await page.wait_for_timeout(2000)
         input_count = await page.locator("#txtOwnerName, input[placeholder='Owner Name']").count()
         if input_count == 0:
-            LOGGER.info("Property lookup could not find Owner Name input for %s. Body: %s", owner_query, (await property_result_text(page))[:500])
+            body_text = await property_result_text(page)
+            LOGGER.info(
+                "Property lookup could not find Owner Name input for %s. URL=%s Body=%s",
+                owner_query,
+                page.url,
+                body_text[:220],
+            )
             return None
         before = await property_result_text(page)
         submitted = await page.evaluate(
