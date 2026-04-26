@@ -1,2 +1,2 @@
-__pycache__/ 
-echo *.pyc 
+__pycache__/
+*.pyc
