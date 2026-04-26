@@ -592,6 +592,19 @@ def lead_from_row(row: dict[str, str], doc_type: str) -> LeadRecord:
         if "LIS" in doc_type.upper()
         else value_for(row, "decedent")
     )
+    owner = owner or value_for(row, "grantor", "party", "name", "owner")
+    return LeadRecord(
+        doc_num=value_for(row, "document", "instrument", "doc #", "doc no") or value_for(row, "number"),
+        doc_type=doc_type,
+        filed=value_for(row, "filed", "recorded", "record date", "date"),
+        cat=cat,
+        cat_label=cat_label,
+        owner=owner,
+        grantee=value_for(row, "grantee", "plaintiff", "petitioner"),
+        amount=value_for(row, "amount", "consideration", "debt"),
+        legal=value_for(row, "legal"),
+        clerk_url=row.get("_url", ""),
+    )
 
 
 def has_real_record_signal(lead: LeadRecord) -> bool:
@@ -619,19 +632,6 @@ def has_real_record_signal(lead: LeadRecord) -> bool:
     if lead.legal and len(lead.legal) >= 20:
         return True
     return False
-    owner = owner or value_for(row, "grantor", "party", "name", "owner")
-    return LeadRecord(
-        doc_num=value_for(row, "document", "instrument", "doc #", "doc no") or value_for(row, "number"),
-        doc_type=doc_type,
-        filed=value_for(row, "filed", "recorded", "record date", "date"),
-        cat=cat,
-        cat_label=cat_label,
-        owner=owner,
-        grantee=value_for(row, "grantee", "plaintiff", "petitioner"),
-        amount=value_for(row, "amount", "consideration", "debt"),
-        legal=value_for(row, "legal"),
-        clerk_url=row.get("_url", ""),
-    )
 
 
 async def enrich_from_detail_page(page: Page, lead: LeadRecord) -> LeadRecord:
