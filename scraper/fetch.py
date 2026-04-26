@@ -46,6 +46,10 @@ OUTPUT_JSON_PATHS = (Path("dashboard/records.json"), Path("data/records.json"))
 DATASIFT_CSV_PATHS = (Path("dashboard/datasift_export.csv"), Path("data/datasift_export.csv"))
 HTTP_TIMEOUT = 45
 MAX_RETRIES = 3
+CLERK_DOC_TYPE_IDS = {
+    "LIS PENDENS": "987,988,989,1153,1154,1155",
+    "PROBATE": "1044,1045,1107,1175",
+}
 
 PROBATE_USERNAME = os.getenv("HERNANDO_CLERK_USERNAME", "")
 PROBATE_PASSWORD = os.getenv("HERNANDO_CLERK_PASSWORD", "")
@@ -585,6 +589,14 @@ def value_for(row: dict[str, str], *needles: str) -> str:
     return ""
 
 
+def clean_clerk_cell(value: Any) -> str:
+    text = clean(value)
+    text = re.sub(r"^(hidden_legalfield_|hidden_|nobreak_|unclickable_)", "", text)
+    if "<" in text and ">" in text:
+        text = BeautifulSoup(text.replace("<div class='nameSeperator'></div>", "; "), "lxml").get_text(" ")
+    return clean(text)
+
+
 def lead_from_row(row: dict[str, str], doc_type: str) -> LeadRecord:
     cat, cat_label = category_for_doc_type(doc_type)
     owner = (
@@ -604,6 +616,34 @@ def lead_from_row(row: dict[str, str], doc_type: str) -> LeadRecord:
         amount=value_for(row, "amount", "consideration", "debt"),
         legal=value_for(row, "legal"),
         clerk_url=row.get("_url", ""),
+    )
+
+
+def lead_from_datatables_row(row: dict[str, Any], doc_type: str) -> LeadRecord:
+    cat, cat_label = category_for_doc_type(doc_type)
+    doc_id = clean_clerk_cell(row.get("26", ""))
+    doc_num = clean_clerk_cell(row.get("12", ""))
+    direct_name = clean_clerk_cell(row.get("5", ""))
+    reverse_name = clean_clerk_cell(row.get("6", ""))
+    owner = reverse_name if cat == "LP" else direct_name or reverse_name
+    legal = clean_clerk_cell(row.get("14", ""))
+    filed = clean_clerk_cell(row.get("7", ""))
+    doc_label = clean_clerk_cell(row.get("8", "")) or doc_type
+    return LeadRecord(
+        doc_num=doc_num,
+        doc_type=doc_label,
+        filed=filed,
+        cat=cat,
+        cat_label=cat_label,
+        owner=owner,
+        grantee=direct_name if cat == "LP" else reverse_name,
+        amount=clean_clerk_cell(row.get("13", "")),
+        legal=legal,
+        clerk_url=(
+            f"{CLERK_ROOT}/LandmarkWeb/Document/Index?id={quote_plus(doc_id)}"
+            if doc_id
+            else CLERK_HOME
+        ),
     )
 
 
@@ -666,6 +706,12 @@ async def enrich_from_detail_page(page: Page, lead: LeadRecord) -> LeadRecord:
 
 
 async def fetch_clerk_records(start_date: date, end_date: date) -> list[LeadRecord]:
+    direct_leads = fetch_clerk_records_direct(start_date, end_date)
+    if direct_leads:
+        LOGGER.info("Fetched %s Clerk records through direct Landmark results endpoint.", len(direct_leads))
+        return dedupe_leads(direct_leads)
+
+    LOGGER.warning("Direct Clerk endpoint returned no records; falling back to Playwright grid scraping.")
     async with async_playwright() as pw:
         browser: Browser = await pw.chromium.launch(headless=True)
         context = await browser.new_context(
@@ -708,6 +754,92 @@ async def fetch_clerk_records(start_date: date, end_date: date) -> list[LeadReco
         await context.close()
         await browser.close()
     return dedupe_leads(leads)
+
+
+def fetch_clerk_records_direct(start_date: date, end_date: date) -> list[LeadRecord]:
+    session = requests_session()
+    leads: list[LeadRecord] = []
+    try:
+        retry_sync("clerk home", lambda: session.get(CLERK_HOME, timeout=HTTP_TIMEOUT)).raise_for_status()
+        retry_sync(
+            "clerk disclaimer",
+            lambda: session.post(f"{CLERK_ROOT}/LandmarkWeb/Search/SetDisclaimer", timeout=HTTP_TIMEOUT),
+        ).raise_for_status()
+        search_url = f"{CLERK_ROOT}/LandmarkWeb/search/index?theme=.blue&section=searchCriteriaDocuments&quickSearchSelection="
+        retry_sync("clerk document type search page", lambda: session.get(search_url, timeout=HTTP_TIMEOUT)).raise_for_status()
+        for doc_type in DOCUMENT_TYPES:
+            ids = CLERK_DOC_TYPE_IDS[doc_type]
+            criteria = {
+                "doctype": ids,
+                "beginDate": start_date.strftime("%m/%d/%Y"),
+                "endDate": end_date.strftime("%m/%d/%Y"),
+                "recordCount": "2000",
+                "exclude": "false",
+                "ReturnIndexGroups": "false",
+                "townName": "",
+                "mobileHomesOnly": "false",
+                "g-recaptcha-response": "",
+            }
+            response = retry_sync(
+                f"clerk direct criteria {doc_type}",
+                lambda criteria=criteria: session.post(
+                    f"{CLERK_ROOT}/LandmarkWeb/Search/DocumentTypeSearch",
+                    data=criteria,
+                    headers={
+                        "X-Requested-With": "XMLHttpRequest",
+                        "Referer": search_url,
+                    },
+                    timeout=HTTP_TIMEOUT,
+                ),
+            )
+            response.raise_for_status()
+            result_json = fetch_clerk_datatables_page(session, search_url)
+            data = result_json.get("data") or []
+            LOGGER.info("Direct Clerk endpoint returned %s %s rows.", len(data), doc_type)
+            for item in data:
+                try:
+                    lead = lead_from_datatables_row(item, doc_type)
+                    filed_date = parse_date(lead.filed)
+                    if filed_date and start_date <= filed_date <= end_date and has_real_record_signal(lead):
+                        leads.append(lead)
+                except Exception as exc:  # noqa: BLE001
+                    LOGGER.warning("Skipping bad direct Clerk row for %s: %s", doc_type, exc)
+    except Exception as exc:  # noqa: BLE001
+        LOGGER.warning("Direct Clerk fetch failed: %s", exc)
+    return leads
+
+
+def fetch_clerk_datatables_page(session: requests.Session, referer: str, start: int = 0, length: int = 2000) -> dict[str, Any]:
+    payload: dict[str, str] = {
+        "draw": "1",
+        "start": str(start),
+        "length": str(length),
+        "search[value]": "",
+        "search[regex]": "false",
+        "order[0][column]": "0",
+        "order[0][dir]": "asc",
+    }
+    for idx in range(35):
+        payload[f"columns[{idx}][data]"] = str(idx)
+        payload[f"columns[{idx}][name]"] = ""
+        payload[f"columns[{idx}][searchable]"] = "true"
+        payload[f"columns[{idx}][orderable]"] = "true"
+        payload[f"columns[{idx}][search][value]"] = ""
+        payload[f"columns[{idx}][search][regex]"] = "false"
+    response = retry_sync(
+        "clerk datatables results",
+        lambda: session.post(
+            f"{CLERK_ROOT}/LandmarkWeb/Search/GetSearchResults",
+            data=payload,
+            headers={
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": referer,
+            },
+            timeout=HTTP_TIMEOUT,
+        ),
+    )
+    response.raise_for_status()
+    return response.json()
 
 
 def dedupe_leads(leads: Iterable[LeadRecord]) -> list[LeadRecord]:
