@@ -308,11 +308,47 @@ async def maybe_login(page: Page) -> None:
         LOGGER.warning("Clerk login was not completed: %s", exc)
 
 
-async def open_record_date_search(page: Page) -> None:
+async def select_option_containing(page: Page, terms: Iterable[str], exact: bool = False) -> bool:
+    wanted = [term.upper() for term in terms if clean(term)]
+    candidates = page.locator("select")
+    for idx in range(await candidates.count()):
+        select = candidates.nth(idx)
+        try:
+            options = await select.locator("option").all_text_contents()
+            for option in options:
+                normalized = clean(option).upper()
+                if not normalized:
+                    continue
+                matched = normalized in wanted if exact else any(term in normalized for term in wanted)
+                if matched:
+                    await select.select_option(label=option.strip(), timeout=3000)
+                    await page.wait_for_load_state("networkidle", timeout=10000)
+                    await page.wait_for_timeout(750)
+                    return True
+        except Exception:
+            continue
+    return False
+
+
+async def click_text_candidate(page: Page, patterns: Iterable[str]) -> bool:
+    for pattern in patterns:
+        try:
+            locator = page.locator(f"text=/{pattern}/i").first
+            if await locator.count():
+                await locator.click(timeout=5000)
+                await page.wait_for_load_state("networkidle", timeout=15000)
+                await page.wait_for_timeout(750)
+                return True
+        except Exception:
+            continue
+    return False
+
+
+async def open_document_type_search(page: Page) -> None:
     candidate_urls = (
-        "https://or.hernandoclerk.com/LandmarkWeb/Search/RecordDate",
-        "https://or.hernandoclerk.com/LandmarkWeb/Search/RecordingDate",
-        "https://or.hernandoclerk.com/LandmarkWeb/Document/SearchByRecordDate",
+        "https://or.hernandoclerk.com/LandmarkWeb/Search/DocumentType",
+        "https://or.hernandoclerk.com/LandmarkWeb/Search/DocType",
+        "https://or.hernandoclerk.com/LandmarkWeb/Document/SearchByDocumentType",
         CLERK_HOME,
     )
     for url in candidate_urls:
@@ -320,19 +356,24 @@ async def open_record_date_search(page: Page) -> None:
             await page.goto(url, wait_until="networkidle", timeout=30000)
             await accept_clerk_disclaimer(page)
             text = (await page.content()).lower()
-            if "record date" in text or "document type" in text:
+            if "document type" in text:
                 break
         except Exception:
             continue
+
+    await select_option_containing(page, ("Document Type",), exact=True)
+    await click_text_candidate(page, (r"document\s*type",))
+
     for selector in (
-        "a:has-text('record date')",
-        "text=/record\\s*date/i",
-        "img[src*=recordDate]",
+        "a:has-text('Document Type')",
+        "button:has-text('Document Type')",
+        "input[value*='Document Type']",
     ):
         try:
             if await page.locator(selector).count():
                 await page.locator(selector).first.click(timeout=5000)
                 await page.wait_for_load_state("networkidle", timeout=15000)
+                await page.wait_for_timeout(750)
                 break
         except Exception:
             continue
@@ -351,20 +392,58 @@ async def fill_first_matching(page: Page, selectors: Iterable[str], value: str) 
 
 
 async def choose_document_type(page: Page, doc_type: str) -> None:
+    if await select_option_containing(page, (doc_type,)):
+        return
+    for selector in ("input[name*='DocType' i]", "input[id*='DocType' i]", "input[placeholder*='document' i]"):
+        if await fill_first_matching(page, (selector,), doc_type):
+            return
+
+
+async def choose_last_30_days(page: Page) -> bool:
+    return await select_option_containing(page, ("Last 30 Days", "Last 30", "30 Days"))
+
+
+async def set_max_results_per_page(page: Page) -> None:
     candidates = page.locator("select")
+    best: tuple[int, int, str] | None = None
     for idx in range(await candidates.count()):
         select = candidates.nth(idx)
         try:
             options = await select.locator("option").all_text_contents()
             for option in options:
-                if doc_type.upper() in option.upper():
-                    await select.select_option(label=option.strip(), timeout=2000)
-                    return
+                text = clean(option)
+                match = re.search(r"\b(25|50|100|200|500|1000|2000)\b", text)
+                if match:
+                    value = int(match.group(1))
+                    if value <= 2000 and (best is None or value > best[0]):
+                        best = (value, idx, option.strip())
         except Exception:
             continue
-    for selector in ("input[name*='DocType' i]", "input[id*='DocType' i]", "input[placeholder*='document' i]"):
-        if await fill_first_matching(page, (selector,), doc_type):
-            return
+    if best:
+        _, idx, label = best
+        try:
+            await candidates.nth(idx).select_option(label=label, timeout=3000)
+            await page.wait_for_load_state("networkidle", timeout=10000)
+            await page.wait_for_timeout(750)
+            LOGGER.info("Set Clerk results per page to %s.", label)
+        except Exception as exc:  # noqa: BLE001
+            LOGGER.debug("Could not set results per page to %s: %s", label, exc)
+
+
+async def log_clerk_page_diagnostics(page: Page, doc_type: str) -> None:
+    try:
+        title = await page.title()
+        selects: list[str] = []
+        for idx in range(await page.locator("select").count()):
+            options = [clean(option) for option in await page.locator("select").nth(idx).locator("option").all_text_contents()]
+            options = [option for option in options if option][:12]
+            if options:
+                selects.append(f"select {idx}: {options}")
+        table_count = await page.locator("table").count()
+        LOGGER.info("No %s rows parsed. Current URL: %s", doc_type, page.url)
+        LOGGER.info("Clerk page title: %s; tables: %s; selects: %s", title, table_count, " | ".join(selects)[:1800])
+    except Exception as exc:  # noqa: BLE001
+        LOGGER.debug("Could not log Clerk diagnostics: %s", exc)
 
 
 async def submit_search(page: Page) -> None:
@@ -385,41 +464,47 @@ async def submit_search(page: Page) -> None:
 
 
 async def run_clerk_search(page: Page, doc_type: str, start_date: date, end_date: date) -> str:
-    await open_record_date_search(page)
+    await open_document_type_search(page)
     await choose_document_type(page, doc_type)
     start = start_date.strftime("%m/%d/%Y")
     end = end_date.strftime("%m/%d/%Y")
-    start_filled = await fill_first_matching(
-        page,
-        (
-            "input[name*='Start' i]",
-            "input[id*='Start' i]",
-            "input[name*='From' i]",
-            "input[id*='From' i]",
-            "input[placeholder*='Start' i]",
-            "input[placeholder*='From' i]",
-            "input[type='date']",
-        ),
-        start,
-    )
-    end_filled = await fill_first_matching(
-        page,
-        (
-            "input[name*='End' i]",
-            "input[id*='End' i]",
-            "input[name*='To' i]",
-            "input[id*='To' i]",
-            "input[placeholder*='End' i]",
-            "input[placeholder*='To' i]",
-        ),
-        end,
-    )
-    if not (start_filled and end_filled):
+    used_relative_date = await choose_last_30_days(page)
+    start_filled = False
+    end_filled = False
+    if not used_relative_date:
+        start_filled = await fill_first_matching(
+            page,
+            (
+                "input[name*='Start' i]",
+                "input[id*='Start' i]",
+                "input[name*='From' i]",
+                "input[id*='From' i]",
+                "input[placeholder*='Start' i]",
+                "input[placeholder*='From' i]",
+                "input[type='date']",
+            ),
+            start,
+        )
+        end_filled = await fill_first_matching(
+            page,
+            (
+                "input[name*='End' i]",
+                "input[id*='End' i]",
+                "input[name*='To' i]",
+                "input[id*='To' i]",
+                "input[placeholder*='End' i]",
+                "input[placeholder*='To' i]",
+            ),
+            end,
+        )
+    if not used_relative_date and not (start_filled and end_filled):
         date_inputs = page.locator("input[type='date']")
         if await date_inputs.count() >= 2:
             await date_inputs.nth(0).fill(start_date.isoformat(), timeout=3000)
             await date_inputs.nth(1).fill(end_date.isoformat(), timeout=3000)
+    await set_max_results_per_page(page)
     await submit_search(page)
+    await set_max_results_per_page(page)
     return await page.content()
 
 
@@ -441,7 +526,9 @@ def table_rows_from_html(html: str) -> list[dict[str, str]]:
             "book",
             "page",
             "record",
+            "date",
             "filed",
+            "type",
             "legal",
             "grantor",
             "grantee",
@@ -601,6 +688,8 @@ async def fetch_clerk_records(start_date: date, end_date: date) -> list[LeadReco
                 )
                 rows = table_rows_from_html(html)
                 LOGGER.info("Found %s candidate %s rows.", len(rows), doc_type)
+                if not rows:
+                    await log_clerk_page_diagnostics(page, doc_type)
                 for row in rows:
                     try:
                         lead = lead_from_row(row, doc_type)
