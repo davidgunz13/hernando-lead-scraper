@@ -950,7 +950,7 @@ def find_bulk_dbf_url(session: requests.Session) -> tuple[str, dict[str, str] | 
             return urljoin(PA_ROOT, link["href"]), None
     for form in soup.find_all("form"):
         form_text = clean(form.get_text(" ")).lower()
-        if not any(token in form_text for token in ("dbf", "tax roll", "taxroll", "download", "parcel")):
+        if not any(token in form_text for token in ("dbf", "tax roll", "taxroll", "download", "bulk")):
             continue
         fields = {
             input_el.get("name"): input_el.get("value", "")
@@ -971,7 +971,8 @@ def find_bulk_dbf_url(session: requests.Session) -> tuple[str, dict[str, str] | 
                     fields[element["name"]] = element.get("value", "")
                 break
         action = form.get("action") or PA_HOME
-        if fields:
+        action_text = clean(action).lower()
+        if fields and any(token in f"{form_text} {action_text} {target.lower()}" for token in ("dbf", "tax roll", "taxroll", "download", "bulk")):
             return urljoin(PA_ROOT, action), fields
     return "", None
 
