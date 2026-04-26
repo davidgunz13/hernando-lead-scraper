@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-26T20:35:54.158670+00:00",
+  "fetched_at": "2026-04-26T20:44:35.385571+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
@@ -11,6 +11,8 @@
   },
   "total": 81,
   "with_address": 38,
+  "ready_to_upload": 35,
+  "needs_review": 46,
   "records": [
     {
       "doc_num": "2026021041",
