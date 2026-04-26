@@ -1197,9 +1197,27 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
         await accept_property_disclaimer(page)
         owner_input = page.locator("#txtOwnerName")
         await owner_input.wait_for(state="visible", timeout=15000)
-        await owner_input.fill(owner_query, timeout=10000)
+        await page.wait_for_timeout(2000)
+        await owner_input.click(timeout=5000)
+        await owner_input.press("Control+A", timeout=5000)
+        await owner_input.type(owner_query, delay=40, timeout=10000)
         before = await property_result_text(page)
-        await owner_input.press("Enter", timeout=5000)
+        await page.evaluate(
+            """() => {
+                const input = document.querySelector('#txtOwnerName');
+                if (input) {
+                    input.dispatchEvent(new Event('input', { bubbles: true }));
+                    input.dispatchEvent(new Event('change', { bubbles: true }));
+                }
+                const form = document.querySelector('form');
+                if (form && form.requestSubmit) {
+                    form.requestSubmit();
+                } else {
+                    const button = document.querySelector('#btnSearchJS');
+                    if (button) button.click();
+                }
+            }"""
+        )
         try:
             await page.wait_for_function(
                 """before => {
@@ -1207,14 +1225,14 @@ async def lookup_property_with_browser(page: Page, owner: str, legal: str = "", 
                     return el && el.innerText && el.innerText.trim() && el.innerText.trim() !== before;
                 }""",
                 arg=before,
-                timeout=12000,
+                timeout=8000,
             )
         except Exception:
             try:
-                await page.locator("#btnSearchJS").dispatch_event("click", timeout=5000)
+                await page.locator("#btnSearchJS").click(timeout=5000, force=True)
             except Exception:
                 pass
-            await page.wait_for_timeout(5000)
+            await page.wait_for_timeout(3000)
         try:
             await page.wait_for_load_state("networkidle", timeout=10000)
         except Exception:
