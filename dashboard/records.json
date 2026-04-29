@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-29T02:45:46.249800+00:00",
+  "fetched_at": "2026-04-29T19:06:09.715680+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
@@ -9,10 +9,10 @@
     "end": "2026-04-29",
     "lookback_days": 30
   },
-  "total": 97,
-  "with_address": 50,
-  "ready_to_upload": 47,
-  "needs_review": 50,
+  "total": 101,
+  "with_address": 51,
+  "ready_to_upload": 48,
+  "needs_review": 53,
   "records": [
     {
       "doc_num": "2026021041",
@@ -2379,6 +2379,102 @@
         "Probate / estate"
       ],
       "score": 45
+    },
+    {
+      "doc_num": "2026024357",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "04/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "CASSADAY DANIEL RAY",
+      "grantee": "CASSADAY MICHAEL",
+      "amount": "",
+      "legal": "L13 Blk1549 Un22 SubSPRING HILL S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3475252",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
+    },
+    {
+      "doc_num": "2026024396",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "04/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "CLAUDIO JOSE PEDRO; CLAUDIO JOSE P; CLAUDIO JOSE",
+      "grantee": "CLAUDIO ANTONIO",
+      "amount": "",
+      "legal": "L16 Blk1557 Un22 SubSPRING HILL S T R",
+      "prop_address": "13200 DRAYTON DR",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "13200 DRAYTON DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-4329",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3475267",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026024628",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "04/14/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "MANGOLD MARY MARGARET",
+      "grantee": "BELLANTE CHRISTIAN; BELLANTE THOMAS",
+      "amount": "",
+      "legal": "L8 Blk230 Un5 SubSPRING HILL S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3475797",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
+    },
+    {
+      "doc_num": "2026024630",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "04/14/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "LUCERO PATRICIA I",
+      "grantee": "MIELE MICHELE",
+      "amount": "",
+      "legal": "L6 Blk357 Un5 SubROYAL HIGHLANDS S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3475799",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
     }
   ]
 }
