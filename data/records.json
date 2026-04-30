@@ -1,44 +1,19 @@
 {
-  "fetched_at": "2026-04-29T22:56:59.382720+00:00",
+  "fetched_at": "2026-04-30T02:47:16.020609+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-03-30",
-    "end": "2026-04-29",
+    "start": "2026-03-31",
+    "end": "2026-04-30",
     "lookback_days": 30
   },
-  "total": 101,
-  "with_address": 51,
-  "ready_to_upload": 48,
-  "needs_review": 53,
+  "total": 90,
+  "with_address": 40,
+  "ready_to_upload": 38,
+  "needs_review": 52,
   "records": [
-    {
-      "doc_num": "2026021041",
-      "doc_type": "LIS PENDENS",
-      "filed": "03/30/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "ST VINCENT HOME HEALTH CARE AGENCY LLC; UNKNOWN TENANT 1 ; UNKNOWN TENANT 2",
-      "grantee": "SEVEN HILLS HOMEOWNERS ASSOCIATION INC",
-      "amount": "",
-      "legal": "L26 Blk Un SubRESERVE AT SEVEN HILLS PH 2 S T R",
-      "prop_address": "285 WOODSTREAM WAY",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "10037 US HIGHWAY 19",
-      "mail_city": "PORT RICHEY",
-      "mail_state": "FL",
-      "mail_zip": "34668-3742",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471353",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
     {
       "doc_num": "2026021349",
       "doc_type": "LIS PENDENS",
@@ -1181,10 +1156,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3477008",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026026417",
@@ -1635,246 +1609,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026021014",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "MAGEE LINDA JEAN",
-      "grantee": "KIRSCHNER LEISA MAGEE",
-      "amount": "",
-      "legal": "L9 Blk201 Un4 SubSPRING HILL S T R",
-      "prop_address": "8050 TIMBERLAKE AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "8050 TIMBERLAKE AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-5237",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471307",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021015",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "MAGEE LINDA JEAN",
-      "grantee": "KIRSCHNER LEISA MAGEE",
-      "amount": "",
-      "legal": "L9 Blk201 Un4 SubSPRING HILL S T R",
-      "prop_address": "8050 TIMBERLAKE AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "8050 TIMBERLAKE AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-5237",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471308",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021068",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "MARATEA LILLIAN M; MARATEA LILLIAN MARIE",
-      "grantee": "MORGAN LANGDON M; MORGAN BONITA M; ST THERESA CATHOLIC CHURCH; COLONA ROBERT; NICHOLS LINDA; COLONA MICHAEL J",
-      "amount": "",
-      "legal": "L7 Blk Un1 SubTIMBER PINES TR 22 S T R",
-      "prop_address": "6347 DARIEN WAY",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "6347 DARIEN WAY",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-3327",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471362",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021077",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "CULVER SCOTT ALLEN; CULVER SCOTT",
-      "grantee": "SCHORRAK RUTH CULVER",
-      "amount": "",
-      "legal": "L6 Blk926 Un14 SubSPRING HILL S T R",
-      "prop_address": "3190 LEMA DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "3190 LEMA DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-2845",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471371",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021078",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "SPENCER MARIE H",
-      "grantee": "LIEDER MARIE",
-      "amount": "",
-      "legal": "L5 Blk135 Un9 SubROYAL HIGHLANDS S T R",
-      "prop_address": "7355 NIGHTWALKER RD",
-      "prop_city": "WEEKI WACHEE",
-      "prop_state": "FL",
-      "prop_zip": "34613",
-      "mail_address": "7355 NIGHTWALKER RD",
-      "mail_city": "WEEKI WACHEE",
-      "mail_state": "FL",
-      "mail_zip": "34613",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471372",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021080",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "SCHWARZ VICTORIA MARIE",
-      "grantee": "CANFIELD ROBERT BRIAN; KELLEY RENEA M",
-      "amount": "",
-      "legal": "L30 Blk360 Un7 SubSPRING HILL S T R",
-      "prop_address": "9207 SPRING HILL DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "9207 SPRING HILL DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-6351",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471374",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021081",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "SCHWARZ VICTORIA MARIE",
-      "grantee": "CANFIELD ROBERT BRIAN; KELLEY RENEA M",
-      "amount": "",
-      "legal": "L30 Blk360 Un7 SubSPRING HILL S T R",
-      "prop_address": "9207 SPRING HILL DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "9207 SPRING HILL DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-6351",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471375",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021087",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "CICHON GEORGE M",
-      "grantee": "EISENLOHR NANCY R",
-      "amount": "",
-      "legal": "L13 Blk146 Un9 SubROYAL HIGHLANDS S T R",
-      "prop_address": "7250 MADRID RD",
-      "prop_city": "WEEKI WACHEE",
-      "prop_state": "FL",
-      "prop_zip": "34613",
-      "mail_address": "PO BOX 198",
-      "mail_city": "AVON",
-      "mail_state": "CT",
-      "mail_zip": "06001",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471399",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021089",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "BRUNNER GAIL P",
-      "grantee": "BUDREVIC MICHELLE A; BRUNNER MICHAEL A JR",
-      "amount": "",
-      "legal": "L6 Blk592 Un9 SubSPRING HILL S T R",
-      "prop_address": "12823 LINDEN DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "12823 LINDEN DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-3434",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471401",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026021091",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "03/30/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "LEE STEPHEN B",
-      "grantee": "SPECHT COLLEEN C TRSTE; STEPHEN B LEE LIVING TRUST",
-      "amount": "",
-      "legal": "L16,17 Blk581 Un9 SubSPRING HILL S T R",
-      "prop_address": "11314 PORTSMOUTH ST",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "11314 PORTSMOUTH ST",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-3540",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3471403",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026023232",
