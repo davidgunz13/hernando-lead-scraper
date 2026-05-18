@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-05-17T02:56:14.816959+00:00",
+  "fetched_at": "2026-05-18T03:33:18.621883+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-04-17",
-    "end": "2026-05-17",
+    "start": "2026-04-18",
+    "end": "2026-05-18",
     "lookback_days": 30
   },
   "total": 116,
-  "with_address": 60,
-  "ready_to_upload": 57,
-  "needs_review": 59,
+  "with_address": 61,
+  "ready_to_upload": 58,
+  "needs_review": 58,
   "records": [
     {
       "doc_num": "2026025554",
@@ -1144,10 +1144,10 @@
       "filed": "05/05/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "PAGANO VIRGINIA R",
+      "grantee": "MULDER LOIS A",
       "amount": "",
-      "legal": "",
+      "legal": "L23 Blk4 Un3 SubHILL N DALE S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1168,10 +1168,10 @@
       "filed": "05/05/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "SIEJKOWSKI KATHLEEN; UNKNOWN SPOUSE; TRUIST BANK; SUNTRUST BANK; BRIMS SHEILA M",
+      "grantee": "TRUIST BANK",
       "amount": "",
-      "legal": "",
+      "legal": "L20 Blk Un SubPARSONS ADDITION TO BROOKSVILLE S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1182,9 +1182,10 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3482441",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 50
     },
     {
       "doc_num": "2026029979",
@@ -1969,30 +1970,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026025464",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "04/17/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "LUCERO PATRICIA I",
-      "grantee": "MIELE MICHELE",
-      "amount": "",
-      "legal": "L6 Blk357 Un5 SubROYAL HIGHLANDS S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3476207",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 40
     },
     {
       "doc_num": "2026025696",
@@ -2834,6 +2811,30 @@
         "LLC / corp owner"
       ],
       "score": 50
+    },
+    {
+      "doc_num": "2026029690",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "05/05/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "NOBLE SUSAN GAIL",
+      "grantee": "CAMERON THOMAS MUNRO",
+      "amount": "",
+      "legal": "L14 Blk24 Un SubROYAL HIGHLANDS WEST THE HEATHER S T R",
+      "prop_address": "8020 ROXBURGH CT",
+      "prop_city": "WEEKI WACHEE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "8020 ROXBURGH CT",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34613-5126",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3482478",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
     }
   ]
 }
