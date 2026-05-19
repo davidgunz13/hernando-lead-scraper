@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-05-18T03:33:18.621883+00:00",
+  "fetched_at": "2026-05-19T03:25:53.004642+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-04-18",
-    "end": "2026-05-18",
+    "start": "2026-04-19",
+    "end": "2026-05-19",
     "lookback_days": 30
   },
-  "total": 116,
+  "total": 119,
   "with_address": 61,
   "ready_to_upload": 58,
-  "needs_review": 58,
+  "needs_review": 61,
   "records": [
     {
       "doc_num": "2026025554",
@@ -1965,6 +1965,81 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3485762",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026033319",
+      "doc_type": "LIS PENDENS",
+      "filed": "05/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486183",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026033350",
+      "doc_type": "LIS PENDENS",
+      "filed": "05/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486205",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026033361",
+      "doc_type": "LIS PENDENS",
+      "filed": "05/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486216",
       "flags": [
         "Foreclosure",
         "New this week"
