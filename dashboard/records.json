@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-05-25T03:40:00.396720+00:00",
+  "fetched_at": "2026-05-26T02:58:47.783674+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-04-25",
-    "end": "2026-05-25",
+    "start": "2026-04-26",
+    "end": "2026-05-26",
     "lookback_days": 30
   },
   "total": 115,
@@ -1649,10 +1649,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486183",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026033350",
@@ -1674,10 +1673,9 @@
       "mail_zip": "34608-9414",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486205",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026033361",
@@ -1699,10 +1697,9 @@
       "mail_zip": "34608-1604",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486216",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026033647",
@@ -2789,10 +2786,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486123",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026033374",
@@ -2814,10 +2810,9 @@
       "mail_zip": "92555-6029",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486222",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     }
   ]
 }
