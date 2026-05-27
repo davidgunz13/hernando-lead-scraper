@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-05-26T02:58:47.783674+00:00",
+  "fetched_at": "2026-05-27T03:39:26.189857+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-04-26",
-    "end": "2026-05-26",
+    "start": "2026-04-27",
+    "end": "2026-05-27",
     "lookback_days": 30
   },
-  "total": 115,
-  "with_address": 76,
-  "ready_to_upload": 64,
+  "total": 116,
+  "with_address": 77,
+  "ready_to_upload": 65,
   "needs_review": 51,
   "records": [
     {
@@ -1707,10 +1707,10 @@
       "filed": "05/19/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "GRAF SARA J; GRAF DAVID; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "ROCKET MORTGAGE LLC",
       "amount": "",
-      "legal": "",
+      "legal": "L58 Blk Un SubORCHARD PARK S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1721,10 +1721,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486579",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026033648",
@@ -1732,22 +1731,22 @@
       "filed": "05/19/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "VAN SLYKE BARBARA; UNKNOW SPOUSE; ORCHARD PARK HOMEOWNERS ASSOCIATION INC; VAN SLYKE WILLIAM; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "US BANK TRUST NATIONAL ASSOCIATION TRSTE; BKPL EG 2025 RPL2 SERIES TRUST",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L152 Blk Un SubORCHARD PARK PH II S T R",
+      "prop_address": "10096 SOUTHERN BREEZE CT",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "10096 SOUTHERN BREEZE CT",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34613-6522",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486580",
       "flags": [
         "Foreclosure",
-        "New this week"
+        "LLC / corp owner"
       ],
       "score": 55
     },
@@ -1757,10 +1756,10 @@
       "filed": "05/19/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "HENRY RONALD; UNKOWN SPOUSE; TEACHERS FEDERAL CREDIT UNION; PRISTINE PLACE HOMEOWNERSASSOCIATION INC",
+      "grantee": "ROCKET MORTGAGE LLC; QUICKEN LOANS LLC",
       "amount": "",
-      "legal": "",
+      "legal": "L12 BlkH Un SubPRISTINE PLACE PHASE ONE S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1772,9 +1771,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486581",
       "flags": [
         "Foreclosure",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 55
+      "score": 50
     },
     {
       "doc_num": "2026033654",
@@ -1796,10 +1795,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486586",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026034270",
@@ -2813,6 +2811,30 @@
         "Probate / estate"
       ],
       "score": 45
+    },
+    {
+      "doc_num": "2026033620",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "05/19/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "MUSACCHIA SALLY AGNES; MUSACCHIA SALLY A; MUSACCHIA SALLY",
+      "grantee": "BARTLETT GEORGE R JR",
+      "amount": "",
+      "legal": "L14 Blk893 Un13 SubSPRING HILL S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486556",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
     }
   ]
 }
