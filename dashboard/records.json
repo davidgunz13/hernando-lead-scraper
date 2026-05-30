@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-05-29T03:27:34.563193+00:00",
+  "fetched_at": "2026-05-30T02:54:36.962527+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-04-29",
-    "end": "2026-05-29",
+    "start": "2026-04-30",
+    "end": "2026-05-30",
     "lookback_days": 30
   },
-  "total": 107,
-  "with_address": 67,
-  "ready_to_upload": 53,
-  "needs_review": 54,
+  "total": 116,
+  "with_address": 71,
+  "ready_to_upload": 57,
+  "needs_review": 59,
   "records": [
     {
       "doc_num": "2026028140",
@@ -1781,6 +1781,131 @@
       "score": 55
     },
     {
+      "doc_num": "2026036244",
+      "doc_type": "LIS PENDENS5",
+      "filed": "05/29/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3489451",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026036390",
+      "doc_type": "LIS PENDENS",
+      "filed": "05/29/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3489708",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026036491",
+      "doc_type": "LIS PENDENS",
+      "filed": "05/29/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3489807",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026036492",
+      "doc_type": "LIS PENDENS",
+      "filed": "05/29/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3489808",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026036532",
+      "doc_type": "LIS PENDENS",
+      "filed": "05/29/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3489842",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
       "doc_num": "2026028222",
       "doc_type": "PROBATE DOCUMENTSX",
       "filed": "04/30/2026",
@@ -2620,6 +2745,102 @@
         "Probate / estate"
       ],
       "score": 40
+    },
+    {
+      "doc_num": "2026034723",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "05/21/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "WILLIAMSON DAVID ALLAN SR",
+      "grantee": "WILLIAMSON DAVID A JR; WILLIAMSON DANA M",
+      "amount": "",
+      "legal": "L15 Blk1090 Un17 SubSPRING HILL S T R",
+      "prop_address": "5098 WINTERVILLE RD",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "5098 WINTERVILLE RD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-3061",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3487620",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026034743",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "05/21/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "FRASER HUGH MACKLIN",
+      "grantee": "FRASER RICHARD ROBERT",
+      "amount": "",
+      "legal": "L BlkE Un SubPOTTERFIELD GARDENS ACRES TR 21 S T R",
+      "prop_address": "8020 GRANT ST",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "8020 GRANT ST",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34613-4811",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3487643",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026034744",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "05/21/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "FRASER HUGH MACKLIN",
+      "grantee": "FRASER RICHARD ROBERT",
+      "amount": "",
+      "legal": "L BlkE Un SubPOTTERFIELD GARDENS ACRES TR 21 S T R",
+      "prop_address": "8020 GRANT ST",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "8020 GRANT ST",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34613-4811",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3487644",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026034956",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "05/22/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "LIGI DENNIS J; LIGI DENNIS JAMES",
+      "grantee": "LIGI JAMES; ALDAY VALERIE ; BAZILE VALERIE",
+      "amount": "",
+      "legal": "L22 Blk828 Un13 SubSPRING HILL S T R",
+      "prop_address": "3047 POLO LN",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "3047 POLO LN",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-4349",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3488075",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
     }
   ]
 }
