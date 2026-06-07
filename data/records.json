@@ -1,115 +1,19 @@
 {
-  "fetched_at": "2026-06-06T02:58:18.416823+00:00",
+  "fetched_at": "2026-06-07T03:43:35.931397+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-07",
-    "end": "2026-06-06",
+    "start": "2026-05-08",
+    "end": "2026-06-07",
     "lookback_days": 30
   },
-  "total": 107,
-  "with_address": 73,
-  "ready_to_upload": 58,
-  "needs_review": 49,
+  "total": 103,
+  "with_address": 69,
+  "ready_to_upload": 56,
+  "needs_review": 47,
   "records": [
-    {
-      "doc_num": "2026030551",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/07/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "SANTOS CARLOS MAGDIEL; UNKNOWN SPOUSE; FLORIDA HOUSING FINANCE CORPORATION; UNITED STATES OF AMERICA DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "LAKEVIEW LOAN SERVICING LLC",
-      "amount": "",
-      "legal": "L13 Blk1679 Un25 SubSPRING HILL S T R",
-      "prop_address": "4515 DELTONA BLVD",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "4515 DELTONA BLVD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-1642",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3483223",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026030552",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/07/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "FLINT JUSTIN; CADY EMILY HOLLY GRACE; FLORIDA HOUSING FINANCE CORPORATION; SECRETARY OF HOUSING AND URBAN DEVELOPMENT; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "LAKEVIEW LOAN SERVICING LLC",
-      "amount": "",
-      "legal": "L1 Blk1580 Un23 SubSPRING HILL S T R",
-      "prop_address": "5301 MERRIFIELD CT",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "5301 MERRIFIELD CT",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-2642",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3483224",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026030782",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/07/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "OSMAN AYMAN; ALZEIN ASMAA; UNKNOWN TENANTS",
-      "grantee": "SILVERTHORN/HERNANDO HOMEOWNERS ASSOCIATION INC",
-      "amount": "",
-      "legal": "L85 Blk Un SubSILVERTHORN PH 2B S T R",
-      "prop_address": "0 STEEPLECHASE CT",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "8355 NORTHCLIFFE BLVD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-1139",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3483420",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026030783",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/07/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "OSMAN AYMAN; ALZEIN ASMAA; UNKNOWN TENANTS",
-      "grantee": "SILVERTHORN/HERNANDO HOMEOWNERS ASSOCIATION INC",
-      "amount": "",
-      "legal": "L84 Blk Un SubSILVERTHORN PH 2B S T R",
-      "prop_address": "0 STEEPLECHASE CT",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "8355 NORTHCLIFFE BLVD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-1139",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3483421",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
     {
       "doc_num": "2026031147",
       "doc_type": "LIS PENDENS",
