@@ -1,68 +1,19 @@
 {
-  "fetched_at": "2026-06-07T03:43:35.931397+00:00",
+  "fetched_at": "2026-06-08T03:52:25.419064+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-08",
-    "end": "2026-06-07",
+    "start": "2026-05-09",
+    "end": "2026-06-08",
     "lookback_days": 30
   },
-  "total": 103,
-  "with_address": 69,
-  "ready_to_upload": 56,
+  "total": 101,
+  "with_address": 67,
+  "ready_to_upload": 54,
   "needs_review": 47,
   "records": [
-    {
-      "doc_num": "2026031147",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/08/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "SMITH HOLLY; SMITH HOLLY E; SMITH HOLLY ELIZABETH; UNKNOWN SPPOUSE ; SMITH MICKEY J JR ; MORRIS NISHA N ; SMITH PAUL R ; SMITH RUSSELL PAUL ; UNKNOWN HEIRS ET AL ; SMITH BOBBY T; SMITH BOBBY THOMAS ; GREEN CORRIDOR PROPERTY ASSESSMENT CLEAN ENERGY DISTRICT ; GOODLEAP LLC",
-      "grantee": "PENNYMAC LOAN SERVICES LLC",
-      "amount": "",
-      "legal": "L1 Blk351 Un7 SubSPRING HILL S T R",
-      "prop_address": "2036 NOBLETON AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "2036 NOBLETON AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-5443",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3483683",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026031148",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/08/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "EASTHAM JACOB LEE; EASTHAM TIFFANY L; UNKNOWN TENANT",
-      "grantee": "SOUTHSTATE BANK NA",
-      "amount": "",
-      "legal": "L11 Blk Un SubCOLONIAL MANOR S T R",
-      "prop_address": "410 WALKER AVE",
-      "prop_city": "BROOKSVILLE",
-      "prop_state": "FL",
-      "prop_zip": "34601",
-      "mail_address": "410 WALKER AVE",
-      "mail_city": "BROOKSVILLE",
-      "mail_state": "FL",
-      "mail_zip": "34601-3724",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3483684",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
     {
       "doc_num": "2026031634",
       "doc_type": "LIS PENDENS",
