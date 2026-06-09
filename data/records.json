@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-06-08T03:52:25.419064+00:00",
+  "fetched_at": "2026-06-09T02:57:14.452438+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-09",
-    "end": "2026-06-08",
+    "start": "2026-05-10",
+    "end": "2026-06-09",
     "lookback_days": 30
   },
-  "total": 101,
+  "total": 104,
   "with_address": 67,
   "ready_to_upload": 54,
-  "needs_review": 47,
+  "needs_review": 50,
   "records": [
     {
       "doc_num": "2026031634",
@@ -968,10 +968,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490197",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026037164",
@@ -1318,6 +1317,56 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492247",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026038601",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/08/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492585",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026038759",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/08/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492791",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -2352,10 +2401,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3489976",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026036992",
@@ -2481,6 +2529,31 @@
         "New this week"
       ],
       "score": 60
+    },
+    {
+      "doc_num": "2026037524",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "06/03/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "KNIGHTS MARY STRICKLAND; KNIGHTS MARY S",
+      "grantee": "CLARK TREVISON K A TRSTE; MARY S KNIOGHTS TRUST",
+      "amount": "",
+      "legal": "L1-5,14-17 BlkD Un1 SubLAKESIDE ESTATES S29 T22S R19E",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490808",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
     }
   ]
 }
