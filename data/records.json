@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-06-09T02:57:14.452438+00:00",
+  "fetched_at": "2026-06-10T03:34:46.452349+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-10",
-    "end": "2026-06-09",
+    "start": "2026-05-11",
+    "end": "2026-06-10",
     "lookback_days": 30
   },
-  "total": 104,
-  "with_address": 67,
-  "ready_to_upload": 54,
-  "needs_review": 50,
+  "total": 114,
+  "with_address": 72,
+  "ready_to_upload": 59,
+  "needs_review": 55,
   "records": [
     {
       "doc_num": "2026031634",
@@ -993,10 +993,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490649",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026037165",
@@ -1018,10 +1017,9 @@
       "mail_zip": "34442-2773",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490650",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026037166",
@@ -1043,10 +1041,9 @@
       "mail_zip": "34606-2273",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490651",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026037191",
@@ -1068,10 +1065,9 @@
       "mail_zip": "34604-1494",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490763",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026037192",
@@ -1093,10 +1089,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490764",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026038364",
@@ -1367,6 +1362,56 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492791",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026038942",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/09/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492951",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026038948",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/09/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492957",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -2425,10 +2470,9 @@
       "mail_zip": "33526-0264",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490291",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026037081",
@@ -2450,10 +2494,9 @@
       "mail_zip": "34606-1628",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490629",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026037171",
@@ -2475,10 +2518,9 @@
       "mail_zip": "34601-5641",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490730",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026037207",
@@ -2500,10 +2542,9 @@
       "mail_zip": "34608-2013",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490798",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026037217",
@@ -2525,10 +2566,9 @@
       "mail_zip": "34606-7235",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490838",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026037524",
@@ -2549,6 +2589,206 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3490808",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026037811",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/04/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "FERRIER DAVID MICHAEL",
+      "grantee": "BELL CASSANDRA FERRIER; FERRIER COURTNEY",
+      "amount": "",
+      "legal": "L5,6 Blk19 Un1 SubBROOKRIDGE COMMUNITY S T R",
+      "prop_address": "14391 SANDHURST ST",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "14391 SANDHURST ST",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34613-5957",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3491633",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026037814",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/04/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "BRUNNER IRIS; BRUNNER IRIS M; BRUNNER IRIS MARIA",
+      "grantee": "BRUNNER ROBERT J; BRENNAN MONIKA",
+      "amount": "",
+      "legal": "L8 Blk1162 Un17 SubSPRING HILL S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3491636",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026037819",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/04/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "GRAHAM CHARLES CURTIS; GRAHAM CHARLES C; GRAHAM CHARLES",
+      "grantee": "GRAHAM XAVIER CHEVROLET",
+      "amount": "",
+      "legal": "L1 Blk523 Un9 SubSPRING HILL S T R",
+      "prop_address": "10432 CLINGMAN ST",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "10432 CLINGMAN ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3491641",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026037820",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/04/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "GRAHAM CHARLES CURTIS; GRAHAM CHARLES C; GRAHAM CHARLES",
+      "grantee": "XAVIER CHEVROLET GRAHAM",
+      "amount": "",
+      "legal": "L1 Blk523 Un9 SubSPRING HILL S T R",
+      "prop_address": "10432 CLINGMAN ST",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "10432 CLINGMAN ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3491642",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026037826",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/04/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "HANEY DOROTHY W; HANEY DOROTHY WELLS; HANEY DOROTHY ELIZABETH",
+      "grantee": "HANEY MARK DONALD TRSTE; DOROTHY W HANEY REVOCABLE TRUST",
+      "amount": "",
+      "legal": "L198 Blk Un1 SubGLEN LAKES PH ONE S T R",
+      "prop_address": "9720 SOUTHERN BELLE DR",
+      "prop_city": "WEEKI WACHEE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "9720 SOUTHERN BELLE DR",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34613-4281",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3491648",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026037828",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/04/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "CONNERS CHRISTA K; CONNERS CHRISTA",
+      "grantee": "CONNERS ALPHA ELIZABETH; CONNERS ROBERT J",
+      "amount": "",
+      "legal": "L4 Blk4 Un1 SubGULF COAST RETREATS S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3491650",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026038006",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/04/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "FIFER JAMES KENNETH",
+      "grantee": "FIFER JOYCE; FIFER JOSEPH ; FIFER JOHN",
+      "amount": "",
+      "legal": "L8 BlkA Un SubTRAILS AT RIVARD PHASES I II AND VI S T R",
+      "prop_address": "17421 EAGLE TRACE DR",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34604",
+      "mail_address": "17421 EAGLE TRACE DR",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34604-9273",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3491804",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026038007",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/04/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "LINDALE MATILDA MARIE; LINDALE MARIE A",
+      "grantee": "LINDALE GEORGE M; LINDALE SERVICE JEAN MARIE ; SERVICE JEAN MARIE LINDALE",
+      "amount": "",
+      "legal": "L2 Blk573 Un7 SubROYAL HIGHLAND S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3491805",
       "flags": [
         "Probate / estate",
         "New this week"
