@@ -1,141 +1,19 @@
 {
-  "fetched_at": "2026-06-12T03:46:17.250060+00:00",
+  "fetched_at": "2026-06-13T03:34:33.839410+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-13",
-    "end": "2026-06-12",
+    "start": "2026-05-14",
+    "end": "2026-06-13",
     "lookback_days": 30
   },
-  "total": 119,
-  "with_address": 77,
-  "ready_to_upload": 68,
-  "needs_review": 51,
+  "total": 117,
+  "with_address": 75,
+  "ready_to_upload": 67,
+  "needs_review": 50,
   "records": [
-    {
-      "doc_num": "2026031944",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/13/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "STICKA MARK H ; STICKA MARLA J ; STICKA MARK H TRSTE; BRIDGEFORTH REVOCABLE LIVING TRUST ; UNKNOWN SETTLERS ET AL ; UNITED STATES OF AMERICA DEPARTMENT OF THE TREASURY INTERNAL REVENUE SERVICE ; UNKNOWN TENANT 1; UNKNOWN TENANT 2 ; SILVERTHORN HERNANDO HOMEOWNERS ASSOCIATION INC",
-      "grantee": "PNC BANK NA",
-      "amount": "",
-      "legal": "L1 Blk9 Un SubSILVERTHORN PH ONE S T R",
-      "prop_address": "4618 GOLF CLUB LN",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "4618 GOLF CLUB LN",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-0306",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3484742",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026031988",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/13/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "UNKNOWN HEIRS ET AL ; FENDER ANNA L ; SECRETARY OF HOUSING AND URBAN DEVELOPMENT ; UNKNOWN TENANT 1 ; UNKNOWN TENANT 2",
-      "grantee": "U S BANK NMA TRSTE ; LB FLAT SERIES VI TRUST",
-      "amount": "",
-      "legal": "L7 Blk533 Un9 SubSPRING HILL S T R",
-      "prop_address": "2285 HOLSTON AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "2285 HOLSTON AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-4928",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3484776",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026031989",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/13/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "ROMAN EMMANUEL",
-      "grantee": "MONGE VICTORIA ; VIALEZ MILDRED PR; MIRANDA ASIA",
-      "amount": "",
-      "legal": "L24 Blk507 Un9 SubSPRING HILL S T R",
-      "prop_address": "2335 CANFIELD DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "2335 CANFIELD DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-3708",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3484777",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026032182",
-      "doc_type": "LIS PENDENS5",
-      "filed": "05/13/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "CASEY SCOTT TIMOTHY; DALESSANDRO DAYILEN D; UNKNOWN SPOUSE; GLENLAKES MASTER HOMEOWNERS ASSOCIATION INC; VILLAGES OF GLENLAKES HOMEOWNERS ASSOCIATION VILLA I INC; GLENLAKES HOMEOWNERS ASSOCIATION ESTATE I INC; GLENLAKES HOMEOWNERS ASSOCIATION ESTATE II INC; DISCOVER BANK; VELOCITY INVESTMENTS LLC; ROMAN HAROLD J JR; ROMAN LINDA; UNKNOWN TRUSTEE; ZILLOW HOMES PROPERTY TRUST; UNKNOWN PARTIES ET AL; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "NEWREZ LLC; SHELLPOINT MORTGAGE SERVICING",
-      "amount": "",
-      "legal": "L36 Blk Un SubGLEN HILLS VILLAGE S T R",
-      "prop_address": "9354 MISSISSIPPI RUN",
-      "prop_city": "WEEKI WACHEE",
-      "prop_state": "FL",
-      "prop_zip": "34613",
-      "mail_address": "1900 RACHEL TER APT 1",
-      "mail_city": "PINE BROOK",
-      "mail_state": "NJ",
-      "mail_zip": "07058-9321",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3484301",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026032239",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/13/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "ROMAN EMMANUEL",
-      "grantee": "MONGE VICTORIA ; VIALEZ MILDRED PR; MIRANDA ASIA",
-      "amount": "",
-      "legal": "L24 Blk507 Un9 SubSPRING HILL S T R",
-      "prop_address": "2335 CANFIELD DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "2335 CANFIELD DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-3708",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3484907",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
     {
       "doc_num": "2026032959",
       "doc_type": "LIS PENDENS",
@@ -966,10 +844,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492197",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026038367",
@@ -991,10 +868,9 @@
       "mail_zip": "34609-0704",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492200",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038388",
@@ -1016,10 +892,9 @@
       "mail_zip": "34608-2419",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492212",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038389",
@@ -1041,10 +916,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492213",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026038390",
@@ -1066,10 +940,9 @@
       "mail_zip": "34601-2116",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492214",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038391",
@@ -1092,10 +965,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492215",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026038414",
@@ -1117,10 +989,9 @@
       "mail_zip": "34606-2439",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492245",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038415",
@@ -1143,10 +1014,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492246",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026038416",
@@ -1169,10 +1039,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492247",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026038601",
@@ -1256,10 +1125,10 @@
       "filed": "06/09/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "ALBRECHT MELISSA S; ALBRECHT DIEGO E; OAKS OF SPRING HILL HOMEOWNERS ASSOCIATION INC; UNKNOWN PERSON",
+      "grantee": "WILMINGTON SAVINGS FUND SOCIETY FSB TRSTE; BRAVO RESIDENTIAL FUNDING TRUST 2021 NQM1",
       "amount": "",
-      "legal": "",
+      "legal": "L28 Blk Un1 SubOAKS S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1271,9 +1140,10 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492957",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 65
     },
     {
       "doc_num": "2026039117",
@@ -1281,10 +1151,10 @@
       "filed": "06/10/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "BOGUSLAWSKI MARGARET B; MATERNOWSKI LOUISE R TRSTE; DAVID A AND LOUISE R MATERNOWSKI REVOCABLE LIVING TRUST; UNKNOWN SPOUSE; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "NEWREZ LLC; SHELLPOINT MORTGAGE SERVICING",
       "amount": "",
-      "legal": "",
+      "legal": "L8 BlkF Un SubWOODHAVEN ESTATES S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1296,9 +1166,10 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493221",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 65
     },
     {
       "doc_num": "2026039274",
@@ -1306,24 +1177,24 @@
       "filed": "06/10/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "MERCED CHRIS S",
+      "grantee": "A READY ROOFING CO INC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L20 Blk93A Un2 SubRIDGE MANOR ESTATES S T R",
+      "prop_address": "33409 AUGUST AVE",
+      "prop_city": "WEBSTER",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "33597",
+      "mail_address": "33409 AUGUST AVE",
+      "mail_city": "WEBSTER",
+      "mail_state": "FL",
+      "mail_zip": "33597-9708",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493349",
       "flags": [
         "Foreclosure",
         "New this week"
       ],
-      "score": 55
+      "score": 60
     },
     {
       "doc_num": "2026039565",
@@ -1401,39 +1272,15 @@
       "score": 55
     },
     {
-      "doc_num": "2026031901",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "05/13/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "LEACHMAN MARTIN; LEACHMAN LESLIE ; LEACHMAN MARTIN AIF ; LEACHMAN LESLIE A",
-      "grantee": "LEACHMAN RELDA",
+      "doc_num": "2026040143",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/12/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L17 Blk540 Un9 SubSPRING HILL S T R",
-      "prop_address": "12493 MAYCREST AVE",
-      "prop_city": "WEEKI WACHEE",
-      "prop_state": "FL",
-      "prop_zip": "34614",
-      "mail_address": "12493 MAYCREST AVE",
-      "mail_city": "WEEKI WACHEE",
-      "mail_state": "FL",
-      "mail_zip": "34614-3579",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3483887",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026032106",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "05/13/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "MCCONNELL LINDA C PR",
-      "grantee": "STEDTLER MARGARET; STEDTLER MARGARET E; STEDTLER MARGARET ELIZABETH",
-      "amount": "",
-      "legal": "L9,8 Blk75 Un4 SubBROOKRIDGE COMM S T R",
+      "legal": "",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1442,59 +1289,12 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3484138",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494200",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 40
-    },
-    {
-      "doc_num": "2026032415",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "05/13/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "DAKIN PETER MEREL JR",
-      "grantee": "DAKIN KATHRYN M",
-      "amount": "",
-      "legal": "L4 Blk695 Un8 SubROYAL HIGHLANDS S T R",
-      "prop_address": "0 SCISSORBILL AVE",
-      "prop_city": "WEEKI WACHEE",
-      "prop_state": "FL",
-      "prop_zip": "34614",
-      "mail_address": "207 GRAFTON DR",
-      "mail_city": "SLIDELL",
-      "mail_state": "LA",
-      "mail_zip": "70458-1748",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3485045",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026032542",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "05/13/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "CLEMENS KAY E",
-      "grantee": "CLEMENS BRIAN",
-      "amount": "",
-      "legal": "L4 BlkZ Un1 SubLEISURE RETREATS S T R",
-      "prop_address": "14221 HURRICANE DR",
-      "prop_city": "WEEKI WACHEE",
-      "prop_state": "FL",
-      "prop_zip": "34614",
-      "mail_address": "14221 HURRICANE DR",
-      "mail_city": "WEEKI WACHEE",
-      "mail_state": "FL",
-      "mail_zip": "34614",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3485163",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
+      "score": 55
     },
     {
       "doc_num": "2026032595",
@@ -2668,10 +2468,9 @@
       "mail_zip": "34613-2608",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492205",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038438",
@@ -2693,10 +2492,9 @@
       "mail_zip": "34613-6104",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492267",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038439",
@@ -2718,10 +2516,9 @@
       "mail_zip": "34613-6104",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492268",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038440",
@@ -2743,10 +2540,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492269",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026038576",
@@ -2917,6 +2713,156 @@
       "mail_state": "FL",
       "mail_zip": "34609-1730",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492926",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026039021",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "06/09/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "COACHMAN CLARENCE II",
+      "grantee": "SMITH ALISHA; COACHMAN CLARENCE II",
+      "amount": "",
+      "legal": "L28 Blk Un SubPRISTINE PLACE PHASE TWO S T R",
+      "prop_address": "14044 ANDREW SCOTT RD",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "14044 ANDREW SCOTT RD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-0853",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492684",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026039143",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "RADIGAN ANNE M; RADIGAN ANNE MARIE",
+      "grantee": "CAHAYLA DONNA; RADIGAN DIANE",
+      "amount": "",
+      "legal": "L2 Blk1301 Un20 SubSPRING HILL S T R",
+      "prop_address": "12128 KATHERWOOD ST",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "12128 KATHERWOOD ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-1522",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493259",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026039154",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "RITTER EDWARD EUGENE",
+      "grantee": "PULLIAM MELISSA MARIE; RITTER TRAVIS LEE",
+      "amount": "",
+      "legal": "L11 Blk Un SubNOTTINGHAM FOREST S T R",
+      "prop_address": "24207 WESTMINSTER CT",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34601",
+      "mail_address": "24207 WESTMINSTER CT",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34601-4835",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493271",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026039155",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "RITTER EDWARD EUGENE",
+      "grantee": "PULLIAM MELISSA MARIE; RITTER TRAVIS LEE",
+      "amount": "",
+      "legal": "L11 Blk Un SubNOTTINGHAM FOREST S T R",
+      "prop_address": "24207 WESTMINSTER CT",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34601",
+      "mail_address": "24207 WESTMINSTER CT",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34601-4835",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493272",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026039157",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "GIFFORD MARY R",
+      "grantee": "GIFFORD ROBERT R",
+      "amount": "",
+      "legal": "L8 Blk76 Un18 SubROYAL HIGHLANDS S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493274",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026039234",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "RUSSELL RICHARD JAMES JR",
+      "grantee": "RUSSELL BARBARA ELLEN; RUSSELL RICHARD JAMES SR",
+      "amount": "",
+      "legal": "L12 Blk1185 Un18 SubSPRING HILL S T R",
+      "prop_address": "12336 JAYBIRD RD",
+      "prop_city": "WEEKI WACHEE",
+      "prop_state": "FL",
+      "prop_zip": "34614",
+      "mail_address": "12336 JAYBIRD RD",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34614-3266",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493319",
       "flags": [
         "Probate / estate",
         "New this week"
