@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-06-13T03:34:33.839410+00:00",
+  "fetched_at": "2026-06-14T03:55:30.597327+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-14",
-    "end": "2026-06-13",
+    "start": "2026-05-15",
+    "end": "2026-06-14",
     "lookback_days": 30
   },
-  "total": 117,
+  "total": 116,
   "with_address": 75,
   "ready_to_upload": 67,
-  "needs_review": 50,
+  "needs_review": 49,
   "records": [
     {
       "doc_num": "2026032959",
@@ -1295,30 +1295,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026032595",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "05/14/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "DIMEO GORGENA C; DIMEO GEORGENA; MINEO GEORGENA; DIMEO GINA; MINEO GINA",
-      "grantee": "",
-      "amount": "",
-      "legal": "L11 Blk1090 Un17 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3485212",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 40
     },
     {
       "doc_num": "2026032980",
