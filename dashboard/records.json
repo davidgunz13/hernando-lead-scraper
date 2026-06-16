@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-06-15T04:07:24.555924+00:00",
+  "fetched_at": "2026-06-16T03:57:39.807069+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-16",
-    "end": "2026-06-15",
+    "start": "2026-05-17",
+    "end": "2026-06-16",
     "lookback_days": 30
   },
-  "total": 102,
-  "with_address": 67,
-  "ready_to_upload": 62,
+  "total": 103,
+  "with_address": 68,
+  "ready_to_upload": 63,
   "needs_review": 40,
   "records": [
     {
@@ -940,10 +940,9 @@
       "mail_zip": "34614-3269",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492585",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038759",
@@ -966,10 +965,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492791",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026038942",
@@ -1079,10 +1077,10 @@
       "filed": "06/10/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "KRAFT CURTIS; KRAFT KATHRYN; UNKNOWN SPOUSE; HBWW VACATIONS LLC; UNKNWON TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "US BANK TRUST NATIONAL ASSOCIATION TRSTE; DWELLING ANNEX SERIES VI TRUST",
       "amount": "",
-      "legal": "",
+      "legal": "L7 Blk27 Un4 SubGULF COAST RETREATS S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1094,9 +1092,10 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493624",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 65
     },
     {
       "doc_num": "2026039722",
@@ -1104,24 +1103,25 @@
       "filed": "06/11/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "THOMPSON JAMES; SECRETARY OF HOUSING AND URBAN DEVELOPMENT; THOMPSON CAROLE; DEERFIELD HOMEONWERS ASSOCIATION INC",
+      "grantee": "CARRINGTON MORTGAGE SERVICES LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L11 Blk4 Un SubQUAIL MEADOWS PH I S T R",
+      "prop_address": "15486 SARATOGA DR",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34604",
+      "mail_address": "15486 SARATOGA DR",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34604-0726",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493782",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 70
     },
     {
       "doc_num": "2026039901",
@@ -1129,10 +1129,10 @@
       "filed": "06/11/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "STILL JAMES THOMAS; STILL JAMES T; STILL JAMES; UNKOWN SPOUSE; STILL MARK ALAN; STILL MARK A; STILL MARK; FIFTH THIRD BANK NA; DIVIDEND SOLAR FINANCE LLC; UNKNOWN TENANT 1; UNKOWN TENANT 2",
+      "grantee": "ROCKET MORTGAGE LLC; QUICKEN LOANS LLC",
       "amount": "",
-      "legal": "",
+      "legal": "L15 Blk Un2 SubEMTON S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1144,9 +1144,10 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493812",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 65
     },
     {
       "doc_num": "2026040143",
@@ -1167,6 +1168,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494200",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026040364",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/15/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494570",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -2201,10 +2227,9 @@
       "mail_zip": "34608-2823",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492543",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038577",
@@ -2226,10 +2251,9 @@
       "mail_zip": "34608-2823",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492544",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038745",
@@ -2251,10 +2275,9 @@
       "mail_zip": "34613-2608",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492365",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038912",
