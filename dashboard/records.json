@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-06-16T03:57:39.807069+00:00",
+  "fetched_at": "2026-06-17T03:58:40.942037+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-17",
-    "end": "2026-06-16",
+    "start": "2026-05-18",
+    "end": "2026-06-17",
     "lookback_days": 30
   },
-  "total": 103,
-  "with_address": 68,
-  "ready_to_upload": 63,
-  "needs_review": 40,
+  "total": 109,
+  "with_address": 71,
+  "ready_to_upload": 65,
+  "needs_review": 44,
   "records": [
     {
       "doc_num": "2026033319",
@@ -989,10 +989,9 @@
       "mail_zip": "34609-1640",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492951",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038948",
@@ -1015,10 +1014,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492957",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026039117",
@@ -1155,24 +1153,24 @@
       "filed": "06/12/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "GINNICK RACHAEL P; UNKNOWN SPOUSE; SECRETARY OF HOUSING AND URBAN DEVELOPMENT; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "CARRINGTON MORTGAGE SERVICES LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L266 Blk Un3 SubFOREST OAKS S T R",
+      "prop_address": "8061 PHILATELIC DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "8061 PHILATELIC DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-6725",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494200",
       "flags": [
         "Foreclosure",
         "New this week"
       ],
-      "score": 55
+      "score": 60
     },
     {
       "doc_num": "2026040364",
@@ -1193,6 +1191,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494570",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026040681",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/16/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494929",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -2299,10 +2322,9 @@
       "mail_zip": "34613-5548",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492922",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026038914",
@@ -2324,10 +2346,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492924",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026038915",
@@ -2349,10 +2370,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492925",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026038916",
@@ -2374,10 +2394,9 @@
       "mail_zip": "34609-1730",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492926",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026039021",
@@ -2399,10 +2418,9 @@
       "mail_zip": "34609-0853",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3492684",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026039143",
@@ -2523,6 +2541,131 @@
       "mail_state": "FL",
       "mail_zip": "34614-3266",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493319",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026040032",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "06/12/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "LINDALE MATILDA MARIE; LINDALE MARIE A",
+      "grantee": "LINDALE GEORGE M; LINDALE SERVICE JEAN MARIE ; SERVICE JEAN MARIE LINDALE",
+      "amount": "",
+      "legal": "L2 Blk573 Un7 SubROYAL HIGHLANDS S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494001",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026040048",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "06/12/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "BELL LYDIA H ; BELL LYDIA HERNANDEZ",
+      "grantee": "HUNTER JAMES JOHN",
+      "amount": "",
+      "legal": "L25 Blk Un1B SubPINE GROVE VILLAGE OF TIMBER PINES TR 6 S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494036",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026040133",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/12/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "BARTLETT GREGORY J",
+      "grantee": "BARTLETT CYNTHIA L",
+      "amount": "",
+      "legal": "L4 Blk332 Un5 SubROYAL HIGHLANDS S T R",
+      "prop_address": "0 MAHONING AVE",
+      "prop_city": "WEEKI WACHEE",
+      "prop_state": "FL",
+      "prop_zip": "34614",
+      "mail_address": "9 HILLTOP CIR",
+      "mail_city": "MEDFIELD",
+      "mail_state": "MA",
+      "mail_zip": "02052-3202",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494194",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026040162",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/12/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "HILDEBRAND CLARENCE A III",
+      "grantee": "HILDEBRAND PATRICIA WELLS; HILDEBRAND CRAIG; HILDEBRAND SHERRIE",
+      "amount": "",
+      "legal": "L4 11 Blk1323 Un20 SubSPRING HILL S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494207",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026040266",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "06/12/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "JUSINO ELPIDIA B",
+      "grantee": "",
+      "amount": "",
+      "legal": "L24 Blk449 Un8 SubSPRING HILL S T R",
+      "prop_address": "10541 HORIZON DR",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "10541 HORIZON DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-5762",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494425",
       "flags": [
         "Probate / estate",
         "New this week"
