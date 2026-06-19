@@ -1,118 +1,19 @@
 {
-  "fetched_at": "2026-06-18T03:45:35.532471+00:00",
+  "fetched_at": "2026-06-19T04:09:05.214831+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-19",
-    "end": "2026-06-18",
+    "start": "2026-05-20",
+    "end": "2026-06-19",
     "lookback_days": 30
   },
-  "total": 105,
+  "total": 109,
   "with_address": 69,
   "ready_to_upload": 64,
-  "needs_review": 41,
+  "needs_review": 45,
   "records": [
-    {
-      "doc_num": "2026033647",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/19/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "GRAF SARA J; GRAF DAVID; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "ROCKET MORTGAGE LLC",
-      "amount": "",
-      "legal": "L58 Blk Un SubORCHARD PARK S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486579",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 40
-    },
-    {
-      "doc_num": "2026033648",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/19/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "VAN SLYKE BARBARA; UNKNOW SPOUSE; ORCHARD PARK HOMEOWNERS ASSOCIATION INC; VAN SLYKE WILLIAM; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "US BANK TRUST NATIONAL ASSOCIATION TRSTE; BKPL EG 2025 RPL2 SERIES TRUST",
-      "amount": "",
-      "legal": "L152 Blk Un SubORCHARD PARK PH II S T R",
-      "prop_address": "10096 SOUTHERN BREEZE CT",
-      "prop_city": "WEEKI WACHEE",
-      "prop_state": "FL",
-      "prop_zip": "34613",
-      "mail_address": "10096 SOUTHERN BREEZE CT",
-      "mail_city": "WEEKI WACHEE",
-      "mail_state": "FL",
-      "mail_zip": "34613-6522",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486580",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026033649",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/19/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "HENRY RONALD; UNKOWN SPOUSE; TEACHERS FEDERAL CREDIT UNION; PRISTINE PLACE HOMEOWNERSASSOCIATION INC",
-      "grantee": "ROCKET MORTGAGE LLC; QUICKEN LOANS LLC",
-      "amount": "",
-      "legal": "L12 BlkH Un SubPRISTINE PLACE PHASE ONE S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486581",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 50
-    },
-    {
-      "doc_num": "2026033654",
-      "doc_type": "LIS PENDENS",
-      "filed": "05/19/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "REAL ESTATE FLORIDA GROUP INC; THORPE KENNETH A",
-      "grantee": "COLES DUDLEY WALTER",
-      "amount": "",
-      "legal": "L1 Blk56 Un4 SubBROOKRIDGE COMMUNITY S T R; L64 Blk29 Un4 SubBROOKRIDGE COMMUNITY S T R",
-      "prop_address": "9951 SCEPTER AVE",
-      "prop_city": "BROOKSVILLE",
-      "prop_state": "FL",
-      "prop_zip": "34613",
-      "mail_address": "7268 BROOKRIDGE CENTRAL BLVD",
-      "mail_city": "BROOKSVILLE",
-      "mail_state": "FL",
-      "mail_zip": "34613-5907",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486586",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
     {
       "doc_num": "2026034270",
       "doc_type": "LIS PENDENS",
@@ -1040,10 +941,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493782",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026039901",
@@ -1066,10 +966,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3493812",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026040143",
@@ -1128,6 +1027,32 @@
       "filed": "06/16/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
+      "owner": "PETERSON MARLO TRSTE; PETERSON TRUST",
+      "grantee": "QUICK CASH OFFER LLC",
+      "amount": "",
+      "legal": "L24 Blk1302 Un20 SubSPRING HILL S T R",
+      "prop_address": "12135 SHAFTON RD",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "8339 FALMOUTH CT",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-6929",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494929",
+      "flags": [
+        "Foreclosure",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 70
+    },
+    {
+      "doc_num": "2026041349",
+      "doc_type": "LIS PENDENSX1",
+      "filed": "06/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
       "owner": "",
       "grantee": "",
       "amount": "",
@@ -1140,7 +1065,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494929",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495814",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -1148,15 +1073,15 @@
       "score": 55
     },
     {
-      "doc_num": "2026033620",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "05/19/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "MUSACCHIA SALLY AGNES; MUSACCHIA SALLY A; MUSACCHIA SALLY",
-      "grantee": "BARTLETT GEORGE R JR",
+      "doc_num": "2026041561",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L14 Blk893 Un13 SubSPRING HILL S T R",
+      "legal": "",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1165,22 +1090,23 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486556",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496063",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 40
+      "score": 55
     },
     {
-      "doc_num": "2026034141",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "05/19/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "HOWARD MARIAN B; SCHNEIDER MARIAN B",
-      "grantee": "ARBOGAST LAUREL D; ZAWISKLAK LOUISE D; GENSEMER LOUISE D",
+      "doc_num": "2026041766",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L15 Blk59 Un4 SubRIDGE MANOR ESTATES S T R",
+      "legal": "",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1189,11 +1115,87 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3486793",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496251",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 40
+      "score": 55
+    },
+    {
+      "doc_num": "2026041767",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496252",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026041768",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496253",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026041831",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/18/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496271",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
     },
     {
       "doc_num": "2026034723",
@@ -2563,6 +2565,106 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494611",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026040644",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/16/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "ROSSI MICHAEL ANTHONY",
+      "grantee": "NEM GAIL F",
+      "amount": "",
+      "legal": "L7 Blk32 Un1 SubSPRING HILL S T R",
+      "prop_address": "1480 GREENVIEW AVE",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34606",
+      "mail_address": "1480 GREENVIEW AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-4006",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494924",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026040878",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/17/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "KORADE CAROLE L",
+      "grantee": "HENN THERESA",
+      "amount": "",
+      "legal": "L60 Blk Un SubTIMBER PINES TR 28 S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495280",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026040880",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/17/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "POWLICK DANIEL",
+      "grantee": "TALLMAN DEBRA; POWLICK ROBERT",
+      "amount": "",
+      "legal": "L1 Blk8 Un1 SubHIGH POINT MOBILE HOME S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495282",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026040881",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/17/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "POWLICK DANIEL",
+      "grantee": "TALLMAN DEBRA; POWLICK ROBERT",
+      "amount": "",
+      "legal": "L1 Blk8 Un1 SubHIGH POINT MOBILE HOME S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495283",
       "flags": [
         "Probate / estate",
         "New this week"
