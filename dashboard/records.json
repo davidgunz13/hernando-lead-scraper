@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-06-21T04:02:46.162389+00:00",
+  "fetched_at": "2026-06-22T04:03:46.095146+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-22",
-    "end": "2026-06-21",
+    "start": "2026-05-23",
+    "end": "2026-06-22",
     "lookback_days": 30
   },
-  "total": 106,
-  "with_address": 70,
-  "ready_to_upload": 67,
+  "total": 105,
+  "with_address": 69,
+  "ready_to_upload": 66,
   "needs_review": 39,
   "records": [
     {
@@ -1126,30 +1126,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026034956",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "05/22/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "LIGI DENNIS J; LIGI DENNIS JAMES",
-      "grantee": "LIGI JAMES; ALDAY VALERIE ; BAZILE VALERIE",
-      "amount": "",
-      "legal": "L22 Blk828 Un13 SubSPRING HILL S T R",
-      "prop_address": "3047 POLO LN",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "3047 POLO LN",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-4349",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3488075",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026035179",
