@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-06-22T04:03:46.095146+00:00",
+  "fetched_at": "2026-06-23T03:25:19.964754+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-23",
-    "end": "2026-06-22",
+    "start": "2026-05-24",
+    "end": "2026-06-23",
     "lookback_days": 30
   },
-  "total": 105,
-  "with_address": 69,
-  "ready_to_upload": 66,
-  "needs_review": 39,
+  "total": 109,
+  "with_address": 74,
+  "ready_to_upload": 71,
+  "needs_review": 38,
   "records": [
     {
       "doc_num": "2026035413",
@@ -917,10 +917,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494570",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026040681",
@@ -1108,24 +1107,24 @@
       "filed": "06/19/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "IGLESIAS NERBER ALFONSO; HERNANDEZ YUDISLEIDY DIAZ; UNKNOWN SPOUSE ; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "CITIBANK NA TRSTE; BARCLAYS MORTGAGE LOAN TRUST 2024 NQM1",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L32 Blk1619 Un24 SubSPRING HILL S T R",
+      "prop_address": "14188 DORADO ST",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "14188 DORADO ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-5201",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496377",
       "flags": [
         "Foreclosure",
         "New this week"
       ],
-      "score": 55
+      "score": 60
     },
     {
       "doc_num": "2026035179",
@@ -2395,10 +2394,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494611",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026040644",
@@ -2569,6 +2567,106 @@
       "mail_state": "FL",
       "mail_zip": "34608-6708",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496299",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026041926",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/19/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "LENZI ANGELINE A",
+      "grantee": "DACEY HOPE MARIE",
+      "amount": "",
+      "legal": "L18 Blk943 Un15 SubSPRING HILL S T R",
+      "prop_address": "11147 MONARCH ST",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "11147 MONARCH ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-2762",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496355",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026041928",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/19/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "LENZI ANGELINE A",
+      "grantee": "DACEY HOPE MARIE",
+      "amount": "",
+      "legal": "L18 Blk943 Un15 SubSPRING HILL S T R",
+      "prop_address": "11147 MONARCH ST",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "11147 MONARCH ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-2762",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496357",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026041974",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/19/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "DAVIS LAMONT PATRICK; DAVIS LAMONT P",
+      "grantee": "LANE BONITA; DAVIS LYNDA; DAVIS PATRICK",
+      "amount": "",
+      "legal": "L144 Blk Un2 SubTIMBER PINES TR 5 S T R",
+      "prop_address": "6396 OCEAN PINES LN",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34606",
+      "mail_address": "6396 OCEAN PINES LN",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496365",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026042004",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/19/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "NOVAK JOSEPH",
+      "grantee": "SCHWEITZER RANDY JO",
+      "amount": "",
+      "legal": "L3,4 Blk63 Un SubMASARYKTOWN S T R",
+      "prop_address": "4512 JACONA DR",
+      "prop_city": "HERNANDO BEACH",
+      "prop_state": "FL",
+      "prop_zip": "34607",
+      "mail_address": "4512 JACONA DR",
+      "mail_city": "HERNANDO BEACH",
+      "mail_state": "FL",
+      "mail_zip": "34607-2837",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496391",
       "flags": [
         "Probate / estate",
         "New this week"
