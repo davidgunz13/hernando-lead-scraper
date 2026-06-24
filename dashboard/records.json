@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-06-23T03:25:19.964754+00:00",
+  "fetched_at": "2026-06-24T03:27:25.008298+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-24",
-    "end": "2026-06-23",
+    "start": "2026-05-25",
+    "end": "2026-06-24",
     "lookback_days": 30
   },
   "total": 109,
@@ -942,10 +942,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494929",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026041349",
@@ -2418,10 +2417,9 @@
       "mail_zip": "34606-4006",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494924",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026040878",
