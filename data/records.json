@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-06-24T03:27:25.008298+00:00",
+  "fetched_at": "2026-06-25T03:25:45.417911+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-25",
-    "end": "2026-06-24",
+    "start": "2026-05-26",
+    "end": "2026-06-25",
     "lookback_days": 30
   },
-  "total": 109,
+  "total": 112,
   "with_address": 74,
   "ready_to_upload": 71,
-  "needs_review": 38,
+  "needs_review": 41,
   "records": [
     {
       "doc_num": "2026035413",
@@ -1124,6 +1124,31 @@
         "New this week"
       ],
       "score": 60
+    },
+    {
+      "doc_num": "2026043208",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/24/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3497861",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
     },
     {
       "doc_num": "2026035179",
@@ -2441,10 +2466,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495280",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026040880",
@@ -2466,10 +2490,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495282",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026040881",
@@ -2491,10 +2514,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495283",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026041808",
@@ -2670,6 +2692,56 @@
         "New this week"
       ],
       "score": 60
+    },
+    {
+      "doc_num": "2026042542",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "06/23/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "VAN DETT RALPH ; VANDETT RALPH",
+      "grantee": "OLIVO ANGELA",
+      "amount": "",
+      "legal": "L52 Blk12 Un1 SubBROOKRIDGE COMM S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496912",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026042755",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "06/23/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "HAIENS GARY L",
+      "grantee": "MILLER LORRAINE",
+      "amount": "",
+      "legal": "L19 Blk10 Un1 SubFORT DADE MOBILE HOME PARK S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3497284",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
     }
   ]
 }
