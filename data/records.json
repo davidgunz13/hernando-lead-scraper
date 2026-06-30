@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-06-29T03:42:55.448419+00:00",
+  "fetched_at": "2026-06-30T03:31:24.564828+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-05-30",
-    "end": "2026-06-29",
+    "start": "2026-05-31",
+    "end": "2026-06-30",
     "lookback_days": 30
   },
-  "total": 103,
+  "total": 104,
   "with_address": 66,
   "ready_to_upload": 63,
-  "needs_review": 40,
+  "needs_review": 41,
   "records": [
     {
       "doc_num": "2026036717",
@@ -1083,10 +1083,10 @@
       "filed": "06/26/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "HICKS JANET ; UNKNOWN PARTY 1 ; UNKNOWN PARTY 2 ; UNKNOWN SPOUSE ; RIVER COUNTRY ESTATES OWNERS ASSOCIAITON INC",
+      "grantee": "PRIMARY RESIDENTIAL MORTGAGE INC",
       "amount": "",
-      "legal": "",
+      "legal": "L7 Blk13 Un SubRIVER COUNTRY ESTATES S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1098,9 +1098,10 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3498423",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 65
     },
     {
       "doc_num": "2026043740",
@@ -1121,6 +1122,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3498478",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026044008",
+      "doc_type": "LIS PENDENS",
+      "filed": "06/29/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3498827",
       "flags": [
         "Foreclosure",
         "New this week"
