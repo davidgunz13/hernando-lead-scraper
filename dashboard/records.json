@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-06T03:21:44.733720+00:00",
+  "fetched_at": "2026-07-07T02:55:13.746637+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-06-06",
-    "end": "2026-07-06",
+    "start": "2026-06-07",
+    "end": "2026-07-07",
     "lookback_days": 30
   },
-  "total": 79,
-  "with_address": 53,
-  "ready_to_upload": 50,
-  "needs_review": 29,
+  "total": 84,
+  "with_address": 54,
+  "ready_to_upload": 51,
+  "needs_review": 33,
   "records": [
     {
       "doc_num": "2026038601",
@@ -771,10 +771,9 @@
       "mail_zip": "34606-4201",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3498827",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026044657",
@@ -801,6 +800,81 @@
         "New this week"
       ],
       "score": 70
+    },
+    {
+      "doc_num": "2026045081",
+      "doc_type": "LIS PENDENSX",
+      "filed": "07/06/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499999",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026045159",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/06/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500562",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026045264",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/06/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500698",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
     },
     {
       "doc_num": "2026038576",
@@ -1806,10 +1880,9 @@
       "mail_zip": "34604-0726",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499034",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026044260",
@@ -1935,6 +2008,56 @@
         "New this week"
       ],
       "score": 60
+    },
+    {
+      "doc_num": "2026044740",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/01/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "VOLLINGER FLOYD B",
+      "grantee": "MEISCH LINDA; VOLLINGER BETH",
+      "amount": "",
+      "legal": "L2 Blk Un SubTIMBER PINES TR 56 S T R",
+      "prop_address": "2086 SPARKLING WATERS WAY",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34606",
+      "mail_address": "2086 SPARKLING WATERS WAY",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-3754",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499761",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026044923",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "07/01/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "POULGRAIN THELMA P; HERFRIGHT THELMA P",
+      "grantee": "CLIFTON MINNIE E; OLD REPUBLIC NATIONAL TITLE INSURANCE COMPANY",
+      "amount": "",
+      "legal": "L11 Blk5 Un1 SubPINE GROVE S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499870",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
     }
   ]
 }
