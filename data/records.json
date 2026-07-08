@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-07-07T02:55:13.746637+00:00",
+  "fetched_at": "2026-07-08T02:32:25.660210+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-06-07",
-    "end": "2026-07-07",
+    "start": "2026-06-08",
+    "end": "2026-07-08",
     "lookback_days": 30
   },
-  "total": 84,
-  "with_address": 54,
-  "ready_to_upload": 51,
+  "total": 90,
+  "with_address": 60,
+  "ready_to_upload": 57,
   "needs_review": 33,
   "records": [
     {
@@ -807,10 +807,10 @@
       "filed": "07/06/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "GILMORE KRISTINA ; REAL ESTATE ELEGANCE LLC",
+      "grantee": "SOARD YUKO IRINAKA ; SOARD YUKO; DELONG ANGELA PR",
       "amount": "",
-      "legal": "",
+      "legal": "L1 Blk Un SubBERKELEY MANOR PH 1 S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -822,9 +822,10 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499999",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 65
     },
     {
       "doc_num": "2026045159",
@@ -832,29 +833,54 @@
       "filed": "07/06/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "GILCHRIST JANET M; UNKNOWN OCCUPANTS",
+      "grantee": "HEATHER WALK HOMEOWNERS ASSOCIATION INC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L11 BlkA Un SubHEATHER WALK MULTIPLE FAMILY P D P BLOCK C S T R",
+      "prop_address": "7546 HEATHER WALK DR",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "7546 HEATHER WALK DR",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34613-5144",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500562",
       "flags": [
         "Foreclosure",
         "New this week"
       ],
-      "score": 55
+      "score": 60
     },
     {
       "doc_num": "2026045264",
       "doc_type": "LIS PENDENS",
       "filed": "07/06/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "DE VERTEUIL MATTHEW L; DE VERTEUIL VANESSA L; UNKNOWN OCCUPANTS",
+      "grantee": "HEATHER WALK HOMEOWNERSASSOCIATION INC",
+      "amount": "",
+      "legal": "L28 BlkC Un SubHEATHER WALK MULTIPLE FAMILY PDP S T R",
+      "prop_address": "7463 HEATHER WALK DR",
+      "prop_city": "WEEKI WACHEE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "7463 HEATHER WALK DR",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34613-5156",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500698",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026045429",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/07/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
       "owner": "",
@@ -869,7 +895,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500698",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500925",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -1904,10 +1930,9 @@
       "mail_zip": "34613-5394",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499194",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026044261",
@@ -1929,10 +1954,9 @@
       "mail_zip": "34613-5394",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499195",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026044264",
@@ -1954,10 +1978,9 @@
       "mail_zip": "34608-5404",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499198",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026044273",
@@ -1979,10 +2002,9 @@
       "mail_zip": "34613-6635",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499207",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026044357",
@@ -2004,10 +2026,9 @@
       "mail_zip": "33614-3640",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3489743",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026044740",
@@ -2058,6 +2079,131 @@
         "New this week"
       ],
       "score": 55
+    },
+    {
+      "doc_num": "2026045014",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "07/02/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "ROSSI MICHAEL ANTHONY",
+      "grantee": "NEM GAIL F",
+      "amount": "",
+      "legal": "L7 Blk32 Un1 SubSPRING HILL S T R",
+      "prop_address": "1480 GREENVIEW AVE",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34606",
+      "mail_address": "1480 GREENVIEW AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-4006",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499920",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026045141",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/06/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "MCKELVEY WOODROW WILSON",
+      "grantee": "CHINN DEBORAH KAYE; DICK LINDA SUE ; MCKELVEY GENEVA GAE",
+      "amount": "",
+      "legal": "L42 Blk Un1 SubVOSS OAK LAKE EST S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500536",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026045239",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/06/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "WRIGHT DOUGLAS WARREN",
+      "grantee": "GONZALEZ ABIGAIL WRIGHT; WRIGHT JASON",
+      "amount": "",
+      "legal": "L14 Blk25 Un4 SubGULF COAST RETREATS S T R",
+      "prop_address": "4519 FLOUNDER DR",
+      "prop_city": "HERNANDO BEACH",
+      "prop_state": "FL",
+      "prop_zip": "34607",
+      "mail_address": "4519 FLOUNDER DR",
+      "mail_city": "HERNANDO BEACH",
+      "mail_state": "FL",
+      "mail_zip": "34607-2933",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500666",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026045243",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/06/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "HUBER DONNA MARIE",
+      "grantee": "HUBER DENISE; ROGAN DEBRA; HUBER GARY; HUBER GENE",
+      "amount": "",
+      "legal": "L178 Blk Un3 SubWEEKIWACHEE GARDENS S T R",
+      "prop_address": "5323 CIRCLE DR",
+      "prop_city": "WEEKI WACHEE",
+      "prop_state": "FL",
+      "prop_zip": "34607",
+      "mail_address": "5323 CIRCLE DR",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34607-1406",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500670",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026045245",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/06/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "DEAN LAURIE SETON",
+      "grantee": "AIMAN WILLIAM III",
+      "amount": "",
+      "legal": "L42 Blk3 Un SubVILLAGES AT AVALON PHASE 2B EAST S T R",
+      "prop_address": "14282 SALTBY PL",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "14282 SALTBY PL",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-0738",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500672",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
     }
   ]
 }
