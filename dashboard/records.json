@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-14T02:21:15.135465+00:00",
+  "fetched_at": "2026-07-15T02:19:02.440471+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-06-14",
-    "end": "2026-07-14",
+    "start": "2026-06-15",
+    "end": "2026-07-15",
     "lookback_days": 30
   },
-  "total": 82,
-  "with_address": 50,
-  "ready_to_upload": 46,
-  "needs_review": 36,
+  "total": 83,
+  "with_address": 53,
+  "ready_to_upload": 48,
+  "needs_review": 35,
   "records": [
     {
       "doc_num": "2026040364",
@@ -648,10 +648,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500925",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026045940",
@@ -813,10 +812,10 @@
       "filed": "07/09/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "UNIQUE SURVEILLANCE LLC; FAST GUARD SERVICE WORLD WIDE LLC; FAST GUARD SERVICE WORLDWIDE; PAYNE RODERICK C II; PAYNE RODERICK C JR; AMINE ASSIA; PAYNE ASSIA; FAST GUARD SERVICE LLC; RARE CAPITAL INVESTMENTS LLC; FAST EQUIPMENT LLC; TACTICAL ELITE ENTERPRISES INC; SYNDICATE GROUP USA INC; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "NEWTEK SMALL BUSINESS FINANCE LLC",
       "amount": "",
-      "legal": "",
+      "legal": "L8 Blk4 Un SubPLANTATION GOLF EST S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -828,9 +827,10 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500975",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 65
     },
     {
       "doc_num": "2026046387",
@@ -838,24 +838,24 @@
       "filed": "07/09/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "WEDEL JUSTIN PAGE; WEDEL JUSTIN; SECRETARY OF HOUSING AND URBAN DEVELOPMENT; FLORIDA HOUSING FINANCE CORPORATION; VARAS KENDRA; VARAS KENDRA SADIE; UNKNOWN SPOUSE",
+      "grantee": "US BANK NATIONAL ASSOCIATION",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L18 Blk593 Un9 SubSPRING HILL S T R",
+      "prop_address": "11339 STACY ST",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "11339 STACY ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-3452",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501907",
       "flags": [
         "Foreclosure",
         "New this week"
       ],
-      "score": 55
+      "score": 60
     },
     {
       "doc_num": "2026046388",
@@ -863,24 +863,25 @@
       "filed": "07/09/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "LANGFORD THADEUS FERRELL; THOMPSON BRENDA M; LANGFORD BRENDA M THOMPSON; BROOKRIDGE COMMUNITY PROPERTY OWNERS INC; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "PLANET HOME LENDING LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L13 Blk68 Un4 SubBROOKRIDGE COMMUNITY S T R",
+      "prop_address": "9464 SCEPTER AVE",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "9464 SCEPTER AVE",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34613-4936",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501908",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 70
     },
     {
       "doc_num": "2026046389",
@@ -888,10 +889,10 @@
       "filed": "07/09/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "HURLEY JULIE M; BRYAN DANIEL SCOTT; BRYAN MICHAEL PATRICK; BAXENDALE LAURA ANN; UNKNOWN PARTIES; BRYAN THOMAS; BRYAN THOMAS GANO; BRYAN THOMAS G; STATE OF FLORIDA DEPARTMENT OF REVENUE; UNKNOWN SPOUSE; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "LAKEVIEW LOAN SERVICING LLC",
       "amount": "",
-      "legal": "",
+      "legal": "L10 Blk1559 Un22 SubSPRING HILL S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -913,24 +914,24 @@
       "filed": "07/09/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "PALMER JENNY LYNN",
+      "grantee": "LUNSFORD MARTIN",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L5 Blk86 Un5 SubRIDGE MANOR ESTATES S T R",
+      "prop_address": "0 TOMBSTONE ST",
+      "prop_city": "WEBSTER",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "33597",
+      "mail_address": "4101 QUAIL NEST CT",
+      "mail_city": "SAINT CLOUD",
+      "mail_state": "FL",
+      "mail_zip": "34772-7794",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501910",
       "flags": [
         "Foreclosure",
         "New this week"
       ],
-      "score": 55
+      "score": 60
     },
     {
       "doc_num": "2026046535",
@@ -1941,10 +1942,9 @@
       "mail_zip": "34602-7328",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500887",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026045670",
@@ -1966,10 +1966,9 @@
       "mail_zip": "33523-8821",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501201",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026045671",
@@ -1991,10 +1990,9 @@
       "mail_zip": "33523-8821",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501202",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026045873",
@@ -2020,6 +2018,31 @@
         "New this week"
       ],
       "score": 60
+    },
+    {
+      "doc_num": "2026046313",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/09/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "WOODS SHARON L; WOODS SHARI; WIESE SHARI",
+      "grantee": "TILSON JEFFERY KENT; LONG TRELA KAY; TILSON CHRISTI DEETE",
+      "amount": "",
+      "legal": "L30 BlkD Un SubPOTTERFIELD GARDEN ACRES S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501808",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 55
     }
   ]
 }
