@@ -1,44 +1,19 @@
 {
-  "fetched_at": "2026-07-15T02:19:02.440471+00:00",
+  "fetched_at": "2026-07-16T02:26:27.243105+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-06-15",
-    "end": "2026-07-15",
+    "start": "2026-06-16",
+    "end": "2026-07-16",
     "lookback_days": 30
   },
-  "total": 83,
-  "with_address": 53,
-  "ready_to_upload": 48,
+  "total": 84,
+  "with_address": 55,
+  "ready_to_upload": 49,
   "needs_review": 35,
   "records": [
-    {
-      "doc_num": "2026040364",
-      "doc_type": "LIS PENDENS",
-      "filed": "06/15/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "MILEY RENEE E; MILEY MICHAEL E; SECRETARY OF HOUSING AND URBAN DEVELOPMENT; HOMEOWNERS ASSOCIATION OF AVALON VILLAGE INC; UNKNOWN PARTY",
-      "grantee": "LAKEVIEW LOAN SERVICING LLC",
-      "amount": "",
-      "legal": "L61 Blk Un SubVILLAGES AT AVALON PH IV S T R",
-      "prop_address": "700 ARGYLL DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "700 ARGYLL DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-6582",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494570",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
     {
       "doc_num": "2026040681",
       "doc_type": "LIS PENDENS",
@@ -673,10 +648,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501392",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026045971",
@@ -698,10 +672,9 @@
       "mail_zip": "34606-4221",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501430",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026045972",
@@ -724,10 +697,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501431",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026045973",
@@ -749,10 +721,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501432",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026045974",
@@ -775,10 +746,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501433",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026045975",
@@ -801,10 +771,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501434",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 65
+      "score": 50
     },
     {
       "doc_num": "2026046139",
@@ -939,10 +908,10 @@
       "filed": "07/09/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "SHRINE OF FATIMA & SAINT CAJETAN INC",
+      "grantee": "FOSTERS ROOFING ENTERPRISES INC",
       "amount": "",
-      "legal": "",
+      "legal": "L17 Blk Un SubHI WAY FARMS S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -954,9 +923,10 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502032",
       "flags": [
         "Foreclosure",
+        "LLC / corp owner",
         "New this week"
       ],
-      "score": 55
+      "score": 65
     },
     {
       "doc_num": "2026046580",
@@ -964,24 +934,24 @@
       "filed": "07/10/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "PALMER JENNY LYNN",
+      "grantee": "LUNSFORD MARTIN",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L6 Blk86 Un5 SubRIDGE MANOR ESTATES S T R",
+      "prop_address": "0 TOMBSTONE ST",
+      "prop_city": "WEBSTER",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "33597",
+      "mail_address": "4101 QUAIL NEST CT",
+      "mail_city": "SAINT CLOUD",
+      "mail_state": "FL",
+      "mail_zip": "34772-7794",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502126",
       "flags": [
         "Foreclosure",
         "New this week"
       ],
-      "score": 55
+      "score": 60
     },
     {
       "doc_num": "2026046712",
@@ -1059,15 +1029,15 @@
       "score": 55
     },
     {
-      "doc_num": "2026040429",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "06/15/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "HILDEBRAND CLARENCE III",
-      "grantee": "HILDEBRAND PATRICIA WELLS ; HILDEBRAND CRAIG ; HILDEBRAND SHERRIE",
+      "doc_num": "2026047768",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/15/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L11 Blk1323 Un20 SubSPRING HILL S T R",
+      "legal": "",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1076,11 +1046,12 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3494611",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3503510",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026040644",
@@ -2014,10 +1985,9 @@
       "mail_zip": "33614-3640",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500704",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026046313",
@@ -2043,6 +2013,56 @@
         "New this week"
       ],
       "score": 55
+    },
+    {
+      "doc_num": "2026046560",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "ENGEL GEORGE L; ENGEL GEORGE LEROY",
+      "grantee": "ENGEL ALBANIA A",
+      "amount": "",
+      "legal": "L15 Blk1589 Un23 SubSPRING HILL S T R",
+      "prop_address": "5317 KIRKWOOD AVE",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "5317 KIRKWOOD AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-1725",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502086",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026046561",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "ENGEL GEORGE L; ENGEL GEORGE LEROY",
+      "grantee": "ENGEL ALBANIA A",
+      "amount": "",
+      "legal": "L15 Blk1589 Un23 SubSPRING HILL S T R",
+      "prop_address": "5317 KIRKWOOD AVE",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "5317 KIRKWOOD AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-1725",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502087",
+      "flags": [
+        "Probate / estate",
+        "New this week"
+      ],
+      "score": 60
     }
   ]
 }
