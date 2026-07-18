@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-17T02:29:45.461947+00:00",
+  "fetched_at": "2026-07-18T02:14:49.718357+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-06-17",
-    "end": "2026-07-17",
+    "start": "2026-06-18",
+    "end": "2026-07-18",
     "lookback_days": 30
   },
-  "total": 85,
+  "total": 89,
   "with_address": 56,
   "ready_to_upload": 50,
-  "needs_review": 35,
+  "needs_review": 39,
   "records": [
     {
       "doc_num": "2026041349",
@@ -513,7 +513,7 @@
       "owner": "GILMORE KRISTINA ; REAL ESTATE ELEGANCE LLC",
       "grantee": "SOARD YUKO IRINAKA ; SOARD YUKO; DELONG ANGELA PR",
       "amount": "",
-      "legal": "L1 Blk Un SubBERKELEY MANOR PH 1 S T R",
+      "legal": "CP-2026-0594; L1 Blk Un SubBERKELEY MANOR PH 1 S T R; R1022317142400000010",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -917,10 +917,9 @@
       "mail_zip": "34772-7794",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502126",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026046712",
@@ -943,10 +942,9 @@
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502299",
       "flags": [
         "Foreclosure",
-        "LLC / corp owner",
-        "New this week"
+        "LLC / corp owner"
       ],
-      "score": 70
+      "score": 55
     },
     {
       "doc_num": "2026046713",
@@ -968,10 +966,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502300",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026046962",
@@ -1074,15 +1071,15 @@
       "score": 55
     },
     {
-      "doc_num": "2026040878",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "06/17/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "KORADE CAROLE L",
-      "grantee": "HENN THERESA",
+      "doc_num": "2026048579",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/17/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L60 Blk Un SubTIMBER PINES TR 28 S T R",
+      "legal": "",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1091,22 +1088,23 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495280",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504324",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 40
+      "score": 55
     },
     {
-      "doc_num": "2026040880",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "06/17/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "POWLICK DANIEL",
-      "grantee": "TALLMAN DEBRA; POWLICK ROBERT",
+      "doc_num": "2026048580",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/17/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L1 Blk8 Un1 SubHIGH POINT MOBILE HOME S T R",
+      "legal": "",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1115,22 +1113,23 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495282",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504325",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 40
+      "score": 55
     },
     {
-      "doc_num": "2026040881",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "06/17/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "POWLICK DANIEL",
-      "grantee": "TALLMAN DEBRA; POWLICK ROBERT",
+      "doc_num": "2026048589",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/17/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L1 Blk8 Un1 SubHIGH POINT MOBILE HOME S T R",
+      "legal": "",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1139,11 +1138,112 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3495283",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504334",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 40
+      "score": 55
+    },
+    {
+      "doc_num": "2026048590",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/17/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504335",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026048591",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/17/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504336",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026048592",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/17/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504337",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026048593",
+      "doc_type": "LIS PENDENS",
+      "filed": "07/17/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504338",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
     },
     {
       "doc_num": "2026041808",
@@ -2029,10 +2129,9 @@
       "mail_zip": "34608-1725",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502086",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026046561",
@@ -2054,10 +2153,9 @@
       "mail_zip": "34608-1725",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502087",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026046717",
@@ -2079,10 +2177,9 @@
       "mail_zip": "34608-0738",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501531",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     }
   ]
 }
