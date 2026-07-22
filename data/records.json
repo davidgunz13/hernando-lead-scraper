@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-07-21T02:33:01.244608+00:00",
+  "fetched_at": "2026-07-22T02:28:52.025775+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-06-21",
-    "end": "2026-07-21",
+    "start": "2026-06-22",
+    "end": "2026-07-22",
     "lookback_days": 30
   },
   "total": 80,
@@ -1935,10 +1935,9 @@
       "mail_zip": "34613-4807",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3503191",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     },
     {
       "doc_num": "2026047337",
@@ -1960,10 +1959,9 @@
       "mail_zip": "34608-1532",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3503195",
       "flags": [
-        "Probate / estate",
-        "New this week"
+        "Probate / estate"
       ],
-      "score": 60
+      "score": 45
     }
   ]
 }
