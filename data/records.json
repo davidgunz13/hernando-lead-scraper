@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-07-23T02:34:22.822112+00:00",
+  "fetched_at": "2026-07-24T02:31:22.330211+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-06-23",
-    "end": "2026-07-23",
+    "start": "2026-06-24",
+    "end": "2026-07-24",
     "lookback_days": 30
   },
-  "total": 91,
+  "total": 89,
   "with_address": 52,
   "ready_to_upload": 46,
-  "needs_review": 45,
+  "needs_review": 43,
   "records": [
     {
       "doc_num": "2026043208",
@@ -867,10 +867,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3503856",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026048154",
@@ -892,10 +891,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3503395",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026048579",
@@ -1271,54 +1269,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026042542",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "06/23/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "VAN DETT RALPH ; VANDETT RALPH",
-      "grantee": "OLIVO ANGELA",
-      "amount": "",
-      "legal": "L52 Blk12 Un1 SubBROOKRIDGE COMM S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3496912",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 40
-    },
-    {
-      "doc_num": "2026042755",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "06/23/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "HAIENS GARY L",
-      "grantee": "MILLER LORRAINE",
-      "amount": "",
-      "legal": "L19 Blk10 Un1 SubFORT DADE MOBILE HOME PARK S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3497284",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 40
     },
     {
       "doc_num": "2026043323",
