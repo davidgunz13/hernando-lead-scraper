@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-08-01T02:36:44.494363+00:00",
+  "fetched_at": "2026-08-02T02:35:35.832813+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-02",
-    "end": "2026-08-01",
+    "start": "2026-07-03",
+    "end": "2026-08-02",
     "lookback_days": 30
   },
-  "total": 97,
-  "with_address": 52,
-  "ready_to_upload": 45,
+  "total": 96,
+  "with_address": 51,
+  "ready_to_upload": 44,
   "needs_review": 52,
   "records": [
     {
@@ -1623,30 +1623,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026045014",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "07/02/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "ROSSI MICHAEL ANTHONY",
-      "grantee": "NEM GAIL F",
-      "amount": "",
-      "legal": "L7 Blk32 Un1 SubSPRING HILL S T R",
-      "prop_address": "1480 GREENVIEW AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "1480 GREENVIEW AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-4006",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3499920",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026045141",
