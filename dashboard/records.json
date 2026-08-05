@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-08-04T02:22:20.677631+00:00",
+  "fetched_at": "2026-08-05T02:21:29.425117+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-05",
-    "end": "2026-08-04",
+    "start": "2026-07-06",
+    "end": "2026-08-05",
     "lookback_days": 30
   },
-  "total": 99,
-  "with_address": 57,
+  "total": 103,
+  "with_address": 58,
   "ready_to_upload": 50,
-  "needs_review": 49,
+  "needs_review": 53,
   "records": [
     {
       "doc_num": "2026045081",
@@ -1214,10 +1214,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507119",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026050958",
@@ -1239,10 +1238,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507255",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051157",
@@ -1688,6 +1686,81 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508964",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026052565",
+      "doc_type": "LIS PENDENS",
+      "filed": "08/04/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3509209",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026052566",
+      "doc_type": "LIS PENDENS",
+      "filed": "08/04/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3509210",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026052585",
+      "doc_type": "LIS PENDENS",
+      "filed": "08/04/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3509240",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -2433,6 +2506,30 @@
       "mail_state": "FL",
       "mail_zip": "34608-5239",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3505742",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026050623",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "07/28/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "CIPRIANO SANTA",
+      "grantee": "CIPIANO ROBERT; CIPRIANO THOMAS; MINUTELLO BARBARA",
+      "amount": "",
+      "legal": "L10 Blk637 Un8 SubROYAL HIGHLANDS S T R",
+      "prop_address": "0 MALDEN RD",
+      "prop_city": "WEEKI WACHEE",
+      "prop_state": "FL",
+      "prop_zip": "34614",
+      "mail_address": "8 MAJOR CT",
+      "mail_city": "ROCKVILLE CENTRE",
+      "mail_state": "NY",
+      "mail_zip": "11570-6024",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507004",
       "flags": [
         "Probate / estate"
       ],
