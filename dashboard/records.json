@@ -1,44 +1,19 @@
 {
-  "fetched_at": "2026-08-06T02:24:16.738380+00:00",
+  "fetched_at": "2026-08-07T02:34:11.308792+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-07",
-    "end": "2026-08-06",
+    "start": "2026-07-08",
+    "end": "2026-08-07",
     "lookback_days": 30
   },
-  "total": 113,
-  "with_address": 64,
-  "ready_to_upload": 56,
-  "needs_review": 57,
+  "total": 110,
+  "with_address": 61,
+  "ready_to_upload": 54,
+  "needs_review": 56,
   "records": [
-    {
-      "doc_num": "2026045429",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/07/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "ANTONUCCI LEONARD T ; SHERMAN HILLS HOMEOWNERS ASSOCIATION INC ; UNKNOWN SPOUSE",
-      "grantee": "LAKEVIEW LOAN SERVICING LLC",
-      "amount": "",
-      "legal": "L38 Blk4 Un SubSHERMAN HILLS S T R",
-      "prop_address": "31173 SATINLEAF RUN",
-      "prop_city": "BROOKSVILLE",
-      "prop_state": "FL",
-      "prop_zip": "34602",
-      "mail_address": "31173 SATINLEAF RUN",
-      "mail_city": "BROOKSVILLE",
-      "mail_state": "FL",
-      "mail_zip": "34602",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500925",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
     {
       "doc_num": "2026045940",
       "doc_type": "LIS PENDENS",
@@ -1151,23 +1126,23 @@
       "filed": "07/28/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "PARSONS AJ TYLER; PARSONS AJ T; PARSONS TIA L; UNKNOWN TENANT",
+      "grantee": "LAKEVIEW LOAN SERVICING LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L20 Blk308 Un7 SubSPRING HILL S T R",
+      "prop_address": "8155 GIFFEN LN",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "8155 GIFFEN LN",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-5250",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507255",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026051157",
@@ -1175,10 +1150,10 @@
       "filed": "07/29/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "GARLOCK ZACHARY T; GARLOCK CASSANDRA M; UNKNOWN SPOUSE; BARRINGTON AT STERLING HILL COMMUNITY ASSOCIATION INC; UNKNOWN TENANT",
+      "grantee": "PENNYMAC LOAN SERVICES LLC",
       "amount": "",
-      "legal": "",
+      "legal": "L201 Blk Un2 SubBARRINGTON AT STERLING HILL S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1189,9 +1164,10 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507065",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 50
     },
     {
       "doc_num": "2026051256",
@@ -1199,10 +1175,10 @@
       "filed": "07/29/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "OCANA DANIEL SUAREZ",
+      "grantee": "SEVEN HILLS HOMEOWNERS ASSOCIATION INC",
       "amount": "",
-      "legal": "",
+      "legal": "L454 Blk Un8 SubLINKS AT SEVEN HILLS S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1792,76 +1768,29 @@
       "score": 55
     },
     {
-      "doc_num": "2026045377",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/07/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "MORGAN MARY FRANCES",
-      "grantee": "COLE RONALD M II",
+      "doc_num": "2026053060",
+      "doc_type": "LIS PENDENS1",
+      "filed": "08/06/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L8 Blk Un SubTOWN OF STAFFORD S29 T21S R19E",
-      "prop_address": "6315 OAKTON DR",
-      "prop_city": "BROOKSVILLE",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
       "prop_state": "FL",
-      "prop_zip": "34602",
-      "mail_address": "6315 OAKTON DR",
-      "mail_city": "BROOKSVILLE",
-      "mail_state": "FL",
-      "mail_zip": "34602-7328",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500887",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3509147",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026045670",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/07/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "BOTTS LEILA MARGARET WARD",
-      "grantee": "SMITH LISA ANNE WARD; WARD HUGH ROBERT; WARD JOHN ALLEN FRAZIER; WARD GINGER LYNN",
-      "amount": "",
-      "legal": "L208 Blk Un2 SubRIDGE MANOR FARMS REPLAT S T R; L252 Blk Un2 SubRIDGE MANOR LAKEWOOD S T R",
-      "prop_address": "0 WOODLAND CIR",
-      "prop_city": "DADE CITY",
-      "prop_state": "FL",
-      "prop_zip": "33523",
-      "mail_address": "34772 HIBISCUS DR",
-      "mail_city": "DADE CITY",
-      "mail_state": "FL",
-      "mail_zip": "33523-8821",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501201",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026045671",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/07/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "BOTTS LEILA MARGARET WARD",
-      "grantee": "SMITH LISA ANNE WARD; WARD HUGH ROBERT; WARD GINGER LYNN; WARD JOHN ALLEN FRAZIER",
-      "amount": "",
-      "legal": "L252 Blk Un2 SubRIDGE MANOR LAKEWOOD S T R",
-      "prop_address": "34772 HIBISCUS DR",
-      "prop_city": "DADE CITY",
-      "prop_state": "FL",
-      "prop_zip": "33523",
-      "mail_address": "34772 HIBISCUS DR",
-      "mail_city": "DADE CITY",
-      "mail_state": "FL",
-      "mail_zip": "33523-8821",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501202",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
+      "score": 55
     },
     {
       "doc_num": "2026045873",
