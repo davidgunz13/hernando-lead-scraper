@@ -1,167 +1,19 @@
 {
-  "fetched_at": "2026-08-07T02:34:11.308792+00:00",
+  "fetched_at": "2026-08-08T01:23:43.413050+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-08",
-    "end": "2026-08-07",
+    "start": "2026-07-09",
+    "end": "2026-08-08",
     "lookback_days": 30
   },
-  "total": 110,
-  "with_address": 61,
-  "ready_to_upload": 54,
-  "needs_review": 56,
+  "total": 103,
+  "with_address": 58,
+  "ready_to_upload": 52,
+  "needs_review": 51,
   "records": [
-    {
-      "doc_num": "2026045940",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/08/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "LUNGHI HERNANDO MARIO JR; LUNGHI SUZETTE; LUNGHI SUZETTE DIANE; STERLING HILL HOMEOWNERS ASSOCIATION INC; PINNACLE BANK; SYNOVUS BANK; UNKNOWN TENANT",
-      "grantee": "LAKEVIEW LOAN SERVICING LLC",
-      "amount": "",
-      "legal": "L24 Blk27 Un SubSTERLING HILL PH 2B S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501392",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 50
-    },
-    {
-      "doc_num": "2026045971",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/08/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "KELDIE ALEXA; KELDIE ROBERT; KELDIE ROBERT III; FLORIDA HOUSING FINANCE CORPORATION; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "LAKEVIEW LOAN SERVICING LLC",
-      "amount": "",
-      "legal": "L5 Blk101 Un2 SubSPRING HILL S T R",
-      "prop_address": "7156 LOCKWOOD ST",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "7156 LOCKWOOD ST",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-4221",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501430",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026045972",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/08/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "RANDOLPH JAMES; RANDOLPH DALE; EAST LINDEN ESTATES HOMEOWNERS ASSOCIATION INC; SECRETARY OF HOUSING AND URBAN DEVELOPMENT",
-      "grantee": "ROCKET MORTGAGE LLC",
-      "amount": "",
-      "legal": "L429 Blk Un4 SubEAST LINDEN ESTATES S T R",
-      "prop_address": "309 SILAS CT",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "309 SILAS CT",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-9383",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501431",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026045973",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/08/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "ESPOITO MICHAEL; EPOSITO MICHAEL S; ESPOSITO PHILLIP; ESPOSITO PHILLIP J; HERNANDO COUNTY; UNKOWN TENANT 1; UNKNOWN TENANT 2; UNKNOWN SPOUSE",
-      "grantee": "NEWREZ LLC",
-      "amount": "",
-      "legal": "L5 Blk450 Un8 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501432",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 40
-    },
-    {
-      "doc_num": "2026045974",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/08/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "UNKNOWN SUCCESSOR TRUSTEE; DENNIS V SANCENITO TRUST; UNKNOWN PERSONAL REPRESENTATIVE; SANCENITO DENNIS V; UNKNOWN SPOUSE; UNKNOWN PARTY 1; UNKNOWN PARTY 2; NOLAND ZACKARY",
-      "grantee": "VILLAGE CAPITAL & INVESTMENT LLC",
-      "amount": "",
-      "legal": "L5 Blk558 Un9 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501433",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 50
-    },
-    {
-      "doc_num": "2026045975",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/08/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "RAMOS ELVIS RAFAEL; PERALTA ALEXANDER MIGUEL; RAMOS AMARILIS; UNKNOWN SPOUSE; UNKNOWN PARTY 1; UNKNOWN PARTY 2; LANDMASTER PROPERTIES INC; SECRETARY OF HOUSING AND URBAN DEVELOPMENT",
-      "grantee": "PENNYMAC LOAN SERVICES LLC",
-      "amount": "",
-      "legal": "L14 Blk414 Un6 SubROYAL HIGHLANDS S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501434",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 50
-    },
     {
       "doc_num": "2026046139",
       "doc_type": "LIS PENDENS1",
@@ -1199,10 +1051,10 @@
       "filed": "07/29/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "STORY DALE E; STORY DALE; UNKNOWN SPOUSE ; HEATHER PROPERTY OWNERS ASSOCIATION INC; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "U S BANK NATIONAL ASSOCIATION TRSTE; RESIDENTIAL ASSET MORTGAGE PRODUCTS INC; ASSET BACKED PASS THROUGH CERTIFICATES SERIES 2005 EFC5",
       "amount": "",
-      "legal": "",
+      "legal": "L14 Blk23 Un SubROYAL WEST THE HEATHE S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1213,9 +1065,10 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507757",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 50
     },
     {
       "doc_num": "2026051967",
@@ -1237,10 +1090,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508398",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051968",
@@ -1262,10 +1114,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508399",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051974",
@@ -1287,10 +1138,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508405",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051975",
@@ -1312,10 +1162,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508406",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051977",
@@ -1337,10 +1186,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508414",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051978",
@@ -1362,10 +1210,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508415",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051982",
@@ -1387,10 +1234,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508419",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051985",
@@ -1412,10 +1258,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508422",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051986",
@@ -1437,10 +1282,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508423",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051987",
@@ -1462,10 +1306,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508424",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051988",
@@ -1487,10 +1330,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508425",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026051989",
@@ -1512,10 +1354,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508426",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026052341",
@@ -1791,30 +1632,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026045873",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "07/08/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "LOPEZ OLGA LIDIA",
-      "grantee": "ELHADRI SAED",
-      "amount": "",
-      "legal": "L1 Blk60 Un4 SubRIDGE MANOR EST S T R",
-      "prop_address": "0 WICKSHIRE ST",
-      "prop_city": "WEBSTER",
-      "prop_state": "FL",
-      "prop_zip": "33597",
-      "mail_address": "4502 W MINNEHAHA ST",
-      "mail_city": "TAMPA",
-      "mail_state": "FL",
-      "mail_zip": "33614-3640",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3500704",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026046313",
