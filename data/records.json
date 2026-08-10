@@ -1,92 +1,19 @@
 {
-  "fetched_at": "2026-08-09T01:28:44.971405+00:00",
+  "fetched_at": "2026-08-10T01:38:27.644810+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-10",
-    "end": "2026-08-09",
+    "start": "2026-07-11",
+    "end": "2026-08-10",
     "lookback_days": 30
   },
-  "total": 96,
-  "with_address": 55,
-  "ready_to_upload": 50,
-  "needs_review": 46,
+  "total": 90,
+  "with_address": 50,
+  "ready_to_upload": 46,
+  "needs_review": 44,
   "records": [
-    {
-      "doc_num": "2026046580",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/10/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "PALMER JENNY LYNN",
-      "grantee": "LUNSFORD MARTIN",
-      "amount": "",
-      "legal": "L6 Blk86 Un5 SubRIDGE MANOR ESTATES S T R",
-      "prop_address": "0 TOMBSTONE ST",
-      "prop_city": "WEBSTER",
-      "prop_state": "FL",
-      "prop_zip": "33597",
-      "mail_address": "4101 QUAIL NEST CT",
-      "mail_city": "SAINT CLOUD",
-      "mail_state": "FL",
-      "mail_zip": "34772-7794",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502126",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026046712",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/10/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "ZHENG BOLIN; XU ZHANGJIN; ZHENG MENGDIE; UNKNOWN SPOUSE; BARRINGTON AT STERLING HILL COMMUNITY ASSOCIATION INC; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "LAKEVIEW LOAN SERVICING LLC",
-      "amount": "",
-      "legal": "L211 Blk Un2 SubBARRINGTON AT STERLING HILL S T R",
-      "prop_address": "4051 AUTUMN AMBER DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "4051 AUTUMN AMBER DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-6595",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502299",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026046713",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/10/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "HENRY RONALD; HENRY RONALD LAMAR; UNKNOWN SPOUSE ; UNKNOWN TENANT 1 ; UNKNOWN TENANT 2",
-      "grantee": "TEACHERS FEDERAL CREDIT UNION",
-      "amount": "",
-      "legal": "L12 BlkH Un SubPRISTINE PLACE PH ONE S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502300",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 40
-    },
     {
       "doc_num": "2026046962",
       "doc_type": "LIS PENDENS",
@@ -1485,78 +1412,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026046560",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/10/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "ENGEL GEORGE L; ENGEL GEORGE LEROY",
-      "grantee": "ENGEL ALBANIA A",
-      "amount": "",
-      "legal": "L15 Blk1589 Un23 SubSPRING HILL S T R",
-      "prop_address": "5317 KIRKWOOD AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "5317 KIRKWOOD AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-1725",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502086",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026046561",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/10/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "ENGEL GEORGE L; ENGEL GEORGE LEROY",
-      "grantee": "ENGEL ALBANIA A",
-      "amount": "",
-      "legal": "L15 Blk1589 Un23 SubSPRING HILL S T R",
-      "prop_address": "5317 KIRKWOOD AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "5317 KIRKWOOD AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-1725",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3502087",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026046717",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "07/10/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "DEAN LAURIE SETON",
-      "grantee": "AIMAN WILLIAM III",
-      "amount": "",
-      "legal": "L42 Blk3 Un SubVILLAGES AT AVALON PH 2B EAST S T R",
-      "prop_address": "14282 SALTBY PL",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "14282 SALTBY PL",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-0738",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3501531",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026047333",
