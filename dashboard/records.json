@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-08-17T01:08:29.346671+00:00",
+  "fetched_at": "2026-08-18T01:05:55.343657+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-18",
-    "end": "2026-08-17",
+    "start": "2026-07-19",
+    "end": "2026-08-18",
     "lookback_days": 30
   },
-  "total": 80,
-  "with_address": 54,
-  "ready_to_upload": 48,
-  "needs_review": 32,
+  "total": 81,
+  "with_address": 56,
+  "ready_to_upload": 50,
+  "needs_review": 31,
   "records": [
     {
       "doc_num": "2026048870",
@@ -1122,23 +1122,23 @@
       "filed": "08/06/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "FEARING DARRON M; FEARING DARRON; FEARING CRYSTAL; THOMAS CRYSTAL; UNKNOWN SPOUSE; UNKNOWN TENANT; UNITED STATES OF AMERICA",
+      "grantee": "NEWREZ LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L10 Blk288 Un5 SubROYAL HIGHLANDS S T R",
+      "prop_address": "12139 MURRE AVE",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34614",
+      "mail_address": "12139 MURRE AVE",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34614-3118",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3509147",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026054056",
@@ -1956,6 +1956,30 @@
       "mail_state": "FL",
       "mail_zip": "34606-3819",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3509588",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026053035",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/06/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "BROOKS CAROLYN PATRICIA",
+      "grantee": "WATKINS ROLETTA",
+      "amount": "",
+      "legal": "L7 Blk1059 Un16 SubSPRING HILL S T R",
+      "prop_address": "12276 VILLA RD",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "12276 VILLA RD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-2068",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510050",
       "flags": [
         "Probate / estate"
       ],
