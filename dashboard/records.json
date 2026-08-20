@@ -1,92 +1,19 @@
 {
-  "fetched_at": "2026-08-19T01:06:56.734140+00:00",
+  "fetched_at": "2026-08-20T01:06:30.669764+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-20",
-    "end": "2026-08-19",
+    "start": "2026-07-21",
+    "end": "2026-08-20",
     "lookback_days": 30
   },
-  "total": 90,
-  "with_address": 60,
-  "ready_to_upload": 54,
-  "needs_review": 36,
+  "total": 88,
+  "with_address": 56,
+  "ready_to_upload": 51,
+  "needs_review": 37,
   "records": [
-    {
-      "doc_num": "2026048870",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/20/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "CAREY LILYANA; UNKNOWN SPOUSE; UNITED STATES OF AMERICA DEPARTMENT OF THE TREASURY; UNKNOWN PERSONS",
-      "grantee": "LOANDEPOT COM LLC",
-      "amount": "",
-      "legal": "L8 Blk181 Un4 SubROYAL HIGHLANDS S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504672",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 40
-    },
-    {
-      "doc_num": "2026048871",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/20/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "WILSON ALISHA MARIE; FLORIDA HOUSING FINANCE CORPORATION; UNKNOWN SPOUSE",
-      "grantee": "U S BANK NATIONAL ASSOCIATION",
-      "amount": "",
-      "legal": "L13 Blk1509 Un22 SubSPRING HILL S T R",
-      "prop_address": "5437 FREEPORT DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "5437 FREEPORT DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-1222",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504673",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026048916",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/20/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "ROBINSON CURTIS ALLEN JR; ROBINSON GERALYN; UNKNOWN SPOUSE; CASTLE CREDIT CO HOLDINGS LLC; RTO NATIONAL LLC; PORTFOLIO RECOVERY ASSOCIATES LLC; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "PENNYMAC LOAN SERVICES LLC",
-      "amount": "",
-      "legal": "L20 Blk859 Un13 SubSPRING HILL S T R",
-      "prop_address": "2254 MARBLE AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "2254 MARBLE AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-4104",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504791",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
     {
       "doc_num": "2026049548",
       "doc_type": "LIS PENDENS",
@@ -1208,10 +1135,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3511664",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026054320",
@@ -1233,10 +1159,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3511692",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026054711",
@@ -1339,52 +1264,79 @@
       "score": 55
     },
     {
-      "doc_num": "2026048908",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/20/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "LAMBERT JOHN H",
-      "grantee": "LAMBERT GEOFFREY; LAMBERT RICHARD",
+      "doc_num": "2026055761",
+      "doc_type": "LIS PENDENS",
+      "filed": "08/19/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L28 Blk314 Un7 SubSPRING HILL S T R",
-      "prop_address": "2069 COACHMAN RD",
-      "prop_city": "SPRING HILL",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
       "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "2069 COACHMAN RD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-5239",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504777",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3513378",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 45
+      "score": 55
     },
     {
-      "doc_num": "2026049127",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/20/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "HALTERMAN LEWIS S; HALTERMAN LEWIS SPENCER",
-      "grantee": "HALTERMAN KEVIN WADE; KIRKPATRICK JULIE ANN",
+      "doc_num": "2026055769",
+      "doc_type": "LIS PENDENS",
+      "filed": "08/19/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L6 Blk88 Un5 SubRIDGE MANOR ESTATES S T R",
-      "prop_address": "0 TOMBSTONE ST",
-      "prop_city": "WEBSTER",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
       "prop_state": "FL",
-      "prop_zip": "33597",
-      "mail_address": "1097 TUCKAHOE RD",
-      "mail_city": "WHITE SULPHUR SPRINGS",
-      "mail_state": "WV",
-      "mail_zip": "24986-7097",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3504943",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3513386",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 45
+      "score": 55
+    },
+    {
+      "doc_num": "2026055770",
+      "doc_type": "LIS PENDENS",
+      "filed": "08/19/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3513387",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
     },
     {
       "doc_num": "2026049329",
