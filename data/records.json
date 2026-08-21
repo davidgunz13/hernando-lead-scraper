@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-08-20T01:06:30.669764+00:00",
+  "fetched_at": "2026-08-21T01:09:51.509904+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-21",
-    "end": "2026-08-20",
+    "start": "2026-07-22",
+    "end": "2026-08-21",
     "lookback_days": 30
   },
-  "total": 88,
-  "with_address": 56,
-  "ready_to_upload": 51,
-  "needs_review": 37,
+  "total": 89,
+  "with_address": 58,
+  "ready_to_upload": 53,
+  "needs_review": 36,
   "records": [
     {
       "doc_num": "2026049548",
@@ -1073,23 +1073,23 @@
       "filed": "08/11/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "VANDAWALKER ZACHARY; UNKNOWN SPOUSE",
+      "grantee": "SECRETARY OF VETERANS AFFAIRS",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L5 Blk Un SubSAXON HEIGHTS S T R",
+      "prop_address": "806 SCHOOLHOUSE ST",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34601",
+      "mail_address": "201 STATE ROUTE 34",
+      "mail_city": "COLTS NECK",
+      "mail_state": "NJ",
+      "mail_zip": "07722-1902",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3511287",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026054057",
@@ -1097,23 +1097,23 @@
       "filed": "08/11/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "NICHOLS TRAVIS; WYLIE NICHOLS DESIRIE M ; NICHOLS DESIRIE M WYLIE; UNKNOWN SPOUSE",
+      "grantee": "U S BANK TRUST NATIONAL ASSOCIATION TRSTE; CITIGROUP MORTGAGE LOAN TRUST 2021 RP2",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L Blk Un Sub S T R; L Blk Un Sub S24 T21S R19E",
+      "prop_address": "2457 DOTHAN AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "2457 DOTHAN AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-5210",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3511288",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026054292",
@@ -1183,10 +1183,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3512239",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026055154",
@@ -1337,54 +1336,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026049329",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/21/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "DREW CARL RICHARD",
-      "grantee": "OSHEA LAUREN KELLY; DREW CHRISTOPHER; ABDULLAH MUHAMMED",
-      "amount": "",
-      "legal": "L161 Blk Un2B SubTIMBER PINES TRACT 13 S T R",
-      "prop_address": "2310 WYNDAM DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "2310 WYNDAM DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-3373",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3505170",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026049342",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "07/21/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "ROSCILLO ANTONIO",
-      "grantee": "ROSCILLO ANDREW",
-      "amount": "",
-      "legal": "L24 Blk845 Un13 SubSPRING HILL S T R",
-      "prop_address": "14482 CORONADO DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "14482 CORONADO DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-4320",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3505183",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026049542",
@@ -2149,6 +2100,78 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510506",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
+    },
+    {
+      "doc_num": "2026053850",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "TERNES CATHY ANN",
+      "grantee": "TERNES FARRAR KIMBERLY MARIE; FARRAR KIMBERLY MARIE TERNES",
+      "amount": "",
+      "legal": "L2 Blk1412 Un21 SubSPRING HILL S T R",
+      "prop_address": "2140 WATERFALL DR",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34608",
+      "mail_address": "2140 WATERFALL DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-5375",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510915",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026053855",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "LINCOLN TATIANA SANDRA",
+      "grantee": "CUSUMANO MARCELLO KATHY; MORAIS PATRICIA ANN; CRESONG SANDRA LEE; VEGA NANCY; BOOKER BARBARA; GALLOWAY ANDREA",
+      "amount": "",
+      "legal": "L4 Blk37 Un4 SubHIGH POINT MOBILE HOME S T R",
+      "prop_address": "8911 HIGHPOINT BLVD",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "8911 HIGHPOINT BLVD",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34613-5684",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510920",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026053856",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/10/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "CONNERS CHRISTA K; CONNERS CHRISTA",
+      "grantee": "CONNERS ALPHA ELIZABETH ; CONNERS ROBERT J",
+      "amount": "",
+      "legal": "L4,5 Blk4 Un1 SubGULF COAST RETREATS S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510921",
       "flags": [
         "Probate / estate"
       ],
