@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-08-22T01:06:10.586088+00:00",
+  "fetched_at": "2026-08-23T01:11:34.122096+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-23",
-    "end": "2026-08-22",
+    "start": "2026-07-24",
+    "end": "2026-08-23",
     "lookback_days": 30
   },
-  "total": 88,
-  "with_address": 52,
-  "ready_to_upload": 49,
+  "total": 87,
+  "with_address": 51,
+  "ready_to_upload": 48,
   "needs_review": 39,
   "records": [
     {
@@ -1363,30 +1363,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026049854",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "07/23/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "LAMBERT JOHN H",
-      "grantee": "LAMBERT GEOFFREY; LAMBERT RICHARD",
-      "amount": "",
-      "legal": "L28 Blk314 Un7 SubSPRING HILL S T R",
-      "prop_address": "2069 COACHMAN RD",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "2069 COACHMAN RD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-5239",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3505742",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026050623",
