@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-08-23T01:11:34.122096+00:00",
+  "fetched_at": "2026-08-24T01:09:19.474680+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-24",
-    "end": "2026-08-23",
+    "start": "2026-07-25",
+    "end": "2026-08-24",
     "lookback_days": 30
   },
   "total": 87,
