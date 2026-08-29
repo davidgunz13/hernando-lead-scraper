@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-08-28T09:33:19.136510+00:00",
+  "fetched_at": "2026-08-29T05:41:09.580271+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-07-29",
-    "end": "2026-08-28",
+    "start": "2026-07-30",
+    "end": "2026-08-29",
     "lookback_days": 30
   },
   "total": 77,
@@ -14,80 +14,6 @@
   "ready_to_upload": 38,
   "needs_review": 39,
   "records": [
-    {
-      "doc_num": "2026051157",
-      "doc_type": "LIS PENDENS1",
-      "filed": "07/29/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "GARLOCK ZACHARY T; GARLOCK CASSANDRA M; UNKNOWN SPOUSE; BARRINGTON AT STERLING HILL COMMUNITY ASSOCIATION INC; UNKNOWN TENANT",
-      "grantee": "PENNYMAC LOAN SERVICES LLC",
-      "amount": "",
-      "legal": "L201 Blk Un2 SubBARRINGTON AT STERLING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507065",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 50
-    },
-    {
-      "doc_num": "2026051256",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/29/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "OCANA DANIEL SUAREZ",
-      "grantee": "SEVEN HILLS HOMEOWNERS ASSOCIATION INC",
-      "amount": "",
-      "legal": "L454 Blk Un8 SubLINKS AT SEVEN HILLS S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507598",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 40
-    },
-    {
-      "doc_num": "2026051430",
-      "doc_type": "LIS PENDENS",
-      "filed": "07/29/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "STORY DALE E; STORY DALE; UNKNOWN SPOUSE ; HEATHER PROPERTY OWNERS ASSOCIATION INC; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "U S BANK NATIONAL ASSOCIATION TRSTE; RESIDENTIAL ASSET MORTGAGE PRODUCTS INC; ASSET BACKED PASS THROUGH CERTIFICATES SERIES 2005 EFC5",
-      "amount": "",
-      "legal": "L14 Blk23 Un SubROYAL WEST THE HEATHE S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3507757",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 50
-    },
     {
       "doc_num": "2026051967",
       "doc_type": "LIS PENDENS",
@@ -941,10 +867,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514205",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026056560",
@@ -966,10 +891,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514309",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026056700",
@@ -991,10 +915,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514530",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026056701",
@@ -1016,10 +939,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514531",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026056703",
@@ -1041,10 +963,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514533",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026056704",
@@ -1066,10 +987,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514534",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026056915",
@@ -1340,6 +1260,81 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515824",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026058074",
+      "doc_type": "LIS PENDENS",
+      "filed": "08/28/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516393",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026058171",
+      "doc_type": "LIS PENDENS",
+      "filed": "08/28/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516516",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026058425",
+      "doc_type": "LIS PENDENS1",
+      "filed": "08/28/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515253",
       "flags": [
         "Foreclosure",
         "New this week"
