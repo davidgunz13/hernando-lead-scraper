@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-09-01T03:35:22.492210+00:00",
+  "fetched_at": "2026-09-02T02:53:35.811255+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-08-02",
-    "end": "2026-09-01",
+    "start": "2026-08-03",
+    "end": "2026-09-02",
     "lookback_days": 30
   },
-  "total": 67,
-  "with_address": 31,
-  "ready_to_upload": 30,
+  "total": 71,
+  "with_address": 35,
+  "ready_to_upload": 34,
   "needs_review": 37,
   "records": [
     {
@@ -563,10 +563,10 @@
       "filed": "08/21/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "PHELPS JENNIFER L; PETERS LINDA; SECRETARY OF HOUSING AND URBAN DEVELOPMENT; UNKNOWN TENANT 1; UNKNOWN TENANT 2; UNKNOWN SPOUSE",
+      "grantee": "ROCKET MORTGAGE LLC",
       "amount": "",
-      "legal": "",
+      "legal": "L10 Blk794 Un13 SubSPRING HILL S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1652,6 +1652,102 @@
         "Probate / estate"
       ],
       "score": 40
+    },
+    {
+      "doc_num": "2026056324",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/20/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "CARTER ARCHIE B",
+      "grantee": "ADAMS MARY M; SPADAFORA NORA; COOK NORA; CARTER RANDALL J",
+      "amount": "",
+      "legal": "L15 Blk3 Un1 SubPINE GROVE S T R",
+      "prop_address": "8323 EVERGREEN AVE",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "8323 EVERGREEN AVE",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34613-4713",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3513932",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026056366",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/20/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "FERGUSON WILLIAM JOHN",
+      "grantee": "MARRIOTT NANCY E; FERGUSON WILLIAM B; CAMP LI LO LI",
+      "amount": "",
+      "legal": "L19 Blk Un SubPRIMROSE LANE S T R",
+      "prop_address": "4403 RACHEL BLVD",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34607",
+      "mail_address": "4403 RACHEL BLVD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34607-2536",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514002",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026056368",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/20/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "FERGUSON WILLIAM JOHN",
+      "grantee": "MARRIOTT NANCY E; FERGUSON WILLIAM B",
+      "amount": "",
+      "legal": "L19 Blk Un SubPRIMROSE LANE S T R",
+      "prop_address": "4403 RACHEL BLVD",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34607",
+      "mail_address": "4403 RACHEL BLVD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34607-2536",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514004",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026056370",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/20/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "DAVIS CHARLES W",
+      "grantee": "FISHER PATRICIA DAVIS",
+      "amount": "",
+      "legal": "L14 Blk20 Un4 SubWEEKI WACHEE ACRES S T R",
+      "prop_address": "3354 STEPHENS BLVD",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34606",
+      "mail_address": "3354 STEPHENS BLVD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-2749",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514006",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
     }
   ]
 }
