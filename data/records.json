@@ -1,92 +1,19 @@
 {
-  "fetched_at": "2026-09-02T02:53:35.811255+00:00",
+  "fetched_at": "2026-09-03T02:57:57.970732+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-08-03",
-    "end": "2026-09-02",
+    "start": "2026-08-04",
+    "end": "2026-09-03",
     "lookback_days": 30
   },
-  "total": 71,
-  "with_address": 35,
-  "ready_to_upload": 34,
-  "needs_review": 37,
+  "total": 69,
+  "with_address": 39,
+  "ready_to_upload": 39,
+  "needs_review": 30,
   "records": [
-    {
-      "doc_num": "2026052341",
-      "doc_type": "LIS PENDENS",
-      "filed": "08/03/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "HANSEN RAYMOND J; HANSEN DEBRA A; UNKNOWN TENANT 1; UNKNOWN TENANT 2; WESTLAKE SERVICES LLC; WESTLAKE FINANCIAL SERVICES; DEPARTMENT OF THE TREASURY INTERNAL REVENUE SERVICE",
-      "grantee": "PRISTINE PLACE HOMEOWNERS ASSOCIATION INC",
-      "amount": "",
-      "legal": "L21 Blk Un SubPRISTINE PLACE PH TWO S T R",
-      "prop_address": "14098 ANDREW SCOTT RD",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "14098 ANDREW SCOTT RD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-0853",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508886",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026052446",
-      "doc_type": "LIS PENDENS",
-      "filed": "08/03/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "UNKNOWN HEIRS ET AL; ELLISON LUCILE; UNKNOWN PARTIES; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
-      "grantee": "SECRETARY OF HOUSING AND URBAN DEVELOPMENT",
-      "amount": "",
-      "legal": "L17 Blk Un SubVISTA HEIGHTS ESTATES S T R",
-      "prop_address": "161 LARK AVE",
-      "prop_city": "BROOKSVILLE",
-      "prop_state": "FL",
-      "prop_zip": "34601",
-      "mail_address": "161 LARK AVE",
-      "mail_city": "BROOKSVILLE",
-      "mail_state": "FL",
-      "mail_zip": "34601-1313",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508963",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026052447",
-      "doc_type": "LIS PENDENS",
-      "filed": "08/03/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "LEGRAND DUSTIN; LEGRAND DUSTIN P; LEGRAND DUSTIN PHILLIP; SUNCOAST CREDIT UNION; UNKNOWN TENANT 1; UNKNOWN TENANT 2; UNKNOWN SPOUSE",
-      "grantee": "ROCKET MORTGAGE LLC",
-      "amount": "",
-      "legal": "L6 Blk1429 Un21 SubSPRING HILL S T R",
-      "prop_address": "2118 FOUNDER RD",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "2118 FOUNDER RD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-3241",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508964",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
     {
       "doc_num": "2026052565",
       "doc_type": "LIS PENDENS",
@@ -587,23 +514,23 @@
       "filed": "08/21/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "MANGAL CHRISTINA",
+      "grantee": "COAST TO COAST HEATING & AIR LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L27 Blk926 Un14 SubSPRING HILL S T R",
+      "prop_address": "3314 BEAVER AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "12674 CASTLE HILL DR",
+      "mail_city": "TAMPA",
+      "mail_state": "FL",
+      "mail_zip": "33624-4178",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514309",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026056700",
@@ -611,23 +538,23 @@
       "filed": "08/21/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "TORRES NELSON ; JAIMES SALGADO ADALILA; SALGADO ADALILA JAIMES ; JAIMES ADALILA; UNKNOWN TENANT 1; UNKNOWN TENANT 2 ; UNKNOWN SPOUSE; S ADALILA JAIMES",
+      "grantee": "LAKEVIEW LOAN SERVICING LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L11 Blk3 Un SubVILLAGE AT HILL N DALE S T R",
+      "prop_address": "26377 BERTRAM RD",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34602",
+      "mail_address": "26377 BERTRAM RD",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34602",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514530",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026056701",
@@ -635,23 +562,24 @@
       "filed": "08/21/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "MOORE CHARLES J ET AL; STERLING HILL HOMEOWNERS ASSOCIATION INC; UNKNOWN TENANTS OWNERS 1; UNKNOWN TENANTS OWNERS 2; UNKNOWN TENANTS OWNERS 3",
+      "grantee": "NEWREZ LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L24 Blk39 Un SubSTERLING HILL PH 1B S T R",
+      "prop_address": "2337 BISHOP RD",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "2337 BISHOP RD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-5902",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514531",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026056703",
@@ -659,23 +587,24 @@
       "filed": "08/21/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "GONZALEZ RAFAEL; GONZALEZ LAURIE MAURICE; SOLAR MOSAIC LLC; UNKNOWN SPOUSE; UNKNOWN TENANT",
+      "grantee": "PENNYMAC LOAN SERVICES LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L23 Blk1011 Un16 SubSPRING HILL S T R",
+      "prop_address": "4045 MONTANO AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "4045 MONTANO AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514533",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026056704",
@@ -683,23 +612,23 @@
       "filed": "08/21/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "BLEWITT JOHN",
+      "grantee": "GLENLAKES MASTER HOMEOWNERS ASSOCIATION INC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L528 Blk Un2C2 SubGLEN LAKE PH ONE S T R",
+      "prop_address": "8354 SHERMAN CIR",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34613",
+      "mail_address": "8354 SHERMAN CIR",
+      "mail_city": "WEEKI WACHEE",
+      "mail_state": "FL",
+      "mail_zip": "34613-4020",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514534",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026056915",
@@ -707,10 +636,10 @@
       "filed": "08/24/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "FOX CAROL LYNNE",
+      "grantee": "CHAN CHUN KUEN",
       "amount": "",
-      "legal": "",
+      "legal": "L Blk Un Sub S T R; L Blk Un Sub S4 T23S R18E",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -731,23 +660,24 @@
       "filed": "08/24/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "SENSENIG JOAN L ; UNLOCK PARTNERSHIP SOLUTIONS INC ; UNKNOWN TENANT 1; UNKNOWN TENANT 2 ; UNKNOWN SPOUSE",
+      "grantee": "FIFTH THIRD BANK NA",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L1 Blk1357 Un20 SubSPRING HILL S T R",
+      "prop_address": "6467 LANDOVER BLVD",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "6467 LANDOVER BLVD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-1312",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514902",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026057560",
@@ -769,10 +699,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515775",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026057561",
@@ -794,10 +723,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515776",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026057562",
@@ -819,10 +747,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515777",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026057564",
@@ -844,10 +771,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515779",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026057565",
@@ -869,10 +795,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515780",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026057566",
@@ -894,10 +819,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515781",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026057567",
@@ -919,10 +843,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515782",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026057568",
@@ -944,10 +867,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515783",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026057611",
@@ -969,10 +891,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515824",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026058074",
@@ -1148,30 +1069,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026052325",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/03/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "AMADOR GLORIA GARCIA; AMADOR GLORIA",
-      "grantee": "AMADOR JUAN; AMADOR MAURICIO; SCHENKER MARIA CLAUDIA; AMADOR CARLOS",
-      "amount": "",
-      "legal": "L16 Blk1062 Un16 SubSPRING HILL S T R",
-      "prop_address": "0 RONALD ST",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "17306 SCOTTS BLUFF CT",
-      "mail_city": "HUMBLE",
-      "mail_state": "TX",
-      "mail_zip": "77346-1858",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3508864",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026052572",
@@ -1744,6 +1641,54 @@
       "mail_state": "FL",
       "mail_zip": "34606-2749",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514006",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026056673",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/21/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "STRONSKI LORRAINE MARIE",
+      "grantee": "FISCHER STEVEN R",
+      "amount": "",
+      "legal": "L899 Blk Un SubWELLINGTON AT SEVEN HILLS PH NINE S T R",
+      "prop_address": "11735 NEW HAVEN DR",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "11735 NEW HAVEN DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-9257",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514486",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026056674",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/21/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "STRONSKI LORRAINE MARIE",
+      "grantee": "FISCHER STEVEN R",
+      "amount": "",
+      "legal": "L899 Blk Un SubWELLINGTON AT SEVEN HILLS PH 9 S T R",
+      "prop_address": "11735 NEW HAVEN DR",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "11735 NEW HAVEN DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-9257",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514487",
       "flags": [
         "Probate / estate"
       ],
