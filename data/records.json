@@ -1,43 +1,19 @@
 {
-  "fetched_at": "2026-09-05T02:58:20.750745+00:00",
+  "fetched_at": "2026-09-06T02:57:33.730409+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-08-06",
-    "end": "2026-09-05",
+    "start": "2026-08-07",
+    "end": "2026-09-06",
     "lookback_days": 30
   },
-  "total": 72,
-  "with_address": 50,
-  "ready_to_upload": 48,
+  "total": 69,
+  "with_address": 47,
+  "ready_to_upload": 45,
   "needs_review": 24,
   "records": [
-    {
-      "doc_num": "2026053060",
-      "doc_type": "LIS PENDENS1",
-      "filed": "08/06/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "FEARING DARRON M; FEARING DARRON; FEARING CRYSTAL; THOMAS CRYSTAL; UNKNOWN SPOUSE; UNKNOWN TENANT; UNITED STATES OF AMERICA",
-      "grantee": "NEWREZ LLC",
-      "amount": "",
-      "legal": "L10 Blk288 Un5 SubROYAL HIGHLANDS S T R",
-      "prop_address": "12139 MURRE AVE",
-      "prop_city": "WEEKI WACHEE",
-      "prop_state": "FL",
-      "prop_zip": "34614",
-      "mail_address": "12139 MURRE AVE",
-      "mail_city": "WEEKI WACHEE",
-      "mail_state": "FL",
-      "mail_zip": "34614-3118",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3509147",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 45
-    },
     {
       "doc_num": "2026054056",
       "doc_type": "LIS PENDENS",
@@ -896,54 +872,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026053035",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/06/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "BROOKS CAROLYN PATRICIA",
-      "grantee": "WATKINS ROLETTA",
-      "amount": "",
-      "legal": "L7 Blk1059 Un16 SubSPRING HILL S T R",
-      "prop_address": "12276 VILLA RD",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "12276 VILLA RD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-2068",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510050",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026053335",
-      "doc_type": "PROBATE DOCUMENTS1",
-      "filed": "08/06/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "BARNES JAMES; BARNES JAMES R",
-      "grantee": "BARNES VICKY LYNN; NAVARRE AMANDA LEIGH",
-      "amount": "",
-      "legal": "L24,28 Blk Un1-2 SubWEEKIWACHEE GARDENS ADDITION UNRECORDED S29 T22S R17E",
-      "prop_address": "5148 MENTMORE AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "5148 MENTMORE AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-1544",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3509523",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026053549",
