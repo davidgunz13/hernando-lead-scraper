@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-09-06T02:57:33.730409+00:00",
+  "fetched_at": "2026-09-07T02:55:05.695750+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-08-07",
-    "end": "2026-09-06",
+    "start": "2026-08-08",
+    "end": "2026-09-07",
     "lookback_days": 30
   },
-  "total": 69,
-  "with_address": 47,
-  "ready_to_upload": 45,
-  "needs_review": 24,
+  "total": 64,
+  "with_address": 44,
+  "ready_to_upload": 42,
+  "needs_review": 22,
   "records": [
     {
       "doc_num": "2026054056",
@@ -872,126 +872,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026053549",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/07/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "PRAGANA EDWARD J SR",
-      "grantee": "TARR NATALIE ANN; PRAGANA EDWARD J JR; PRAGANA STEVEN E; PRAGANA EDWARD J III; TARR MYLA RAE",
-      "amount": "",
-      "legal": "L7 Blk587 Un9 SubSPRING HILL S T R",
-      "prop_address": "2464 BONKIRK AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "2464 BONKIRK AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-3403",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510476",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026053551",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/07/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "PRAGANA EDWARD J SR",
-      "grantee": "PRAGANA EDWARD J III; TARR MYLA RAE",
-      "amount": "",
-      "legal": "L7 Blk587 Un9 SubSPRING HILL S T R",
-      "prop_address": "2464 BONKIRK AVE",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34609",
-      "mail_address": "2464 BONKIRK AVE",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34609-3403",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510478",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026053553",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/07/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "ALSAMH MOHAMED ABDULZAHER ABOU; ABOU ALASAMH MOHAMED; ALASAMH MOHAMED ABOU",
-      "grantee": "ALSAMH JOYCE STORKSON ABOU",
-      "amount": "",
-      "legal": "L13 Blk1066 Un16 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510480",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 40
-    },
-    {
-      "doc_num": "2026053564",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/07/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "BRANCH ROBERT L",
-      "grantee": "ROBET L AND LESLIE J BRANCH TRUST",
-      "amount": "",
-      "legal": "L26 Blk Un1 SubTIMBER PINES TR 23 S T R",
-      "prop_address": "2351 WESTCHESTER BLVD",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34606",
-      "mail_address": "2351 WESTCHESTER BLVD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34606-3651",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510505",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026053565",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/07/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "ALSAMH JOYCE STORKSON ABOU",
-      "grantee": "ABOU ELSAMH RASHEED; ELSAMH RASHEED ABOU",
-      "amount": "",
-      "legal": "L13 Blk1066 Un16 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510506",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 40
     },
     {
       "doc_num": "2026053850",
