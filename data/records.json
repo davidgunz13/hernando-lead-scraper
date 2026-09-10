@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-09-09T03:06:18.368016+00:00",
+  "fetched_at": "2026-09-10T03:06:33.745365+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-08-10",
-    "end": "2026-09-09",
+    "start": "2026-08-11",
+    "end": "2026-09-10",
     "lookback_days": 30
   },
-  "total": 67,
-  "with_address": 44,
-  "ready_to_upload": 42,
-  "needs_review": 25,
+  "total": 71,
+  "with_address": 54,
+  "ready_to_upload": 51,
+  "needs_review": 20,
   "records": [
     {
       "doc_num": "2026054056",
@@ -639,19 +639,19 @@
       "grantee": "MIDFIRST BANK",
       "amount": "",
       "legal": "L13 Blk1716 Un25 SubSPRING HILL S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "4287 SURFSIDE CIR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "4287 SURFSIDE CIR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-2274",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515782",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026057568",
@@ -687,19 +687,19 @@
       "grantee": "PENNYMAC LOAN SERVICES LLC",
       "amount": "",
       "legal": "L285 Blk Un SubFOREST OAKS OAKS THREE S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "3426 KNOTTY OAKS CIR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "3426 KNOTTY OAKS CIR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-6751",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3515824",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026058074",
@@ -707,23 +707,23 @@
       "filed": "08/28/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "RUPEIKA JOSEPH; RUPEIKA BRITNEY V; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "FREEDOM MORTGAGE CORPORATION",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "CA-2026-0986; L5 Blk360 Un7 SubSPRING HILL S T R",
+      "prop_address": "9220 GERONA ST",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "9220 GERONA ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-5630",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516393",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026058171",
@@ -731,23 +731,24 @@
       "filed": "08/28/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "JONES FELICIA ; SERVICE FINANCE COMPANY LLC ; SEVEN HILLS HOMEOWNERS ASSOCIATION INC ; GARDENS AT SEVEN HILLS HOMEOWNERS ASSOCIATION INC ; SECRETARY OF HOUSING AND URBAN DEVELOPMENT ; WHITE XAVIER MILES",
+      "grantee": "LAKEVIEW LOAN SERVICING LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L187 Blk Un SubGARDENS AT SEVEN HILLS PH 2 S T R",
+      "prop_address": "1031 LA BAMBA CT",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "1031 LA BAMBA CT",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-8447",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516516",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026058425",
@@ -870,78 +871,6 @@
       "score": 40
     },
     {
-      "doc_num": "2026053850",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/10/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "TERNES CATHY ANN",
-      "grantee": "TERNES FARRAR KIMBERLY MARIE; FARRAR KIMBERLY MARIE TERNES",
-      "amount": "",
-      "legal": "L2 Blk1412 Un21 SubSPRING HILL S T R",
-      "prop_address": "2140 WATERFALL DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "2140 WATERFALL DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-5375",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510915",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026053855",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/10/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "LINCOLN TATIANA SANDRA",
-      "grantee": "CUSUMANO MARCELLO KATHY; MORAIS PATRICIA ANN; CRESONG SANDRA LEE; VEGA NANCY; BOOKER BARBARA; GALLOWAY ANDREA",
-      "amount": "",
-      "legal": "L4 Blk37 Un4 SubHIGH POINT MOBILE HOME S T R",
-      "prop_address": "8911 HIGHPOINT BLVD",
-      "prop_city": "BROOKSVILLE",
-      "prop_state": "FL",
-      "prop_zip": "34613",
-      "mail_address": "8911 HIGHPOINT BLVD",
-      "mail_city": "BROOKSVILLE",
-      "mail_state": "FL",
-      "mail_zip": "34613-5684",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510920",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026053856",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/10/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "CONNERS CHRISTA K; CONNERS CHRISTA",
-      "grantee": "CONNERS ALPHA ELIZABETH ; CONNERS ROBERT J",
-      "amount": "",
-      "legal": "L4,5 Blk4 Un1 SubGULF COAST RETREATS S T R",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510921",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 40
-    },
-    {
       "doc_num": "2026054465",
       "doc_type": "PROBATE DOCUMENTS1",
       "filed": "08/12/2026",
@@ -951,19 +880,19 @@
       "grantee": "BICKHARDT RICHARD W",
       "amount": "",
       "legal": "L28 Blk129 Un14 SubHERNANDO BEACH S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "3191 ROSE ARBOR DR",
+      "prop_city": "HERNANDO BEACH",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34607",
+      "mail_address": "3191 ROSE ARBOR DR",
+      "mail_city": "HERNANDO BEACH",
+      "mail_state": "FL",
+      "mail_zip": "34607-3426",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3510834",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026054584",
@@ -1023,19 +952,19 @@
       "grantee": "OLIVER DANIEL; OLIVER PENNY",
       "amount": "",
       "legal": "L2 Blk7 Un1 SubSPRINGWOOD ESTATES S T R",
-      "prop_address": "",
-      "prop_city": "",
+      "prop_address": "15125 WILLOWOOD LN",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34604",
+      "mail_address": "15125 WILLOWOOD LN",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34604-8162",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3512318",
       "flags": [
         "Probate / estate"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026054989",
@@ -1636,6 +1565,174 @@
         "Probate / estate"
       ],
       "score": 45
+    },
+    {
+      "doc_num": "2026057846",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "08/27/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "FERRIER DAVID MICHAEL",
+      "grantee": "",
+      "amount": "",
+      "legal": "L5,6 Blk19 Un1 SubBROOKRIDGE COMMUNITY S T R",
+      "prop_address": "14391 SANDHURST ST",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34613",
+      "mail_address": "14391 SANDHURST ST",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34613-5957",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514747",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026057880",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/27/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "MANZANO RICHARD",
+      "grantee": "MANZANO JARRETT; MANZANO TRAVIS J",
+      "amount": "",
+      "legal": "L15 Blk7 Un2 SubHILL N DALE S T R",
+      "prop_address": "27108 ROPER RD",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34602",
+      "mail_address": "27108 ROPER RD",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34602",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516177",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026057883",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/27/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "BROOKS CAROLYN PATRICIA",
+      "grantee": "WATKINS ROLETTA",
+      "amount": "",
+      "legal": "L7 Blk1059 Un16 SubSPRING HILL S T R",
+      "prop_address": "12276 VILLA RD",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "12276 VILLA RD",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-2068",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516180",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026057885",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/27/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "HUNT RICHARD ALAN",
+      "grantee": "HUNT DANIEL TRSTE; MCWILLIAMS RENEE TRSTE ; RICHARD ALAN HUNT LIVING TRUST",
+      "amount": "",
+      "legal": "L15 Blk76 Un5 SubRIDGE MANOR ESTATES S T R",
+      "prop_address": "0 MEDICINE STONE DR",
+      "prop_city": "WEBSTER",
+      "prop_state": "FL",
+      "prop_zip": "33597",
+      "mail_address": "1613 WASHINGTON ST",
+      "mail_city": "BLAIR",
+      "mail_state": "NE",
+      "mail_zip": "68008-1655",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516182",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026057890",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/27/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "HAYDEN JAMES H; HAYDEN JAMES HAROLD",
+      "grantee": "SEELAND TINA M",
+      "amount": "",
+      "legal": "L64 Blk138 Un13-B SubHERNANDO BEACH S T R",
+      "prop_address": "4034 CROAKER DR",
+      "prop_city": "HERNANDO BEACH",
+      "prop_state": "FL",
+      "prop_zip": "34607",
+      "mail_address": "4034 CROAKER DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34607-3642",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516187",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026057893",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/27/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "HAYDEN JAMES H; HAYDEN JAMES HAROLD",
+      "grantee": "SEELAND TINA M",
+      "amount": "",
+      "legal": "L64 Blk138 Un13B SubHERNANDO BEACH S T R",
+      "prop_address": "4034 CROAKER DR",
+      "prop_city": "HERNANDO BEACH",
+      "prop_state": "FL",
+      "prop_zip": "34607",
+      "mail_address": "4034 CROAKER DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34607-3642",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516190",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026058013",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "08/27/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "MCNULTY DONNA LEE",
+      "grantee": "MCNULTY MATTHEW PAUL; DAY LAW OFFICE",
+      "amount": "",
+      "legal": "L9 Blk447 Un8 SubSPRING HILL S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516289",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
     }
   ]
 }
