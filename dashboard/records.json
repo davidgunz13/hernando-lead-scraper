@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-09-13T03:10:38.880314+00:00",
+  "fetched_at": "2026-09-14T03:23:50.992196+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-08-14",
-    "end": "2026-09-13",
+    "start": "2026-08-15",
+    "end": "2026-09-14",
     "lookback_days": 30
   },
-  "total": 91,
-  "with_address": 56,
-  "ready_to_upload": 51,
+  "total": 89,
+  "with_address": 54,
+  "ready_to_upload": 49,
   "needs_review": 40,
   "records": [
     {
@@ -1272,54 +1272,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "2026054740",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/14/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "RIVERS GEORGE IVA; RIVERS GEORGE I",
-      "grantee": "RIVERS LAURENCE I",
-      "amount": "",
-      "legal": "L27 Blk Un SubORCHARD PARK S T R",
-      "prop_address": "2151 ORCHARD PARK DR",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "2151 ORCHARD PARK DR",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-4973",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3512280",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "2026054749",
-      "doc_type": "PROBATE DOCUMENTSX",
-      "filed": "08/14/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "DOMENICO ALFRED J ; DOMENICO ALFRED",
-      "grantee": "OLIVER DANIEL; OLIVER PENNY",
-      "amount": "",
-      "legal": "L2 Blk7 Un1 SubSPRINGWOOD ESTATES S T R",
-      "prop_address": "15125 WILLOWOOD LN",
-      "prop_city": "BROOKSVILLE",
-      "prop_state": "FL",
-      "prop_zip": "34604",
-      "mail_address": "15125 WILLOWOOD LN",
-      "mail_city": "BROOKSVILLE",
-      "mail_state": "FL",
-      "mail_zip": "34604-8162",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3512318",
-      "flags": [
-        "Probate / estate"
-      ],
-      "score": 45
     },
     {
       "doc_num": "2026054989",
