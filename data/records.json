@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-09-16T03:21:30.414597+00:00",
+  "fetched_at": "2026-09-17T03:26:59.248053+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-08-17",
-    "end": "2026-09-16",
+    "start": "2026-08-18",
+    "end": "2026-09-17",
     "lookback_days": 30
   },
-  "total": 94,
-  "with_address": 56,
-  "ready_to_upload": 50,
+  "total": 95,
+  "with_address": 57,
+  "ready_to_upload": 51,
   "needs_review": 44,
   "records": [
     {
@@ -1349,15 +1349,15 @@
       "score": 55
     },
     {
-      "doc_num": "2026054989",
-      "doc_type": "PROBATE DOCUMENTS",
-      "filed": "08/17/2026",
-      "cat": "PR",
-      "cat_label": "Probate",
-      "owner": "NORFLEET EVELYN W; IRVIN SARAH EVELYN WARREN NORFLEET; IRVIN SARAH EVELYN",
-      "grantee": "CHAPLIN BETTY NORFLEET; NORFLEET ROBERT J",
+      "doc_num": "2026062575",
+      "doc_type": "LIS PENDENS",
+      "filed": "09/16/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
       "amount": "",
-      "legal": "L10 Blk550 Un7 SubROYAL HIGHLANDS S T R",
+      "legal": "",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -1366,11 +1366,12 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3512747",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3521700",
       "flags": [
-        "Probate / estate"
+        "Foreclosure",
+        "New this week"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026056324",
@@ -2303,6 +2304,30 @@
       "mail_state": "FL",
       "mail_zip": "34613-4713",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3516594",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026060112",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "09/08/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "WILLIAMSON GEORGE C III; WILLIAMSON GEORGE CORNOG III",
+      "grantee": "PLOHR JEANNE",
+      "amount": "",
+      "legal": "L42 Blk Un1 SubTIMBER PINES TR 22 S T R",
+      "prop_address": "6374 LOST TREE LN",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34606",
+      "mail_address": "6374 LOST TREE LN",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-3330",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3517416",
       "flags": [
         "Probate / estate"
       ],
