@@ -1,68 +1,19 @@
 {
-  "fetched_at": "2026-09-23T03:21:12.160525+00:00",
+  "fetched_at": "2026-09-24T03:10:26.470047+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-08-24",
-    "end": "2026-09-23",
+    "start": "2026-08-25",
+    "end": "2026-09-24",
     "lookback_days": 30
   },
-  "total": 89,
+  "total": 95,
   "with_address": 69,
   "ready_to_upload": 63,
-  "needs_review": 26,
+  "needs_review": 32,
   "records": [
-    {
-      "doc_num": "2026056915",
-      "doc_type": "LIS PENDENS",
-      "filed": "08/24/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "FOX CAROL LYNNE",
-      "grantee": "CHAN CHUN KUEN",
-      "amount": "",
-      "legal": "L Blk Un Sub S T R; L Blk Un Sub S4 T23S R18E",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514901",
-      "flags": [
-        "Foreclosure"
-      ],
-      "score": 40
-    },
-    {
-      "doc_num": "2026056916",
-      "doc_type": "LIS PENDENS",
-      "filed": "08/24/2026",
-      "cat": "LP",
-      "cat_label": "Lis Pendens",
-      "owner": "SENSENIG JOAN L ; UNLOCK PARTNERSHIP SOLUTIONS INC ; UNKNOWN TENANT 1; UNKNOWN TENANT 2 ; UNKNOWN SPOUSE",
-      "grantee": "FIFTH THIRD BANK NA",
-      "amount": "",
-      "legal": "L1 Blk1357 Un20 SubSPRING HILL S T R",
-      "prop_address": "6467 LANDOVER BLVD",
-      "prop_city": "SPRING HILL",
-      "prop_state": "FL",
-      "prop_zip": "34608",
-      "mail_address": "6467 LANDOVER BLVD",
-      "mail_city": "SPRING HILL",
-      "mail_state": "FL",
-      "mail_zip": "34608-1312",
-      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3514902",
-      "flags": [
-        "Foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
     {
       "doc_num": "2026057560",
       "doc_type": "LIS PENDENS",
@@ -1056,10 +1007,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3521700",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026063161",
@@ -1105,6 +1055,181 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3522296",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026063817",
+      "doc_type": "LIS PENDENS",
+      "filed": "09/23/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523515",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026063818",
+      "doc_type": "LIS PENDENS",
+      "filed": "09/23/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523516",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026063819",
+      "doc_type": "LIS PENDENS",
+      "filed": "09/23/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523517",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026063820",
+      "doc_type": "LIS PENDENS",
+      "filed": "09/23/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523518",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026063821",
+      "doc_type": "LIS PENDENS",
+      "filed": "09/23/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523519",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026063822",
+      "doc_type": "LIS PENDENS",
+      "filed": "09/23/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523520",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026063823",
+      "doc_type": "LIS PENDENS",
+      "filed": "09/23/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523521",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -2162,6 +2287,30 @@
       "mail_state": "FL",
       "mail_zip": "34606-4313",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3518892",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026061757",
+      "doc_type": "PROBATE DOCUMENTS1",
+      "filed": "09/11/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "EVANS WILLIAM J ; EVANS WILLIAM ANDREW",
+      "grantee": "EVANS MICHELLE ANN",
+      "amount": "",
+      "legal": "L20 Blk303 Un6 SubSPRING HILL S T R",
+      "prop_address": "8060 GREENBRIER CT",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34606",
+      "mail_address": "8060 GREENBRIER CT",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-5218",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3519464",
       "flags": [
         "Probate / estate"
       ],
