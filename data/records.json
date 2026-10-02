@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-10-01T04:10:48.853695+00:00",
+  "fetched_at": "2026-10-02T04:05:10.051150+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-09-01",
-    "end": "2026-10-01",
+    "start": "2026-09-02",
+    "end": "2026-10-02",
     "lookback_days": 30
   },
-  "total": 68,
-  "with_address": 36,
-  "ready_to_upload": 35,
-  "needs_review": 33,
+  "total": 71,
+  "with_address": 44,
+  "ready_to_upload": 43,
+  "needs_review": 28,
   "records": [
     {
       "doc_num": "2026060801",
@@ -678,23 +678,24 @@
       "filed": "09/23/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "TEAGUE LUCINDA M; UNKNOWN SPOUSE; BANK OF NEW YORK MELLON ; BANK OF NEW YORK; JPMORGAN CHASE BANK NA TRSTE; TERWIN MORTGAGE TRUST 2006 4SL ASSET BACKED SECURITIES SERIES 2006 4SL",
+      "grantee": "U S BANK NA TRSTE; ASSET BACKED SECURITIES CORPORATION HOME EQUITY LOAN TRUST SERIES AMQ 2006 HE7 ASSET BACKED PASS THROUGH CERTIFICATES SERIES AMQ 2006 HE7",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L1 Blk998 Un16 SubSPRING HILL S T R",
+      "prop_address": "11403 PICKFORD ST",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34609",
+      "mail_address": "11403 PICKFORD ST",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-2554",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523515",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026063818",
@@ -702,23 +703,24 @@
       "filed": "09/23/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "ORTIZ LUIS ARIEL; ORTIZ TORRES MARIA DE LOS ANGELES; UNKNOWN SPOUSE; STATE OF FLORIDA DEPARTMENT OF REVENUE; HERNANDO HMA LLC; BAYFRONT HEALTH SPRING HILL; HERNANDO COUNTY CLERK OF THE CIRCUIT COURT; CREDIT ACCEPTANCE CORPORATION; SOLAR MOSAIC LLC; UNKNOWN PARTIES; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "NEWREZ LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L23 Blk930 Un15 SubSPRING HILL S T R",
+      "prop_address": "4499 LAKESHORE AVE",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34606",
+      "mail_address": "4499 LAKESHORE AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34606-1835",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523516",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026063819",
@@ -726,23 +728,24 @@
       "filed": "09/23/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "EDMONDS LARRY C JR; UNKNOWN SPOUSE ; WILSON TYEESHA; UNITED STATES OF AMERICA DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT; TRILLIUM HOMEOWNERS ASSOCIATION INC; TRILLIUM OF BROOKSVILLE HOMEOWNERS ASSOCIATION INC; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "LAKEVIEW LOAN SERVICING LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L26 Blk30 Un SubTRILLIUM VILLAGE D S T R",
+      "prop_address": "15448 STONE HOUSE DR",
+      "prop_city": "BROOKSVILLE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34604",
+      "mail_address": "15448 STONE HOUSE DR",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34604-5849",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523517",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026063820",
@@ -750,23 +753,23 @@
       "filed": "09/23/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "GERAGHTY JASMINE RENE; GERAGHTY DANIEL JAMES; UNITED STATES OF AMERICA; SECRETARY OF HOUSING AND URBAN DEVELOPMENT; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "ROCKET MORTGAGE LLC; QUICKEN LOANS LLC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L12 Blk655 Un8 SubROYAL HIGHLANDS S T R",
+      "prop_address": "16236 MELLON RD",
+      "prop_city": "WEEKI WACHEE",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34614",
+      "mail_address": "16236 MELLON RD",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34614",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523518",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026063821",
@@ -774,23 +777,23 @@
       "filed": "09/23/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "KIEFER ELIZABETH; UNKNOWN SPOUSE; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "BANK OF AMERICA NA",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L12 Blk1379 Un20 SubSPRING HILL S T R",
+      "prop_address": "13047 SEYBOLD DR",
+      "prop_city": "SPRING HILL",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34608",
+      "mail_address": "13047 SEYBOLD DR",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34608-1356",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523519",
       "flags": [
         "Foreclosure"
       ],
-      "score": 40
+      "score": 45
     },
     {
       "doc_num": "2026063822",
@@ -798,10 +801,10 @@
       "filed": "09/23/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "UNKNOWN HEIRS ET AL; WILSON SALLY A; WILSON SALLY ANN; WILSON SALLY; JORDAN WILLIAM WAYNE; MOORE RONALD EDWARD; MOORE RONALD E; MOORE PHILLIP EVERETT II; MOORE PHILLIP EVERETT; MOORE PHILLIP; MOORE JAMES ANTHONY; MOORE JAMES A; MOORE JAMES; HERNANDO COUNTY CLERK OF THE CIRCUIT COURT; STATE OF FLORIDA DEPARTMENT OF REVENUE",
+      "grantee": "TRUIST BANK",
       "amount": "",
-      "legal": "",
+      "legal": "L127 Blk UnI SubRIDGE MANOR KNOLLWOOD S T R",
       "prop_address": "",
       "prop_city": "",
       "prop_state": "FL",
@@ -822,23 +825,24 @@
       "filed": "09/23/2026",
       "cat": "LP",
       "cat_label": "Lis Pendens",
-      "owner": "",
-      "grantee": "",
+      "owner": "JOHNSON BRANDON; JOHNSON B; JOHNSON KATINA; POINT TITLING TRUST; GULF SHIELD ROOFING LLC; HERNANDO BEACH PROPERTY OWNERS ASSOCIATION INC; UNKNOWN TENANT 1; UNKNOWN TENANT 2",
+      "grantee": "SUN WEST MORTGAGE COMPANY INC",
       "amount": "",
-      "legal": "",
-      "prop_address": "",
-      "prop_city": "",
+      "legal": "L5 Blk95 Un9 SubHERNANDO BEACH S T R",
+      "prop_address": "3511 CENTAVO CT",
+      "prop_city": "HERNANDO BEACH",
       "prop_state": "FL",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
+      "prop_zip": "34607",
+      "mail_address": "3511 CENTAVO CT",
+      "mail_city": "HERNANDO BEACH",
+      "mail_state": "FL",
+      "mail_zip": "34607-3324",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523521",
       "flags": [
-        "Foreclosure"
+        "Foreclosure",
+        "LLC / corp owner"
       ],
-      "score": 40
+      "score": 55
     },
     {
       "doc_num": "2026064477",
@@ -860,10 +864,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3522879",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064559",
@@ -885,10 +888,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524209",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064560",
@@ -910,10 +912,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524210",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064561",
@@ -935,10 +936,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524211",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064773",
@@ -1259,6 +1259,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3525324",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026066576",
+      "doc_type": "LIS PENDENS",
+      "filed": "10/01/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3526747",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -1668,6 +1693,54 @@
       "mail_state": "FL",
       "mail_zip": "34609-2906",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523368",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026063931",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "09/23/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "GOERTZ GORDON; GOERTZ GORDON GREGORY SR",
+      "grantee": "GOERTZ GORDON JR; BALGA MARY ELLEN",
+      "amount": "",
+      "legal": "L10 Blk793 Un13 SubSPRING HILL S T R",
+      "prop_address": "2244 ARROW AVE",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "2244 ARROW AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-5109",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523616",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026063932",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "09/23/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "GOERTZ GORDON; GOERTZ GORDON GREGORY SR",
+      "grantee": "GOERTZ GORDON JR; BALGA MARY ELLEN",
+      "amount": "",
+      "legal": "L10 Blk793 Un13 SubSPRING HILL S T R",
+      "prop_address": "2244 ARROW AVE",
+      "prop_city": "SPRING HILL",
+      "prop_state": "FL",
+      "prop_zip": "34609",
+      "mail_address": "2244 ARROW AVE",
+      "mail_city": "SPRING HILL",
+      "mail_state": "FL",
+      "mail_zip": "34609-5109",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523617",
       "flags": [
         "Probate / estate"
       ],
