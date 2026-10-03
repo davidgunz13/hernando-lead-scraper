@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-10-02T04:05:10.051150+00:00",
+  "fetched_at": "2026-10-03T03:49:17.208411+00:00",
   "source": {
     "clerk": "https://or.hernandoclerk.com/LandmarkWeb/Home/Index",
     "property_appraiser": "https://propsearch.hernandocountypa-florida.us/home"
   },
   "date_range": {
-    "start": "2026-09-02",
-    "end": "2026-10-02",
+    "start": "2026-09-03",
+    "end": "2026-10-03",
     "lookback_days": 30
   },
-  "total": 71,
-  "with_address": 44,
-  "ready_to_upload": 43,
-  "needs_review": 28,
+  "total": 75,
+  "with_address": 45,
+  "ready_to_upload": 44,
+  "needs_review": 31,
   "records": [
     {
       "doc_num": "2026060801",
@@ -960,10 +960,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524420",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064774",
@@ -985,10 +984,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524421",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064775",
@@ -1010,10 +1008,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524422",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064809",
@@ -1035,10 +1032,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524490",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064890",
@@ -1060,10 +1056,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524695",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064907",
@@ -1085,10 +1080,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524719",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064912",
@@ -1110,10 +1104,9 @@
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3524726",
       "flags": [
-        "Foreclosure",
-        "New this week"
+        "Foreclosure"
       ],
-      "score": 55
+      "score": 40
     },
     {
       "doc_num": "2026064952",
@@ -1284,6 +1277,56 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3526747",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026066770",
+      "doc_type": "LIS PENDENS",
+      "filed": "10/02/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3526932",
+      "flags": [
+        "Foreclosure",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026066928",
+      "doc_type": "LIS PENDENS",
+      "filed": "10/02/2026",
+      "cat": "LP",
+      "cat_label": "Lis Pendens",
+      "owner": "",
+      "grantee": "",
+      "amount": "",
+      "legal": "",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3527148",
       "flags": [
         "Foreclosure",
         "New this week"
@@ -1745,6 +1788,54 @@
         "Probate / estate"
       ],
       "score": 45
+    },
+    {
+      "doc_num": "2026064313",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "09/24/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "KRIPOTOS PANAGIOTA",
+      "grantee": "KRIPOTOS DIAMANTO; CILMI ARGYRO",
+      "amount": "",
+      "legal": "L10 Blk1 Un SubTRILLIUM VILLAGE A S T R",
+      "prop_address": "14959 RED BLOOM PL",
+      "prop_city": "BROOKSVILLE",
+      "prop_state": "FL",
+      "prop_zip": "34604",
+      "mail_address": "14959 RED BLOOM PL",
+      "mail_city": "BROOKSVILLE",
+      "mail_state": "FL",
+      "mail_zip": "34604-1469",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523973",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 45
+    },
+    {
+      "doc_num": "2026064319",
+      "doc_type": "PROBATE DOCUMENTSX",
+      "filed": "09/24/2026",
+      "cat": "PR",
+      "cat_label": "Probate",
+      "owner": "CHICHESTER MARGARET J",
+      "grantee": "CHICHESTER JAMES J; CROSS NANCY; DUNN KATHLEEN; CHICHESTER BRIAN",
+      "amount": "",
+      "legal": "L12 Blk1716 Un25 SubSPRING HILL S T R",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "FL",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://or.hernandoclerk.com/LandmarkWeb/Document/Index?id=3523979",
+      "flags": [
+        "Probate / estate"
+      ],
+      "score": 40
     }
   ]
 }
